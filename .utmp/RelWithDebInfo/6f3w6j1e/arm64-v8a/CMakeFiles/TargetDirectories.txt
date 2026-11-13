@@ -1,0 +1,5 @@
+C:/Users/vital/Documents/UnityProjects/Golf_2/.utmp/RelWithDebInfo/6f3w6j1e/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/vital/Documents/UnityProjects/Golf_2/.utmp/RelWithDebInfo/6f3w6j1e/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/vital/Documents/UnityProjects/Golf_2/.utmp/RelWithDebInfo/6f3w6j1e/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/vital/Documents/UnityProjects/Golf_2/.utmp/RelWithDebInfo/6f3w6j1e/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/vital/Documents/UnityProjects/Golf_2/.utmp/RelWithDebInfo/6f3w6j1e/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

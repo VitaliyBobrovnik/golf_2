@@ -1,0 +1,1 @@
+C:\Users\vital\Documents\UnityProjects\Golf_2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\6f3w6j1e\obj\arm64-v8a
