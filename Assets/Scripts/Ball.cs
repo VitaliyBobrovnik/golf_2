@@ -8,10 +8,16 @@ public class Ball : MonoBehaviour
 
     private Rigidbody m_body;
 
-    public void Drop()
+    public void Drop(Vector3 velocity)
     {
         m_body.isKinematic = false;
         m_body.useGravity = true;
+        m_body.linearVelocity = velocity;
+    }
+
+    public void StopColliding()
+    {
+        m_body.detectCollisions = false;
     }
 
     private void Awake()

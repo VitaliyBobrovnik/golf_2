@@ -1,10 +1,9 @@
 using System;
+using Golf.GamePlay;
 using UnityEngine;
 
 public class LaunchButton : MonoBehaviour
 {
-    private const int LightMaterialIndex = 1;
-
     public event Action<LaunchButton> onPressed;
 
     public int colorIndex { get; private set; } = -1;
@@ -12,15 +11,17 @@ public class LaunchButton : MonoBehaviour
     [SerializeField]
     private Animation m_pressAnimation;
 
-    private Renderer m_renderer;
-    private MaterialPropertyBlock m_properties;
+	private LightColor m_light;
 
     public void SetColor(int colorIndex, Color color)
     {
         this.colorIndex = colorIndex;
-        m_properties.SetColor("_BaseColor", color);
-        m_properties.SetColor("_EmissionColor", color);
-        m_renderer.SetPropertyBlock(m_properties, LightMaterialIndex);
+		m_light.Show(color);
+	}
+
+	public void HideLight()
+	{
+		m_light.Hide();
     }
 
     public void Press()
@@ -39,7 +40,11 @@ public class LaunchButton : MonoBehaviour
 
     private void Awake()
     {
-        m_renderer = GetComponent<Renderer>();
-        m_properties = new MaterialPropertyBlock();
+		m_light = new LightColor(GetComponent<Renderer>());
+	}
+
+	private void Update()
+	{
+		m_light.Update();
     }
 }

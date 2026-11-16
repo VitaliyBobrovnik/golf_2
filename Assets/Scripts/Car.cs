@@ -52,6 +52,7 @@ public class Car : MonoBehaviour
     {
         m_animation.playAutomatically = false;
         m_animation.cullingType = AnimationCullingType.AlwaysAnimate;
+        m_animation.updateMode = AnimationUpdateMode.Fixed;
         m_animation.AddClip(m_approachClip, ApproachClipName);
         m_animation.AddClip(m_launchClip, LaunchClipName);
 

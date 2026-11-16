@@ -3,22 +3,7 @@ guid: a68513fd11fd7ba4c9be1b54fe308c48
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Atlas
-    second: {fileID: 2100000, guid: 05774813401a38a45b738c5e9bc93c04, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Button_Emission_mat
-    second: {fileID: 2100000, guid: dbdcfeeeed8b91840a03207bddbeb5a2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Svetofor_Emission_Mat
-    second: {fileID: 2100000, guid: b8dea2a1f64d9634a9fcff42b5c82cd7, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

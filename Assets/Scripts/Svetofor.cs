@@ -1,21 +1,32 @@
 using System;
+using Golf.GamePlay;
 using UnityEngine;
 
 public class Svetofor : MonoBehaviour
 {
-    private const int LightMaterialIndex = 1;
     private const float ExtraSignalDelay = 1f;
 
-    public static int colorCount => s_colors.Length;
+    private static readonly Color[] s_colors =
+    {
+        Color.red, Color.yellow, Color.green, Color.blue
+    };
 
     public event Action onSignalShown;
 
+    public static int colorCount => s_colors.Length;
     public int colorIndex { get; private set; }
 
-    private static readonly Color[] s_colors = { Color.red, Color.yellow, Color.green, Color.blue };
+    private LightColor m_light;
 
-    private Renderer m_renderer;
-    private MaterialPropertyBlock m_properties;
+    private void Awake()
+    {
+        m_light = new LightColor(GetComponent<Renderer>());
+    }
+
+    private void Update()
+    {
+        m_light.Update();
+    }
 
     public static Color GetColor(int colorIndex)
     {
@@ -27,35 +38,27 @@ public class Svetofor : MonoBehaviour
         colorIndex = UnityEngine.Random.Range(0, colorCount);
     }
 
-    public void WaitForSignal(float minDelay, float maxDelay)
+    public void WaitForSignal(float minDelay, float maxDelay, float delayScale)
     {
-        float delay = UnityEngine.Random.Range(minDelay, maxDelay) + ExtraSignalDelay;
+        float delay = (UnityEngine.Random.Range(minDelay, maxDelay) + ExtraSignalDelay) * delayScale;
+        if (delay <= 0f)
+        {
+            ShowSignal();
+            return;
+        }
+
         Invoke(nameof(ShowSignal), delay);
     }
 
     public void Hide()
     {
         CancelInvoke(nameof(ShowSignal));
-        SetLightColor(Color.black);
-    }
-
-    private void Awake()
-    {
-        m_renderer = GetComponent<Renderer>();
-        m_properties = new MaterialPropertyBlock();
-        SetLightColor(Color.black);
+        m_light.Hide();
     }
 
     private void ShowSignal()
     {
-        SetLightColor(GetColor(colorIndex));
+        m_light.Show(GetColor(colorIndex));
         onSignalShown?.Invoke();
-    }
-
-    private void SetLightColor(Color color)
-    {
-        m_properties.SetColor("_BaseColor", color);
-        m_properties.SetColor("_EmissionColor", color);
-        m_renderer.SetPropertyBlock(m_properties, LightMaterialIndex);
     }
 }
