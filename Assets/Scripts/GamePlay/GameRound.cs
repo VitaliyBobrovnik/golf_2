@@ -73,6 +73,7 @@ namespace Golf.GamePlay
 		private Ball m_ball;
 		private bool m_ballDropScheduled;
 		private bool m_ballLanded;
+		private bool m_ballHitCar;
 		private int m_hitCount;
 		private double m_signalTime;
 		private double m_reactionWindow;
@@ -104,6 +105,7 @@ namespace Golf.GamePlay
 			m_phase = RoundPhase.Inactive;
 			m_ballDropScheduled = false;
 			m_ballLanded = false;
+			m_ballHitCar = false;
 			m_trafficLight.onSignalShown -= OnSignalShownHandler;
 			m_firstButton.onPressed -= OnPressedHandler;
 			m_secondButton.onPressed -= OnPressedHandler;
@@ -138,9 +140,16 @@ namespace Golf.GamePlay
 
 		private void FixedUpdate()
 		{
-			// Let a car contact in the same physics step take priority over the ground trigger.
-			if (m_ballLanded)
+			// Resolve car and ground contacts after all callbacks for the physics step.
+			if (m_ballHitCar && !m_ballLanded)
 			{
+				FinishShot(HitBallLifetime, true);
+				return;
+			}
+
+			if (m_ballLanded || (m_ball != null && m_ball.transform.position.y < m_groundZone.bounds.min.y))
+			{
+				m_ballLanded = true;
 				if (m_phase == RoundPhase.LaunchAfterDrop)
 				{
 					m_phase = RoundPhase.LaunchWhenReady;
@@ -150,10 +159,20 @@ namespace Golf.GamePlay
 				// Give the launch time to show before the last miss can end the game.
 				if (m_phase == RoundPhase.Launched && Time.fixedTime < m_launchTime + m_carTimeToBall)
 				{
-					m_ball.gameObject.SetActive(false);
+					if (m_ball != null)
+					{
+						m_ball.gameObject.SetActive(false);
+					}
+
 					return;
 				}
 
+				FinishShot(0f, false);
+				return;
+			}
+
+			if (m_phase == RoundPhase.Launched && (m_launchedCar == null || m_launchedCar.isLaunchFinished))
+			{
 				FinishShot(0f, false);
 				return;
 			}
@@ -215,13 +234,10 @@ namespace Golf.GamePlay
 
 		private void OnCollisionHandler(Collider other)
 		{
-			if (m_launchedCar == null || other.GetComponentInParent<Car>() != m_launchedCar)
+			if (m_launchedCar != null && other.GetComponentInParent<Car>() == m_launchedCar)
 			{
-				return;
+				m_ballHitCar = true;
 			}
-
-			m_ball.Bounce(m_launchedCar.transform.forward);
-			FinishShot(HitBallLifetime, true);
 		}
 
 		private void OnTriggerHandler(Collider other)
@@ -302,11 +318,16 @@ namespace Golf.GamePlay
 
 		private void FinishShot(float ballLifetime, bool scored)
 		{
-			Destroy(m_ball.gameObject, ballLifetime);
-			StopWatchingBall();
+			if (m_ball != null)
+			{
+				Destroy(m_ball.gameObject, ballLifetime);
+				StopWatchingBall();
+			}
+
 			m_launchedCar = null;
 			m_ballDropScheduled = false;
 			m_ballLanded = false;
+			m_ballHitCar = false;
 			m_phase = RoundPhase.WaitingForCar;
 			HideLights();
 

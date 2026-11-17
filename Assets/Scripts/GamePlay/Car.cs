@@ -15,6 +15,8 @@ namespace Golf.GamePlay
 
 		public bool isLaunched { get; private set; }
 
+		public bool isLaunchFinished => isLaunched && m_launchState.time >= m_launchState.length;
+
 		[SerializeField]
 		private Animation m_animation;
 
@@ -25,6 +27,7 @@ namespace Golf.GamePlay
 		private AnimationClip m_launchClip;
 
 		private AnimationState m_approachState;
+		private AnimationState m_launchState;
 
 		public bool TryLaunch()
 		{
@@ -47,8 +50,9 @@ namespace Golf.GamePlay
 			m_animation.AddClip(m_launchClip, LaunchClipName);
 
 			m_approachState = m_animation[ApproachClipName];
+			m_launchState = m_animation[LaunchClipName];
 			m_approachState.wrapMode = WrapMode.ClampForever;
-			m_animation[LaunchClipName].wrapMode = WrapMode.ClampForever;
+			m_launchState.wrapMode = WrapMode.ClampForever;
 
 			if (m_animation.Play(ApproachClipName))
 			{

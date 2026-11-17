@@ -7,9 +7,6 @@ namespace Golf.GamePlay
 	[MovedFrom(true, sourceNamespace: "")]
 	public class Ball : MonoBehaviour
 	{
-		private const float BounceForwardSpeed = 35f;
-		private const float BounceUpSpeed = 22f;
-
 		public event Action<Collider> onCollision;
 		public event Action<Collider> onTrigger;
 
@@ -20,12 +17,6 @@ namespace Golf.GamePlay
 			m_body.isKinematic = false;
 			m_body.useGravity = true;
 			m_body.linearVelocity = velocity;
-		}
-
-		public void Bounce(Vector3 forward)
-		{
-			m_body.detectCollisions = false;
-			m_body.linearVelocity = forward * BounceForwardSpeed + Vector3.up * BounceUpSpeed;
 		}
 
 		private void Awake()
