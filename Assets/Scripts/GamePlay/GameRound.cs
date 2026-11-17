@@ -140,7 +140,6 @@ namespace Golf.GamePlay
 
 		private void FixedUpdate()
 		{
-			// Resolve car and ground contacts after all callbacks for the physics step.
 			if (m_ballHitCar && !m_ballLanded)
 			{
 				FinishShot(HitBallLifetime, true);
@@ -156,7 +155,6 @@ namespace Golf.GamePlay
 					TryLaunchCar();
 				}
 
-				// Give the launch time to show before the last miss can end the game.
 				if (m_phase == RoundPhase.Launched && Time.fixedTime < m_launchTime + m_carTimeToBall)
 				{
 					if (m_ball != null)
@@ -294,7 +292,6 @@ namespace Golf.GamePlay
 
 		private Vector3 GetEarlyBallVelocity()
 		{
-			// Match the regular drop's impact height using only the car's travel time.
 			float regularFallTime = m_launchDelayAfterDrop + m_carTimeToBall;
 			float timeFactor = (regularFallTime * regularFallTime - m_carTimeToBall * m_carTimeToBall) / (2f * m_carTimeToBall);
 			return Physics.gravity * timeFactor;
