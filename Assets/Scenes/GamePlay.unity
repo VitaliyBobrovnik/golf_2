@@ -1193,17 +1193,17 @@ MonoBehaviour:
   m_ballPrefab: {fileID: 1761536315, guid: a626bc5a7b0e57a49483c6b16f5b7e28, type: 3}
   m_spawnPoint: {fileID: 2140500008}
   m_groundZone: {fileID: 2140500006}
-  m_svetofor: {fileID: 2140500009}
+  m_trafficLight: {fileID: 2140500009}
   m_firstButton: {fileID: 2140600001}
   m_secondButton: {fileID: 2140600005}
-  m_n1: 0.5
-  m_n2: 1
-  m_hitsForInstantSignal: 10
-  m_minReactionTime: 0.35
-  m_reactionDifficulty: 0.15
+  m_minSignalDelay: 0.5
+  m_maxSignalDelay: 1
+  m_hitsForInstantSignal: 16
+  m_minReactionTime: 0.19
+  m_reactionDifficulty: 0.456
   m_signalLeadTime: 0.1
   m_launchDelayAfterDrop: 0.62
-  m_earlyPressWindow: 0.25
+  m_earlyPressWindow: 0.19
   m_carTimeToBall: 0.76
 --- !u!4 &553127177
 Transform:
@@ -3254,7 +3254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1614532085
 Transform:
   m_ObjectHideFlags: 0
