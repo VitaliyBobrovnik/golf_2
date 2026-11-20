@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}
   m_Name: ScreenSpaceAmbientOcclusion
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
-  m_Active: 1
+  m_Active: 0
   m_Settings:
     AOMethod: 0
     Downsample: 0
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Active: 1
   m_shader: {fileID: 4800000, guid: 98f2ee09fd7e53ae88406449d132aa7b, type: 3}
   m_surfaces:
+    serializedVersion: 0
     m_Bits: 2
   m_highQualityPipeline: {fileID: 11400000, guid: 777e205b24f85818a1df146aa1e12e74, type: 2}
   m_downsample: 8

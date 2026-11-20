@@ -65,9 +65,26 @@ namespace Golf.States
 
 		private void OnScoreChangedHandler(int score) => m_scoreView.SetScore(score);
 
-		private void OnBallHitHandler()
+		private void OnBallHitHandler(BallSettings settings)
 		{
-			m_scoreManager.AddScore(1);
+			int previousScore = m_scoreManager.score;
+			switch (settings.effect)
+			{
+				case BallEffect.Add:
+					m_scoreManager.AddScore(settings.value);
+					break;
+				case BallEffect.Multiply:
+					m_scoreManager.MultiplyScore(settings.value);
+					break;
+				case BallEffect.Subtract:
+					m_scoreManager.AddScore(-settings.value);
+					break;
+			}
+
+			if (m_scoreManager.score > previousScore)
+			{
+				m_gameRound.RecordScoredHit();
+			}
 		}
 
 		private void OnMissedHandler()

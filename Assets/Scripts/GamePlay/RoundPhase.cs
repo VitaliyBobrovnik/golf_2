@@ -7,7 +7,6 @@ namespace Golf.GamePlay
 		WaitingForSignal,
 		WaitingForPress,
 		LaunchWhenReady,
-		LaunchAfterDrop,
 		Launched
 	}
 }

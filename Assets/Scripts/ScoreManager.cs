@@ -25,7 +25,17 @@ namespace Golf
 
 		public void AddScore(int amount)
 		{
-			score += amount;
+			SetScore((long)score + amount);
+		}
+
+		public void MultiplyScore(int multiplier)
+		{
+			SetScore((long)score * multiplier);
+		}
+
+		private void SetScore(long newScore)
+		{
+			score = (int)Math.Max(0, Math.Min(int.MaxValue, newScore));
 
 			if (score > bestScore)
 			{

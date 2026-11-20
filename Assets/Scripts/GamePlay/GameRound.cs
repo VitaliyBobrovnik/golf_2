@@ -11,74 +11,55 @@ namespace Golf.GamePlay
 	{
 		private const float OldCarLifetime = 5f;
 		private const float HitBallLifetime = 2f;
-		private const double MinimumReactionMargin = 0.01;
+		private const float TableBounceTime = 0.4f;
+		private const double MinimumBallSpawnInterval = 0.5;
 
-		public event Action onBallHit;
+		public event Action<BallSettings> onBallHit;
 		public event Action onMissed;
 
 		[SerializeField] private Car m_carPrefab;
-
 		[SerializeField] private Ball m_ballPrefab;
-
 		[SerializeField] private Transform m_spawnPoint;
-
 		[SerializeField] private Collider m_groundZone;
+		[SerializeField] private Collider m_tableSurface;
+		[SerializeField] private Transform m_flightRingCenter;
 
 		[FormerlySerializedAs("m_svetofor")]
-		[SerializeField]
-		private TrafficLight m_trafficLight;
+		[SerializeField] private TrafficLight m_trafficLight;
 
 		[SerializeField] private LaunchButton m_firstButton;
-
 		[SerializeField] private LaunchButton m_secondButton;
 
 		[FormerlySerializedAs("m_n1")]
-		[SerializeField]
-		private float m_minSignalDelay = 0.75f;
+		[SerializeField] private float m_minSignalDelay = 0.75f;
 
 		[FormerlySerializedAs("m_n2")]
-		[SerializeField]
-		private float m_maxSignalDelay = 2f;
+		[SerializeField] private float m_maxSignalDelay = 2f;
 
-		[SerializeField]
-		[Min(1)]
-		private int m_hitsForInstantSignal = 10;
+		[SerializeField, Min(1)] private int m_hitsForInstantSignal = 10;
+		[SerializeField, Min(0.35f)] private float m_initialTimeToRing = 1f;
+		[SerializeField, Min(0.35f)] private float m_minTimeToRing = 0.8f;
+		[FormerlySerializedAs("m_reactionDifficulty")]
+		[SerializeField, Range(0.01f, 1f)] private float m_ballSpeedProgression = 0.15f;
+		[SerializeField] private Vector3 m_ballTarget;
 
-		[SerializeField]
-		[Min(0.01f)]
-		private float m_minReactionTime = 0.35f;
-
-		[SerializeField]
-		[Range(0.01f, 1f)]
-		private float m_reactionDifficulty = 0.15f;
-
-		[SerializeField] private float m_signalLeadTime = 0.5f;
-
-		[SerializeField]
-		[Min(0f)]
-		private float m_launchDelayAfterDrop = 0.62f;
-
-		[SerializeField]
-		[Min(0f)]
-		private float m_earlyPressWindow = 0.25f;
-
-		[SerializeField]
-		[Min(0.01f)]
-		private float m_carTimeToBall = 0.76f;
+		[SerializeField] private BallSettings[] m_ballTypes =
+		{
+			new BallSettings { effect = BallEffect.Add, value = 1, color = Color.white },
+		};
 
 		private readonly List<GameObject> m_spawnedObjects = new();
 		private RoundPhase m_phase;
 		private Car m_currentCar;
 		private Car m_launchedCar;
 		private Ball m_ball;
-		private bool m_ballDropScheduled;
 		private bool m_ballLanded;
 		private bool m_ballHitCar;
-		private int m_hitCount;
-		private double m_signalTime;
-		private double m_reactionWindow;
-		private float m_dropTime;
-		private float m_launchTime;
+		private int m_scoredHitCount;
+		private double m_nextBallSpawnTime;
+		private float m_ballArrivalTime;
+		private float m_ballExpiresAt;
+		private float m_tableBounceEndsAt;
 
 		public void BeginRound()
 		{
@@ -87,12 +68,17 @@ namespace Golf.GamePlay
 				return;
 			}
 
-			m_hitCount = 0;
+			m_scoredHitCount = 0;
 			m_trafficLight.onSignalShown += OnSignalShownHandler;
 			m_firstButton.onPressed += OnPressedHandler;
 			m_secondButton.onPressed += OnPressedHandler;
 			SpawnNextCar();
 			m_phase = RoundPhase.WaitingForCar;
+		}
+
+		public void RecordScoredHit()
+		{
+			m_scoredHitCount++;
 		}
 
 		public void EndRound()
@@ -103,8 +89,8 @@ namespace Golf.GamePlay
 			}
 
 			m_phase = RoundPhase.Inactive;
-			m_ballDropScheduled = false;
 			m_ballLanded = false;
+			m_tableBounceEndsAt = 0f;
 			m_ballHitCar = false;
 			m_trafficLight.onSignalShown -= OnSignalShownHandler;
 			m_firstButton.onPressed -= OnPressedHandler;
@@ -128,58 +114,49 @@ namespace Golf.GamePlay
 
 		private void Update()
 		{
-			if (m_phase != RoundPhase.WaitingForCar || !m_currentCar.isReady)
+			if (m_phase != RoundPhase.WaitingForCar || Time.timeAsDouble < m_nextBallSpawnTime || !m_currentCar.isReady)
 			{
 				return;
 			}
 
 			m_phase = RoundPhase.WaitingForSignal;
-			float delayScale = Mathf.Clamp01(1f - (float)m_hitCount / m_hitsForInstantSignal);
+			float delayScale = Mathf.Clamp01(1f - (float)m_scoredHitCount / m_hitsForInstantSignal);
 			m_trafficLight.ScheduleSignal(m_minSignalDelay, m_maxSignalDelay, delayScale);
 		}
 
 		private void FixedUpdate()
 		{
-			if (m_ballHitCar && !m_ballLanded)
+			if (m_ball != null)
 			{
-				FinishShot(HitBallLifetime, true);
-				return;
-			}
-
-			if (m_ballLanded || (m_ball != null && m_ball.transform.position.y < m_groundZone.bounds.min.y))
-			{
-				m_ballLanded = true;
-				if (m_phase == RoundPhase.LaunchAfterDrop)
+				if (m_tableBounceEndsAt > 0f)
 				{
-					m_phase = RoundPhase.LaunchWhenReady;
-					TryLaunchCar();
-				}
-
-				if (m_phase == RoundPhase.Launched && Time.fixedTime < m_launchTime + m_carTimeToBall)
-				{
-					if (m_ball != null)
+					if (Time.fixedTime >= m_tableBounceEndsAt)
 					{
-						m_ball.gameObject.SetActive(false);
+						FinishShot(false);
 					}
-
 					return;
 				}
 
-				FinishShot(0f, false);
-				return;
-			}
+				if (m_ballLanded || m_ball.transform.position.y < m_groundZone.bounds.min.y)
+				{
+					FinishShot(false);
+					return;
+				}
 
-			if (m_phase == RoundPhase.Launched && (m_launchedCar == null || m_launchedCar.isLaunchFinished))
-			{
-				FinishShot(0f, false);
-				return;
-			}
+				if (m_ballHitCar)
+				{
+					FinishShot(true);
+					return;
+				}
 
-			if (m_ballDropScheduled && Time.fixedTime >= m_dropTime)
-			{
-				m_ballDropScheduled = false;
-				SpawnBall(Vector3.zero);
-				m_launchTime = Time.fixedTime + m_launchDelayAfterDrop;
+				bool jumpFinished = m_phase == RoundPhase.Launched
+					&& (m_launchedCar == null || m_launchedCar.isLaunchFinished);
+				if (Time.fixedTime >= m_ballExpiresAt
+					|| (jumpFinished && Time.fixedTime >= m_ballArrivalTime))
+				{
+					FinishShot(false);
+					return;
+				}
 			}
 
 			TryLaunchCar();
@@ -193,47 +170,77 @@ namespace Golf.GamePlay
 		private void OnSignalShownHandler()
 		{
 			ShuffleButtonColors();
-			float dropDelay = Mathf.Max(m_signalLeadTime, m_earlyPressWindow);
-			double minimum = Mathf.Max(m_minReactionTime, m_earlyPressWindow);
-			double initialWindow = Math.Max(dropDelay + (double)m_launchDelayAfterDrop, minimum + MinimumReactionMargin);
-			m_reactionWindow = minimum + (initialWindow - minimum) / (1d + m_hitCount * (double)m_reactionDifficulty);
-			m_signalTime = Time.timeAsDouble;
-			m_dropTime = Time.time + dropDelay;
-			m_ballDropScheduled = true;
+			SpawnBall();
 			m_phase = RoundPhase.WaitingForPress;
 		}
 
 		private void OnPressedHandler(LaunchButton button)
 		{
+			if (m_tableBounceEndsAt > 0f)
+			{
+				return;
+			}
+
 			if (m_phase == RoundPhase.WaitingForPress && button.colorIndex != m_trafficLight.colorIndex)
 			{
 				return;
 			}
 
-			switch (m_phase)
+			if (m_phase != RoundPhase.WaitingForCar
+				&& m_phase != RoundPhase.WaitingForSignal
+				&& m_phase != RoundPhase.WaitingForPress)
 			{
-				case RoundPhase.WaitingForCar:
-				case RoundPhase.WaitingForSignal:
-				{
-					HideLights();
-					m_phase = RoundPhase.LaunchWhenReady;
-					break;
-				}
-				case RoundPhase.WaitingForPress:
-					QueueSignalLaunch();
-					break;
-				default:
-					return;
+				return;
 			}
 
+			if (m_phase != RoundPhase.WaitingForPress)
+			{
+				HideLights();
+			}
+
+			m_phase = RoundPhase.LaunchWhenReady;
 			button.PlayPressAnimation();
 			TryLaunchCar();
 		}
 
-		private void OnCollisionHandler(Collider other)
+		private void TryLaunchCar()
 		{
-			if (m_launchedCar != null && other.GetComponentInParent<Car>() == m_launchedCar)
+			if (m_phase != RoundPhase.LaunchWhenReady
+				|| (m_ball == null && Time.timeAsDouble < m_nextBallSpawnTime)
+				|| !m_currentCar.TryLaunch())
 			{
+				return;
+			}
+
+			if (m_ball == null)
+			{
+				SpawnBall();
+			}
+
+			m_phase = RoundPhase.Launched;
+			m_launchedCar = m_currentCar;
+			m_ball.SetCarCollision(m_launchedCar, true);
+			SpawnNextCar();
+			m_ball.SetCarCollision(m_currentCar, false);
+			Destroy(m_launchedCar.gameObject, OldCarLifetime);
+		}
+
+		private void OnCollisionHandler(Collision collision)
+		{
+			if (collision.collider == m_tableSurface)
+			{
+				if (m_tableBounceEndsAt <= 0f)
+				{
+					m_ball.StopArc();
+					m_tableBounceEndsAt = Time.fixedTime + TableBounceTime;
+					HideLights();
+				}
+				return;
+			}
+
+			if (!m_ballHitCar && m_launchedCar != null && collision.collider.GetComponentInParent<Car>() == m_launchedCar)
+			{
+				m_ball.PrepareDeflection(collision.GetContact(0).normal);
 				m_ballHitCar = true;
 			}
 		}
@@ -246,57 +253,6 @@ namespace Golf.GamePlay
 			}
 		}
 
-		private void QueueSignalLaunch()
-		{
-			double elapsed = Time.timeAsDouble - m_signalTime;
-			if (elapsed > m_reactionWindow)
-			{
-				m_phase = RoundPhase.LaunchWhenReady;
-				return;
-			}
-
-			if (m_ballDropScheduled && elapsed < m_earlyPressWindow)
-			{
-				m_ballDropScheduled = false;
-				m_phase = RoundPhase.LaunchWhenReady;
-				SpawnBall(GetEarlyBallVelocity());
-				return;
-			}
-
-			m_phase = RoundPhase.LaunchAfterDrop;
-		}
-
-		private void TryLaunchCar()
-		{
-			if (m_phase == RoundPhase.LaunchAfterDrop && !m_ballDropScheduled && Time.fixedTime >= m_launchTime)
-			{
-				m_phase = RoundPhase.LaunchWhenReady;
-			}
-
-			if (m_phase != RoundPhase.LaunchWhenReady || !m_currentCar.TryLaunch())
-			{
-				return;
-			}
-
-			m_phase = RoundPhase.Launched;
-			m_launchTime = Time.time;
-			m_launchedCar = m_currentCar;
-			SpawnNextCar();
-			Destroy(m_launchedCar.gameObject, OldCarLifetime);
-
-			if (m_ball == null && !m_ballDropScheduled)
-			{
-				SpawnBall(Vector3.zero);
-			}
-		}
-
-		private Vector3 GetEarlyBallVelocity()
-		{
-			float regularFallTime = m_launchDelayAfterDrop + m_carTimeToBall;
-			float timeFactor = (regularFallTime * regularFallTime - m_carTimeToBall * m_carTimeToBall) / (2f * m_carTimeToBall);
-			return Physics.gravity * timeFactor;
-		}
-
 		private void SpawnNextCar()
 		{
 			m_spawnedObjects.RemoveAll(item => item == null);
@@ -304,38 +260,69 @@ namespace Golf.GamePlay
 			m_spawnedObjects.Add(m_currentCar.gameObject);
 		}
 
-		private void SpawnBall(Vector3 velocity)
+		private void SpawnBall()
 		{
-			m_ball = Instantiate(m_ballPrefab, m_spawnPoint.position, Quaternion.identity);
+
+			Vector3 ringCenter = m_flightRingCenter.position;
+			Vector3 ringToTarget = Vector3.ProjectOnPlane(m_ballTarget - ringCenter, Vector3.up);
+			Vector3 direction = ringToTarget.normalized;
+			float distanceToRing = Mathf.Max(1f, Vector3.Dot(ringCenter - m_spawnPoint.position, direction));
+			Vector3 start = ringCenter - direction * distanceToRing;
+			start.y = m_spawnPoint.position.y;
+
+			float initialSpeed = distanceToRing / m_initialTimeToRing;
+			float maximumSpeed = distanceToRing / Mathf.Min(m_minTimeToRing, m_initialTimeToRing);
+			float progress = 1f - 1f / (1f + m_scoredHitCount * m_ballSpeedProgression);
+			float speed = Mathf.Lerp(initialSpeed, maximumSpeed, progress);
+			float timeToRing = distanceToRing / speed;
+			float flightTime = (distanceToRing + ringToTarget.magnitude) / speed;
+
+			m_nextBallSpawnTime = Time.timeAsDouble + MinimumBallSpawnInterval;
+			m_ball = Instantiate(m_ballPrefab, start, Quaternion.identity);
+			m_ball.Configure(m_ballTypes[UnityEngine.Random.Range(0, m_ballTypes.Length)]);
+			m_ball.SetCarCollision(m_currentCar, false);
+
 			m_spawnedObjects.Add(m_ball.gameObject);
 			m_ball.onCollision += OnCollisionHandler;
 			m_ball.onTrigger += OnTriggerHandler;
-			m_ball.Drop(velocity);
+			m_ball.Launch(m_ballTarget, ringCenter.y, timeToRing, flightTime);
+			m_ballArrivalTime = Time.time + flightTime;
+			m_ballExpiresAt = m_ballArrivalTime + 4f;
 		}
 
-		private void FinishShot(float ballLifetime, bool scored)
+		private void FinishShot(bool hit)
 		{
-			if (m_ball != null)
+			BallSettings settings = m_ball.settings;
+			bool costsLife = m_ball.costsLife;
+			if (hit)
 			{
-				Destroy(m_ball.gameObject, ballLifetime);
-				StopWatchingBall();
+				m_ball.Deflect();
 			}
 
+			m_ball.DisableCollisions();
+			if (m_launchedCar != null)
+			{
+				m_launchedCar.DisableCollisions();
+			}
+
+			float ballLifetime = hit ? HitBallLifetime : (m_tableBounceEndsAt > 0f ? 0.3f : 0f);
+			Destroy(m_ball.gameObject, ballLifetime);
+			StopWatchingBall();
 			m_launchedCar = null;
-			m_ballDropScheduled = false;
 			m_ballLanded = false;
+			m_tableBounceEndsAt = 0f;
 			m_ballHitCar = false;
 			m_phase = RoundPhase.WaitingForCar;
 			HideLights();
 
-			if (scored)
+			if (hit)
 			{
-				m_hitCount++;
-				onBallHit?.Invoke();
-				return;
+				onBallHit?.Invoke(settings);
 			}
-
-			onMissed?.Invoke();
+			else if (costsLife)
+			{
+				onMissed?.Invoke();
+			}
 		}
 
 		private void StopWatchingBall()

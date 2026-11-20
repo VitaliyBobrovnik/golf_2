@@ -41,6 +41,14 @@ namespace Golf.GamePlay
 			return true;
 		}
 
+		public void DisableCollisions()
+		{
+			foreach (Collider collider in GetComponentsInChildren<Collider>(true))
+			{
+				collider.enabled = false;
+			}
+		}
+
 		private void Awake()
 		{
 			m_animation.playAutomatically = false;
