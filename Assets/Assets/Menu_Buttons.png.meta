@@ -138,8 +138,8 @@ TextureImporter:
       name: Menu_Buttons_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 280
+        x: 7
+        y: 283
         width: 84
         height: 90
       alignment: 0

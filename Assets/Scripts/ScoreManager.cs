@@ -23,14 +23,9 @@ namespace Golf
 			onScoreChanged?.Invoke(score);
 		}
 
-		public void AddScore(int amount)
+		public void AddScore(int amount, int multiplier = 1)
 		{
-			SetScore((long)score + amount);
-		}
-
-		public void MultiplyScore(int multiplier)
-		{
-			SetScore((long)score * multiplier);
+			SetScore(score + (long)amount * multiplier);
 		}
 
 		private void SetScore(long newScore)

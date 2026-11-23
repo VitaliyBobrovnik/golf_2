@@ -14,7 +14,7 @@ namespace Golf.GamePlay
 		private const float TableBounceTime = 0.4f;
 		private const double MinimumBallSpawnInterval = 0.5;
 
-		public event Action<BallSettings> onBallHit;
+		public event Action<BallStats> onBallHit;
 		public event Action onMissed;
 
 		[SerializeField] private Car m_carPrefab;
@@ -29,6 +29,7 @@ namespace Golf.GamePlay
 
 		[SerializeField] private LaunchButton m_firstButton;
 		[SerializeField] private LaunchButton m_secondButton;
+		[SerializeField] private GameAudio m_audio;
 
 		[FormerlySerializedAs("m_n1")]
 		[SerializeField] private float m_minSignalDelay = 0.75f;
@@ -43,10 +44,7 @@ namespace Golf.GamePlay
 		[SerializeField, Range(0.01f, 1f)] private float m_ballSpeedProgression = 0.15f;
 		[SerializeField] private Vector3 m_ballTarget;
 
-		[SerializeField] private BallSettings[] m_ballTypes =
-		{
-			new BallSettings { effect = BallEffect.Add, value = 1, color = Color.white },
-		};
+		[SerializeField] private BallStats[] m_ballTypes;
 
 		private readonly List<GameObject> m_spawnedObjects = new();
 		private RoundPhase m_phase;
@@ -60,6 +58,7 @@ namespace Golf.GamePlay
 		private float m_ballArrivalTime;
 		private float m_ballExpiresAt;
 		private float m_tableBounceEndsAt;
+		private float m_showColorsAt;
 
 		public void BeginRound()
 		{
@@ -114,6 +113,15 @@ namespace Golf.GamePlay
 
 		private void Update()
 		{
+			if (m_phase == RoundPhase.RerollingColors)
+			{
+				if (Time.time >= m_showColorsAt && m_tableBounceEndsAt <= 0f && !m_ballLanded)
+				{
+					m_trafficLight.RerollSignal();
+				}
+				return;
+			}
+
 			if (m_phase != RoundPhase.WaitingForCar || Time.timeAsDouble < m_nextBallSpawnTime || !m_currentCar.isReady)
 			{
 				return;
@@ -170,7 +178,11 @@ namespace Golf.GamePlay
 		private void OnSignalShownHandler()
 		{
 			ShuffleButtonColors();
-			SpawnBall();
+			m_audio?.PlaySignal();
+			if (m_phase == RoundPhase.WaitingForSignal)
+			{
+				SpawnBall();
+			}
 			m_phase = RoundPhase.WaitingForPress;
 		}
 
@@ -183,6 +195,11 @@ namespace Golf.GamePlay
 
 			if (m_phase == RoundPhase.WaitingForPress && button.colorIndex != m_trafficLight.colorIndex)
 			{
+				button.PlayPressAnimation();
+				m_audio?.PlayWrongButtonPress();
+				HideLights();
+				m_showColorsAt = Time.time + LightColor.FadeTime;
+				m_phase = RoundPhase.RerollingColors;
 				return;
 			}
 
@@ -200,6 +217,7 @@ namespace Golf.GamePlay
 
 			m_phase = RoundPhase.LaunchWhenReady;
 			button.PlayPressAnimation();
+			m_audio?.PlayButtonPress();
 			TryLaunchCar();
 		}
 
@@ -227,6 +245,7 @@ namespace Golf.GamePlay
 
 		private void OnCollisionHandler(Collision collision)
 		{
+			m_audio?.PlayBallHit();
 			if (collision.collider == m_tableSurface)
 			{
 				if (m_tableBounceEndsAt <= 0f)
@@ -238,7 +257,8 @@ namespace Golf.GamePlay
 				return;
 			}
 
-			if (!m_ballHitCar && m_launchedCar != null && collision.collider.GetComponentInParent<Car>() == m_launchedCar)
+			if (!m_ballHitCar && !m_ballLanded && m_tableBounceEndsAt <= 0f
+				&& m_launchedCar != null && collision.collider.GetComponentInParent<Car>() == m_launchedCar)
 			{
 				m_ball.PrepareDeflection(collision.GetContact(0).normal);
 				m_ballHitCar = true;
@@ -258,11 +278,12 @@ namespace Golf.GamePlay
 			m_spawnedObjects.RemoveAll(item => item == null);
 			m_currentCar = Instantiate(m_carPrefab, Vector3.zero, Quaternion.identity);
 			m_spawnedObjects.Add(m_currentCar.gameObject);
+			m_audio?.PlayCarApproach();
 		}
 
 		private void SpawnBall()
 		{
-
+			BallStats stats = PickBallStats();
 			Vector3 ringCenter = m_flightRingCenter.position;
 			Vector3 ringToTarget = Vector3.ProjectOnPlane(m_ballTarget - ringCenter, Vector3.up);
 			Vector3 direction = ringToTarget.normalized;
@@ -273,13 +294,14 @@ namespace Golf.GamePlay
 			float initialSpeed = distanceToRing / m_initialTimeToRing;
 			float maximumSpeed = distanceToRing / Mathf.Min(m_minTimeToRing, m_initialTimeToRing);
 			float progress = 1f - 1f / (1f + m_scoredHitCount * m_ballSpeedProgression);
-			float speed = Mathf.Lerp(initialSpeed, maximumSpeed, progress);
+			float speed = Mathf.Lerp(initialSpeed, maximumSpeed, progress) * stats.speedMultiplier;
+
 			float timeToRing = distanceToRing / speed;
 			float flightTime = (distanceToRing + ringToTarget.magnitude) / speed;
 
 			m_nextBallSpawnTime = Time.timeAsDouble + MinimumBallSpawnInterval;
 			m_ball = Instantiate(m_ballPrefab, start, Quaternion.identity);
-			m_ball.Configure(m_ballTypes[UnityEngine.Random.Range(0, m_ballTypes.Length)]);
+			m_ball.Configure(stats);
 			m_ball.SetCarCollision(m_currentCar, false);
 
 			m_spawnedObjects.Add(m_ball.gameObject);
@@ -290,9 +312,30 @@ namespace Golf.GamePlay
 			m_ballExpiresAt = m_ballArrivalTime + 4f;
 		}
 
+		private BallStats PickBallStats()
+		{
+			int totalWeight = 0;
+			foreach (BallStats stats in m_ballTypes)
+			{
+				totalWeight += Mathf.Max(1, stats.spawnWeight);
+			}
+
+			int roll = UnityEngine.Random.Range(0, totalWeight);
+			foreach (BallStats stats in m_ballTypes)
+			{
+				roll -= Mathf.Max(1, stats.spawnWeight);
+				if (roll < 0)
+				{
+					return stats;
+				}
+			}
+
+			return m_ballTypes[0];
+		}
+
 		private void FinishShot(bool hit)
 		{
-			BallSettings settings = m_ball.settings;
+			BallStats stats = m_ball.stats;
 			bool costsLife = m_ball.costsLife;
 			if (hit)
 			{
@@ -317,7 +360,7 @@ namespace Golf.GamePlay
 
 			if (hit)
 			{
-				onBallHit?.Invoke(settings);
+				onBallHit?.Invoke(stats);
 			}
 			else if (costsLife)
 			{

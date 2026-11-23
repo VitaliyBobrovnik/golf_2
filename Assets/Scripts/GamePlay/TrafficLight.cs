@@ -39,6 +39,18 @@ namespace Golf.GamePlay
 			Invoke(nameof(ShowSignal), delay);
 		}
 
+		public void RerollSignal()
+		{
+			int newColor = UnityEngine.Random.Range(0, colorCount - 1);
+			if (newColor >= colorIndex)
+			{
+				newColor++;
+			}
+
+			colorIndex = newColor;
+			ShowSignal();
+		}
+
 		public void Hide()
 		{
 			CancelInvoke(nameof(ShowSignal));

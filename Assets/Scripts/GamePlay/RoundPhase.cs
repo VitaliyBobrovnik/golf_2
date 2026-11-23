@@ -7,6 +7,7 @@ namespace Golf.GamePlay
 		WaitingForSignal,
 		WaitingForPress,
 		LaunchWhenReady,
-		Launched
+		Launched,
+		RerollingColors
 	}
 }

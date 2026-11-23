@@ -5,31 +5,17 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace Golf.GamePlay
 {
-	public enum BallEffect
-	{
-		Add,
-		Multiply,
-		Subtract
-	}
-
-	[Serializable]
-	public class BallSettings
-	{
-		public BallEffect effect;
-		[Min(1)] public int value = 1;
-		public Color color = Color.white;
-	}
-
 	[MovedFrom(true, sourceNamespace: "")]
 	public class Ball : MonoBehaviour
 	{
 		public event Action<Collision> onCollision;
 		public event Action<Collider> onTrigger;
 
-		public BallSettings settings { get; private set; }
-		public bool costsLife => settings.effect != BallEffect.Subtract;
+		public BallStats stats { get; private set; }
+		public bool costsLife => stats.effect != BallEffect.Subtract;
 
 		[SerializeField] private TMP_Text m_label;
+		[SerializeField] private float m_labelHeight = 2.15f;
 
 		private Rigidbody m_body;
 		private Collider m_collider;
@@ -39,24 +25,57 @@ namespace Golf.GamePlay
 		private Vector3 m_reboundVelocity;
 		private bool m_isFlying;
 
-		public void Configure(BallSettings settings)
+		public void Configure(BallStats stats)
 		{
-			this.settings = settings;
+			this.stats = stats;
+			if (stats.mesh != null && TryGetComponent(out MeshFilter meshFilter))
+			{
+				meshFilter.sharedMesh = stats.mesh;
+			}
+
+			if (stats.useOpaqueTint && TryGetComponent(out MeshRenderer shell))
+			{
+				MaterialPropertyBlock properties = new();
+				properties.SetFloat("_Cutoff", 0f);
+				properties.SetColor("_BaseColor", stats.color);
+				shell.SetPropertyBlock(properties);
+			}
 
 			string prefix = "+";
-			if (settings.effect == BallEffect.Multiply)
+			if (stats.effect == BallEffect.Multiply)
 			{
 				prefix = "×";
 			}
-			else if (settings.effect == BallEffect.Subtract)
+			else if (stats.effect == BallEffect.Subtract)
 			{
-				prefix = "−";
+				prefix = "-";
 			}
 
 			if (m_label != null)
 			{
-				m_label.text = prefix + settings.value;
-				m_label.color = settings.color;
+				m_label.text = prefix + stats.value;
+				m_label.color = Color.Lerp(stats.color, Color.white, 0.6f);
+			}
+
+			if (stats.effect != BallEffect.Add)
+			{
+				ApplyTrailColor(stats.color);
+			}
+		}
+
+		private void ApplyTrailColor(Color color)
+		{
+			TrailRenderer trail = GetComponentInChildren<TrailRenderer>();
+			if (trail != null)
+			{
+				Gradient gradient = trail.colorGradient;
+				GradientColorKey[] colors = gradient.colorKeys;
+				for (int i = 0; i < colors.Length; i++)
+				{
+					colors[i].color = color;
+				}
+				gradient.colorKeys = colors;
+				trail.colorGradient = gradient;
 			}
 		}
 
@@ -124,7 +143,8 @@ namespace Golf.GamePlay
 		{
 			if (m_label != null && m_label.isActiveAndEnabled && m_camera != null)
 			{
-				m_label.transform.rotation = m_camera.transform.rotation;
+				m_label.transform.SetPositionAndRotation(
+					transform.position + Vector3.up * m_labelHeight, m_camera.transform.rotation);
 			}
 		}
 

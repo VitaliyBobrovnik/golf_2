@@ -5,7 +5,7 @@ namespace Golf.GamePlay
 	public class LightColor
 	{
 		private const int LightMaterialIndex = 1;
-		private const float FadeTime = 0.15f;
+		internal const float FadeTime = 0.15f;
 
 		private readonly Renderer m_renderer;
 		private readonly MaterialPropertyBlock m_properties = new();
