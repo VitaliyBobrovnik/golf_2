@@ -1,10 +1,19 @@
 # ninja log v5
 97	2884	8165521020993372	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5e2b79108282c4af
 138	2903	8165521021123585	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c9d3664a4fa1c9af
-1	2929	8165521021303641	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	77f5967e1d176450
-168	2938	8165521021529019	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bbffb0779b2e7030
-21	3007	8165521022275673	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ef4895093f2733b
 197	3231	8165521024560196	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b561b3eff297dc1e
+1	2929	8165521021303641	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	77f5967e1d176450
+21	3007	8165521022275673	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ef4895093f2733b
+168	2938	8165521021529019	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bbffb0779b2e7030
 63	3300	8165521025271256	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e8792f59e36c78e7
 41	3403	8165521026301150	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2fa838feb97905dd
 3404	3595	8165521028257426	C:/Users/vital/Documents/UnityProjects/Golf_2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6f3w6j1e/obj/arm64-v8a/libgame.so	22f09523ea8c2195
+175	4697	8171689564155771	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5e2b79108282c4af
+67	4705	8171689564185778	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c9d3664a4fa1c9af
+114	4717	8171689564476080	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	77f5967e1d176450
+130	4743	8171689564896393	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bbffb0779b2e7030
+39	4788	8171689565371581	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ef4895093f2733b
+154	5247	8171689569717290	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e8792f59e36c78e7
+193	5276	8171689570297591	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b561b3eff297dc1e
+98	5376	8171689571313396	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2fa838feb97905dd
+5377	5712	8171689574718061	C:/Users/vital/Documents/UnityProjects/Golf_2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6f3w6j1e/obj/arm64-v8a/libgame.so	22f09523ea8c2195
