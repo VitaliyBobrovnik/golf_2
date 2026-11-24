@@ -7,6 +7,9 @@
 
 
 
+extern void PauseState_Start_mE9C57AC54F75B5C865C71164BEED77131619BC3F (void);
+extern void PauseState_Update_m6CC0AA2C40C0BAF5BA40D1A2F076FCD0282BC5E0 (void);
+extern void PauseState__ctor_m7C519472008FE834263E18D1935D2C8583C880AB (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 extern void ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46 (void);
 extern void ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722 (void);
@@ -479,8 +482,11 @@ extern void ReflectionPass_AddDrawPass_m4826CB3556CC6E48E3CD74940FC10970B01F032F
 extern void ReflectionPass_DrawRendererList_mBC759285FABFC220887418A63BE77C762BFAC239 (void);
 extern void ReflectionPass__cctor_m0A9696E045B74314C9312F674E0C6F9B2A632D1C (void);
 extern void PassData__ctor_mD5603CC1472C7E26533713C7708D766D0D8DC193 (void);
-static Il2CppMethodPointer s_methodPointers[478] = 
+static Il2CppMethodPointer s_methodPointers[481] = 
 {
+	PauseState_Start_mE9C57AC54F75B5C865C71164BEED77131619BC3F,
+	PauseState_Update_m6CC0AA2C40C0BAF5BA40D1A2F076FCD0282BC5E0,
+	PauseState__ctor_m7C519472008FE834263E18D1935D2C8583C880AB,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,
@@ -960,8 +966,11 @@ static Il2CppMethodPointer s_methodPointers[478] =
 	ReflectionPass__cctor_m0A9696E045B74314C9312F674E0C6F9B2A632D1C,
 	PassData__ctor_mD5603CC1472C7E26533713C7708D766D0D8DC193,
 };
-static const int32_t s_InvokerIndices[478] = 
+static const int32_t s_InvokerIndices[481] = 
 {
+	13968,
+	13968,
+	13968,
 	13968,
 	13968,
 	10573,
@@ -1443,8 +1452,8 @@ static const int32_t s_InvokerIndices[478] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x06000164, { 0, 1 } },
-	{ 0x06000165, { 1, 1 } },
+	{ 0x06000167, { 0, 1 } },
+	{ 0x06000168, { 1, 1 } },
 };
 extern const uint32_t g_rgctx_StateMachine_PushState_TisTState_t06C5C1AF6B2DAB60D38C38F76467C925E2F74A49_m3323F6903B8ED0FC7D5A74B08F5B8B293A5A1ABB;
 extern const uint32_t g_rgctx_TState_t2B2D468C25C987356CEAC9CBB0628979A106E63F;
@@ -1457,7 +1466,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	478,
+	481,
 	s_methodPointers,
 	0,
 	NULL,

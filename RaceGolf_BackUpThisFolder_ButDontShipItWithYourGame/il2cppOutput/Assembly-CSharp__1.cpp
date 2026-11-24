@@ -458,10 +458,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral01A849374C26F36DBF4641EFCBB31ABDCEFF10D2
 IL2CPP_EXTERN_C String_t* _stringLiteral0B858D1BD15FE48C55FCEDF1814E78383C8F8A7C;
 IL2CPP_EXTERN_C String_t* _stringLiteral1B934BD763F1D59F934D725B368937EE51111F78;
 IL2CPP_EXTERN_C String_t* _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952;
-IL2CPP_EXTERN_C String_t* _stringLiteral224D849289BD245EE6BC4A6D74A32BB1E6FE1A6A;
 IL2CPP_EXTERN_C String_t* _stringLiteral2312F7168CF6E4732EEE74B507FF93AB434EDC3E;
 IL2CPP_EXTERN_C String_t* _stringLiteral2BAEC6BFBC705BDD7AE1A36AC431E3CD0BB62704;
 IL2CPP_EXTERN_C String_t* _stringLiteral326129114EB43E5A03AD980A3709D55FE7934916;
+IL2CPP_EXTERN_C String_t* _stringLiteral34925566882FF4353F4C702637D0C7B4CECD70FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral401524E79F1FCE814F27BD33971A1E2BC55F9FAF;
 IL2CPP_EXTERN_C String_t* _stringLiteral49AE794C00022ECA141068DEA9531BF6E0D342B7;
@@ -5582,7 +5582,7 @@ inline void List_1_AddWithResize_m9DC0CBC6B2899B36D53FDDEC54B3367D03C0FCC7 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66859
+// Method Definition Index: 66862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Awake_m29C1DE789B968D726EDD69F605321A223D47C1A0 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5592,16 +5592,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Awake_m29C1DE789B968D726EDD69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:22>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5(__this, Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var);
 		__this->___m_TextComponent = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 66860
+// Method Definition Index: 66863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnEnable_mE3719F01B6A8590066988F425F8A63103B5A7B47 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5614,18 +5614,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnEnable_mE3719F01B6A85900669
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_0, L_1, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 66861
+// Method Definition Index: 66864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnDisable_mBB91C9EFA049395743D27358A427BB2B05850B47 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5638,31 +5638,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnDisable_mBB91C9EFA049395743
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_0, L_1, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 66862
+// Method Definition Index: 66865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Start_mB03D03148C98EBC9117D69510D24F21978546FCB (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:40>
 		RuntimeObject* L_0;
 		L_0 = VertexZoom_AnimateVertexColors_m632BD9DC8FB193AF2D5B540524B11AF139FDF5F0(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 66863
+// Method Definition Index: 66866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5672,7 +5672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:46>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_obj;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -5684,17 +5684,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:47>
 		__this->___hasTextChanged = (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 66864
+// Method Definition Index: 66867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexZoom_AnimateVertexColors_m632BD9DC8FB193AF2D5B540524B11AF139FDF5F0 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5714,15 +5714,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexZoom_AnimateVertexColors
 		return L_1;
 	}
 }
-// Method Definition Index: 66865
+// Method Definition Index: 66868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom__ctor_m454AF80ACB5C555BCB4B5E658A22B5A4FCC39422 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:12>
 		__this->___AngleMultiplier = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:13>
 		__this->___SpeedMultiplier = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:14>
 		__this->___CurveScale = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -5736,7 +5736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom__ctor_m454AF80ACB5C555BCB4B5E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66866
+// Method Definition Index: 66869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m8C69A89B34AA3D16243E69F1E0015856C791CC8A (U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5745,7 +5745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m8C69A89
 		return;
 	}
 }
-// Method Definition Index: 66867
+// Method Definition Index: 66870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m8E51A05E012CCFA439DCF10A8B5C4FA196E4344A (U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* __this, int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5756,7 +5756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateV
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_0 = __this->___modifiedCharScale;
 		int32_t L_1 = ___0_a;
 		NullCheck(L_0);
@@ -5781,7 +5781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateV
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66868
+// Method Definition Index: 66871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_m7A5B8E07B89E628DB7119F7F61311165A2DBC4D6 (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5792,7 +5792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_m7A
 		return;
 	}
 }
-// Method Definition Index: 66869
+// Method Definition Index: 66872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_m974E92A444C6343E94C76BB6CC6508F7AE4FD36E (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5800,7 +5800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_ID
 		return;
 	}
 }
-// Method Definition Index: 66870
+// Method Definition Index: 66873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_m6DBC52A95A92A54A1801DC4CEE548FA568251D5E (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5877,13 +5877,13 @@ IL_0022:
 		U3CU3Ec__DisplayClass10_0__ctor_m8C69A89B34AA3D16243E69F1E0015856C791CC8A(L_3, NULL);
 		__this->___U3CU3E8__1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)L_3);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:59>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:59>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_4 = V_1;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = L_4->___m_TextComponent;
 		NullCheck(L_5);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_5, (bool)0, (bool)0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:61>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_6 = V_1;
 		NullCheck(L_6);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = L_6->___m_TextComponent;
@@ -5892,26 +5892,26 @@ IL_0022:
 		L_8 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_7, NULL);
 		__this->___U3CtextInfoU3E5__2 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__2), (void*)L_8);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:64>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_9 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_9);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_10;
 		L_10 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_9, NULL);
 		__this->___U3CcachedMeshInfoVertexDataU3E5__3 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__3), (void*)L_10);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:67>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_11 = __this->___U3CU3E8__1;
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_12 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_12, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		NullCheck(L_11);
 		L_11->___modifiedCharScale = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___modifiedCharScale), (void*)L_12);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:68>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:68>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_13 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_13, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		__this->___U3CscaleSortingOrderU3E5__4 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscaleSortingOrderU3E5__4), (void*)L_13);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:70>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:70>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_14 = V_1;
 		NullCheck(L_14);
 		L_14->___hasTextChanged = (bool)1;
@@ -5919,7 +5919,7 @@ IL_0022:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:75>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:75>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_15 = V_1;
 		NullCheck(L_15);
 		bool L_16 = L_15->___hasTextChanged;
@@ -5929,14 +5929,14 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:78>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:78>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_17 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_17);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_18;
 		L_18 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_17, NULL);
 		__this->___U3CcachedMeshInfoVertexDataU3E5__3 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__3), (void*)L_18);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:80>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:80>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_19 = V_1;
 		NullCheck(L_19);
 		L_19->___hasTextChanged = (bool)0;
@@ -5944,12 +5944,12 @@ IL_0085:
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:83>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:83>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_20 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___characterCount;
 		V_3 = L_21;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:86>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:86>
 		int32_t L_22 = V_3;
 		if (L_22)
 		{
@@ -5957,7 +5957,7 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:88>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:88>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_23 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_23, (0.25f), NULL);
 		__this->___U3CU3E2__current = L_23;
@@ -5969,30 +5969,30 @@ IL_00a5:
 IL_00cd:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:89>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:89>
 		goto IL_0085;
 	}
 
 IL_00d6:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:93>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:93>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_24 = __this->___U3CU3E8__1;
 		NullCheck(L_24);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_25 = L_24->___modifiedCharScale;
 		NullCheck(L_25);
 		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_25, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:94>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:94>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_26 = __this->___U3CscaleSortingOrderU3E5__4;
 		NullCheck(L_26);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_26, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		V_4 = 0;
 		goto IL_045a;
 	}
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:98>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:98>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_27 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_27);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_28 = L_27->___characterInfo;
@@ -6000,7 +6000,7 @@ IL_00f9:
 		NullCheck(L_28);
 		int32_t L_30 = L_29;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:101>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:101>
 		bool L_32 = L_31.___isVisible;
 		if (!L_32)
 		{
@@ -6008,7 +6008,7 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:105>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:105>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_33 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_33);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_34 = L_33->___characterInfo;
@@ -6016,7 +6016,7 @@ IL_00f9:
 		NullCheck(L_34);
 		int32_t L_36 = ((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___materialReferenceIndex;
 		V_5 = L_36;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:108>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:108>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_37 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_37);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_38 = L_37->___characterInfo;
@@ -6024,13 +6024,13 @@ IL_00f9:
 		NullCheck(L_38);
 		int32_t L_40 = ((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___vertexIndex;
 		V_6 = L_40;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:111>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:111>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_41 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_42 = V_5;
 		NullCheck(L_41);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_43 = ((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___vertices;
 		V_7 = L_43;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:116>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:116>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_44 = V_7;
 		int32_t L_45 = V_6;
 		NullCheck(L_44);
@@ -6047,11 +6047,11 @@ IL_00f9:
 		L_53 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_52, (2.0f), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_54;
 		L_54 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_53, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:120>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_54, NULL);
 		V_8 = L_55;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:122>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:122>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_56 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_56);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_57 = L_56->___meshInfo;
@@ -6059,7 +6059,7 @@ IL_00f9:
 		NullCheck(L_57);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_59 = ((L_57)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_58)))->___vertices;
 		V_9 = L_59;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:124>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:124>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_60 = V_9;
 		int32_t L_61 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_62 = V_7;
@@ -6072,7 +6072,7 @@ IL_00f9:
 		L_67 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_65, L_66, NULL);
 		NullCheck(L_60);
 		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(L_61), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_67);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:125>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:125>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = V_9;
 		int32_t L_69 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_70 = V_7;
@@ -6085,7 +6085,7 @@ IL_00f9:
 		L_75 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_73, L_74, NULL);
 		NullCheck(L_68);
 		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_69, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_75);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:126>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:126>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_76 = V_9;
 		int32_t L_77 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_78 = V_7;
@@ -6098,7 +6098,7 @@ IL_00f9:
 		L_83 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_81, L_82, NULL);
 		NullCheck(L_76);
 		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_77, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_83);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:127>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:127>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_84 = V_9;
 		int32_t L_85 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_86 = V_7;
@@ -6111,18 +6111,18 @@ IL_00f9:
 		L_91 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_89, L_90, NULL);
 		NullCheck(L_84);
 		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_85, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_91);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:132>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:132>
 		float L_92;
 		L_92 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((1.0f), (1.5f), NULL);
 		V_10 = L_92;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:135>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:135>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_93 = __this->___U3CU3E8__1;
 		NullCheck(L_93);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_94 = L_93->___modifiedCharScale;
 		float L_95 = V_10;
 		NullCheck(L_94);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_94, L_95, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:136>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:136>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_96 = __this->___U3CscaleSortingOrderU3E5__4;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_97 = __this->___U3CU3E8__1;
 		NullCheck(L_97);
@@ -6132,7 +6132,7 @@ IL_00f9:
 		L_99 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_98, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
 		NullCheck(L_96);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_96, ((int32_t)il2cpp_codegen_subtract(L_99, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:140>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:140>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100;
 		memset((&L_100), 0, sizeof(L_100));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_100), (0.0f), (0.0f), (0.0f), NULL);
@@ -6146,7 +6146,7 @@ IL_00f9:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_105;
 		L_105 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_100, L_101, L_104, NULL);
 		V_2 = L_105;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:142>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:142>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_106 = V_9;
 		int32_t L_107 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_108 = V_9;
@@ -6158,7 +6158,7 @@ IL_00f9:
 		L_112 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_111, NULL);
 		NullCheck(L_106);
 		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(L_107), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_112);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:143>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:143>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_113 = V_9;
 		int32_t L_114 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_115 = V_9;
@@ -6170,7 +6170,7 @@ IL_00f9:
 		L_119 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_118, NULL);
 		NullCheck(L_113);
 		(L_113)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_114, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_119);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:144>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:144>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_120 = V_9;
 		int32_t L_121 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_122 = V_9;
@@ -6182,7 +6182,7 @@ IL_00f9:
 		L_126 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_125, NULL);
 		NullCheck(L_120);
 		(L_120)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_121, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_126);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:145>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:145>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_127 = V_9;
 		int32_t L_128 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_129 = V_9;
@@ -6194,7 +6194,7 @@ IL_00f9:
 		L_133 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_132, NULL);
 		NullCheck(L_127);
 		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_128, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_133);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:147>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:147>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_134 = V_9;
 		int32_t L_135 = V_6;
 		NullCheck(L_134);
@@ -6204,7 +6204,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_139;
 		L_139 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_137, L_138, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_136 = L_139;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:148>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:148>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_140 = V_9;
 		int32_t L_141 = V_6;
 		NullCheck(L_140);
@@ -6214,7 +6214,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145;
 		L_145 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_143, L_144, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_142 = L_145;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:149>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:149>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_146 = V_9;
 		int32_t L_147 = V_6;
 		NullCheck(L_146);
@@ -6224,7 +6224,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151;
 		L_151 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_149, L_150, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_148 = L_151;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:150>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:150>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_152 = V_9;
 		int32_t L_153 = V_6;
 		NullCheck(L_152);
@@ -6234,20 +6234,20 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_157;
 		L_157 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_155, L_156, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_154 = L_157;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:153>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:153>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_158 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_159 = V_5;
 		NullCheck(L_158);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_160 = ((L_158)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_159)))->___uvs0;
 		V_11 = L_160;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:154>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:154>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_161 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_161);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_162 = L_161->___meshInfo;
 		int32_t L_163 = V_5;
 		NullCheck(L_162);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_164 = ((L_162)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_163)))->___uvs0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:156>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:156>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_165 = L_164;
 		int32_t L_166 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_167 = V_11;
@@ -6257,7 +6257,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_170 = (L_167)->GetAt(static_cast<il2cpp_array_size_t>(L_169));
 		NullCheck(L_165);
 		(L_165)->SetAt(static_cast<il2cpp_array_size_t>(L_166), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_170);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:157>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:157>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_171 = L_165;
 		int32_t L_172 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_173 = V_11;
@@ -6267,7 +6267,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_176 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_175));
 		NullCheck(L_171);
 		(L_171)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_172, 1))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_176);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:158>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:158>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_177 = L_171;
 		int32_t L_178 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_179 = V_11;
@@ -6277,7 +6277,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_182 = (L_179)->GetAt(static_cast<il2cpp_array_size_t>(L_181));
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_178, 2))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_182);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:159>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:159>
 		int32_t L_183 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_184 = V_11;
 		int32_t L_185 = V_6;
@@ -6286,20 +6286,20 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_183, 3))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_187);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:162>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:162>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_188 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_189 = V_5;
 		NullCheck(L_188);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_190 = ((L_188)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_189)))->___colors32;
 		V_12 = L_190;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:163>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:163>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_191 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_191);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_192 = L_191->___meshInfo;
 		int32_t L_193 = V_5;
 		NullCheck(L_192);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_194 = ((L_192)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_193)))->___colors32;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:165>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:165>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_195 = L_194;
 		int32_t L_196 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_197 = V_12;
@@ -6309,7 +6309,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_200 = (L_197)->GetAt(static_cast<il2cpp_array_size_t>(L_199));
 		NullCheck(L_195);
 		(L_195)->SetAt(static_cast<il2cpp_array_size_t>(L_196), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_200);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:166>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:166>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_201 = L_195;
 		int32_t L_202 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_203 = V_12;
@@ -6319,7 +6319,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_206 = (L_203)->GetAt(static_cast<il2cpp_array_size_t>(L_205));
 		NullCheck(L_201);
 		(L_201)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_202, 1))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_206);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:167>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:167>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_207 = L_201;
 		int32_t L_208 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_209 = V_12;
@@ -6329,7 +6329,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_212 = (L_209)->GetAt(static_cast<il2cpp_array_size_t>(L_211));
 		NullCheck(L_207);
 		(L_207)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_208, 2))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_212);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:168>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:168>
 		int32_t L_213 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_214 = V_12;
 		int32_t L_215 = V_6;
@@ -6342,14 +6342,14 @@ IL_00f9:
 
 IL_0454:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		int32_t L_218 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_218, 1));
 	}
 
 IL_045a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		int32_t L_219 = V_4;
 		int32_t L_220 = V_3;
 		if ((((int32_t)L_219) < ((int32_t)L_220)))
@@ -6358,14 +6358,14 @@ IL_045a:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		V_13 = 0;
 		goto IL_0586;
 	}
 
 IL_046a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_221 = __this->___U3CscaleSortingOrderU3E5__4;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_222 = __this->___U3CU3E8__1;
 		NullCheck(L_222);
@@ -6399,7 +6399,7 @@ IL_04a0:
 	{
 		NullCheck(G_B16_1);
 		List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4(G_B16_1, G_B16_0, List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:177>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:177>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_230 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_230);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_231 = L_230->___meshInfo;
@@ -6408,7 +6408,7 @@ IL_04a0:
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_233 = __this->___U3CscaleSortingOrderU3E5__4;
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_SortGeometry_m74ED0FE2065414A659EE9A9C809E1B0B4A8A7734(((L_231)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_232))), L_233, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:180>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:180>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_234 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_234);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_235 = L_234->___meshInfo;
@@ -6423,7 +6423,7 @@ IL_04a0:
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_241 = ((L_239)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_240)))->___vertices;
 		NullCheck(L_237);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_237, L_241, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:181>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:181>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_242 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_242);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_243 = L_242->___meshInfo;
@@ -6438,7 +6438,7 @@ IL_04a0:
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_249 = ((L_247)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_248)))->___uvs0;
 		NullCheck(L_245);
 		Mesh_SetUVs_mDFA98E5557AB6585FE0F8AB5C9286D1C69A53324(L_245, 0, L_249, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:182>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:182>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_250 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_250);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_251 = L_250->___meshInfo;
@@ -6453,7 +6453,7 @@ IL_04a0:
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_257 = ((L_255)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_256)))->___colors32;
 		NullCheck(L_253);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_253, L_257, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:184>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:184>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_258 = V_1;
 		NullCheck(L_258);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_259 = L_258->___m_TextComponent;
@@ -6466,14 +6466,14 @@ IL_04a0:
 		int32_t L_264 = V_13;
 		NullCheck(L_259);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_259, L_263, L_264);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		int32_t L_265 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_265, 1));
 	}
 
 IL_0586:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		int32_t L_266 = V_13;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_267 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_267);
@@ -6485,7 +6485,7 @@ IL_0586:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:187>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:187>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_269 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_269, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_269;
@@ -6497,11 +6497,11 @@ IL_0586:
 IL_05b3:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:72>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:72>
 		goto IL_0085;
 	}
 }
-// Method Definition Index: 66871
+// Method Definition Index: 66874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m110CD16E89E725B1484D24FFB1753768F78A988B (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -6510,7 +6510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 		return L_0;
 	}
 }
-// Method Definition Index: 66872
+// Method Definition Index: 66875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDE5E71C88F5096FD70EB061287ADF0B847732821 (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -6520,7 +6520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDE5E71C88F5096FD70EB061287ADF0B847732821_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 66873
+// Method Definition Index: 66876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_m14B89756695EE73AEBB6F3A613F65E1343A8CC2C (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -6537,7 +6537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66874
+// Method Definition Index: 66877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E4341ACB179468049FAB23949F (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6547,7 +6547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:20>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -6555,24 +6555,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E43
 		L_1 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_0, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
 		__this->___m_TextComponent = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 66875
+// Method Definition Index: 66878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Start_m3339EDC03B6FC498916520CBCCDB5F9FA090F809 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:26>
 		RuntimeObject* L_0;
 		L_0 = WarpTextExample_WarpText_mBE4B6E5B6D8AAE9340CD59B1FA9DFE9A34665E98(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 66876
+// Method Definition Index: 66879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___0_curve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6582,10 +6582,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:32>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
 		AnimationCurve__ctor_m0D976567166F92383307DC8EB8D7082CD34E226F(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:34>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_1 = L_0;
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_2 = ___0_curve;
 		NullCheck(L_2);
@@ -6593,11 +6593,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		L_3 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_2, NULL);
 		NullCheck(L_1);
 		AnimationCurve_set_keys_mBE1284B44CDBB1D8381177A3D581A6E71467F95C(L_1, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:36>
 		return L_1;
 	}
 }
-// Method Definition Index: 66877
+// Method Definition Index: 66880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WarpTextExample_WarpText_mBE4B6E5B6D8AAE9340CD59B1FA9DFE9A34665E98 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6617,7 +6617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WarpTextExample_WarpText_mBE4B
 		return L_1;
 	}
 }
-// Method Definition Index: 66878
+// Method Definition Index: 66881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C45B5E60C19E1EA397FBA1795 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6628,7 +6628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:13>
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_0 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)5);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1 = L_0;
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_2;
@@ -6664,11 +6664,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_11, L_9, NULL);
 		__this->___VertexCurve = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___VertexCurve), (void*)L_11);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:14>
 		__this->___AngleMultiplier = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:15>
 		__this->___SpeedMultiplier = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:16>
 		__this->___CurveScale = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -6682,7 +6682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66879
+// Method Definition Index: 66882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8__ctor_m1943C34BBEAF121203BA8C5D725E991283A4A3BB (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -6693,7 +6693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8__ctor_m1943C34BBEAF12
 		return;
 	}
 }
-// Method Definition Index: 66880
+// Method Definition Index: 66883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_IDisposable_Dispose_m145D2DA1026419984AD79D5D62FBC38C9441AB53 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -6701,7 +6701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_IDisposable_Di
 		return;
 	}
 }
-// Method Definition Index: 66881
+// Method Definition Index: 66884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B02 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6764,37 +6764,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:47>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_3 = V_1;
 		NullCheck(L_3);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_4 = L_3->___VertexCurve;
 		NullCheck(L_4);
 		AnimationCurve_set_preWrapMode_mA618E67F536483FA5F3507A2D97C045E089D1B2D(L_4, 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:48>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_5 = V_1;
 		NullCheck(L_5);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_6 = L_5->___VertexCurve;
 		NullCheck(L_6);
 		AnimationCurve_set_postWrapMode_m39A4758ABD5D2AEE475940829352792FE7E9CBA9(L_6, 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:55>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_7 = V_1;
 		NullCheck(L_7);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = L_7->___m_TextComponent;
 		NullCheck(L_8);
 		TMP_Text_set_havePropertiesChanged_mA38D7BC9E260BF29450738B827F2220A05662B31(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:56>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_9 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_10 = V_1;
 		NullCheck(L_10);
 		float L_11 = L_10->___CurveScale;
 		NullCheck(L_9);
 		L_9->___CurveScale = ((float)il2cpp_codegen_multiply(L_11, (10.0f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:57>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_12 = V_1;
 		NullCheck(L_12);
 		float L_13 = L_12->___CurveScale;
 		__this->___U3Cold_CurveScaleU3E5__2 = L_13;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:58>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_14 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_15 = V_1;
 		NullCheck(L_15);
@@ -6808,7 +6808,7 @@ IL_0022:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:62>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_18 = V_1;
 		NullCheck(L_18);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19 = L_18->___m_TextComponent;
@@ -6853,7 +6853,7 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:64>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -6863,18 +6863,18 @@ IL_007d:
 IL_00d6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:65>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:65>
 		goto IL_007d;
 	}
 
 IL_00df:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:68>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:68>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_31 = V_1;
 		NullCheck(L_31);
 		float L_32 = L_31->___CurveScale;
 		__this->___U3Cold_CurveScaleU3E5__2 = L_32;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:69>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:69>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_33 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_34 = V_1;
 		NullCheck(L_34);
@@ -6884,13 +6884,13 @@ IL_00df:
 		L_36 = WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF(L_33, L_35, NULL);
 		__this->___U3Cold_curveU3E5__3 = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3Cold_curveU3E5__3), (void*)L_36);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:71>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_37 = V_1;
 		NullCheck(L_37);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = L_37->___m_TextComponent;
 		NullCheck(L_38);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_38, (bool)0, (bool)0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:73>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_39 = V_1;
 		NullCheck(L_39);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_40 = L_39->___m_TextComponent;
@@ -6898,12 +6898,12 @@ IL_00df:
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_41;
 		L_41 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_40, NULL);
 		V_4 = L_41;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:74>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:74>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_42 = V_4;
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___characterCount;
 		V_5 = L_43;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:77>
 		int32_t L_44 = V_5;
 		if (!L_44)
 		{
@@ -6911,7 +6911,7 @@ IL_00df:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:82>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:82>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_45 = V_1;
 		NullCheck(L_45);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_46 = L_45->___m_TextComponent;
@@ -6923,7 +6923,7 @@ IL_00df:
 		L_48 = Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline((&V_8), NULL);
 		float L_49 = L_48.___x;
 		V_6 = L_49;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:83>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:83>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_50 = V_1;
 		NullCheck(L_50);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_51 = L_50->___m_TextComponent;
@@ -6935,14 +6935,14 @@ IL_00df:
 		L_53 = Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09_inline((&V_8), NULL);
 		float L_54 = L_53.___x;
 		V_7 = L_54;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		V_9 = 0;
 		goto IL_0446;
 	}
 
 IL_0165:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:89>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:89>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_55 = V_4;
 		NullCheck(L_55);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_56 = L_55->___characterInfo;
@@ -6955,7 +6955,7 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:92>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:92>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_59 = V_4;
 		NullCheck(L_59);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_60 = L_59->___characterInfo;
@@ -6963,7 +6963,7 @@ IL_0165:
 		NullCheck(L_60);
 		int32_t L_62 = ((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___vertexIndex;
 		V_10 = L_62;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:95>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:95>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_63 = V_4;
 		NullCheck(L_63);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_64 = L_63->___characterInfo;
@@ -6971,7 +6971,7 @@ IL_0165:
 		NullCheck(L_64);
 		int32_t L_66 = ((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_65)))->___materialReferenceIndex;
 		V_11 = L_66;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:97>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:97>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_67 = V_4;
 		NullCheck(L_67);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_68 = L_67->___meshInfo;
@@ -6979,7 +6979,7 @@ IL_0165:
 		NullCheck(L_68);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_70 = ((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->___vertices;
 		V_2 = L_70;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:100>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:100>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_71 = V_2;
 		int32_t L_72 = V_10;
 		NullCheck(L_71);
@@ -7000,7 +7000,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
 		L_82 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_81, NULL);
 		V_12 = L_82;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:104>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:104>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_83 = V_2;
 		int32_t L_84 = V_10;
 		NullCheck(L_83);
@@ -7012,7 +7012,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
 		L_89 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_86, L_88, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_85 = L_89;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:105>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:105>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_90 = V_2;
 		int32_t L_91 = V_10;
 		NullCheck(L_90);
@@ -7024,7 +7024,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96;
 		L_96 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_93, L_95, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_92 = L_96;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:106>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:106>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_97 = V_2;
 		int32_t L_98 = V_10;
 		NullCheck(L_97);
@@ -7036,7 +7036,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
 		L_103 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_100, L_102, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_99 = L_103;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:107>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:107>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_104 = V_2;
 		int32_t L_105 = V_10;
 		NullCheck(L_104);
@@ -7048,17 +7048,17 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110;
 		L_110 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_107, L_109, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_106 = L_110;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:110>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:110>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111 = V_12;
 		float L_112 = L_111.___x;
 		float L_113 = V_6;
 		float L_114 = V_7;
 		float L_115 = V_6;
 		V_13 = ((float)(((float)il2cpp_codegen_subtract(L_112, L_113))/((float)il2cpp_codegen_subtract(L_114, L_115))));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:111>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:111>
 		float L_116 = V_13;
 		V_14 = ((float)il2cpp_codegen_add(L_116, (9.99999975E-05f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:112>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:112>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_117 = V_1;
 		NullCheck(L_117);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_118 = L_117->___VertexCurve;
@@ -7070,7 +7070,7 @@ IL_0165:
 		NullCheck(L_121);
 		float L_122 = L_121->___CurveScale;
 		V_15 = ((float)il2cpp_codegen_multiply(L_120, L_122));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:113>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:113>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_123 = V_1;
 		NullCheck(L_123);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_124 = L_123->___VertexCurve;
@@ -7082,11 +7082,11 @@ IL_0165:
 		NullCheck(L_127);
 		float L_128 = L_127->___CurveScale;
 		V_16 = ((float)il2cpp_codegen_multiply(L_126, L_128));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:115>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:115>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
 		memset((&L_129), 0, sizeof(L_129));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_129), (1.0f), (0.0f), (0.0f), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:117>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:117>
 		float L_130 = V_14;
 		float L_131 = V_7;
 		float L_132 = V_6;
@@ -7104,7 +7104,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_140;
 		L_140 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_135, L_139, NULL);
 		V_17 = L_140;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:119>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:119>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141 = L_129;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_142;
 		L_142 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_17), NULL);
@@ -7113,11 +7113,11 @@ IL_0165:
 		float L_144;
 		L_144 = acosf(L_143);
 		V_18 = ((float)il2cpp_codegen_multiply(L_144, (57.2957802f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:120>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145 = V_17;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146;
 		L_146 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_141, L_145, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:121>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:121>
 		float L_147 = L_146.___z;
 		if ((((float)L_147) > ((float)(0.0f))))
 		{
@@ -7139,7 +7139,7 @@ IL_0339:
 IL_033b:
 	{
 		V_19 = G_B14_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:123>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:123>
 		float L_150 = V_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151;
 		memset((&L_151), 0, sizeof(L_151));
@@ -7152,7 +7152,7 @@ IL_033b:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_155;
 		L_155 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_151, L_153, L_154, NULL);
 		V_3 = L_155;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:125>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:125>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_156 = V_2;
 		int32_t L_157 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_158 = V_2;
@@ -7164,7 +7164,7 @@ IL_033b:
 		L_162 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_161, NULL);
 		NullCheck(L_156);
 		(L_156)->SetAt(static_cast<il2cpp_array_size_t>(L_157), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_162);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:126>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:126>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_163 = V_2;
 		int32_t L_164 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_165 = V_2;
@@ -7176,7 +7176,7 @@ IL_033b:
 		L_169 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_168, NULL);
 		NullCheck(L_163);
 		(L_163)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_164, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_169);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:127>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:127>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_170 = V_2;
 		int32_t L_171 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_172 = V_2;
@@ -7188,7 +7188,7 @@ IL_033b:
 		L_176 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_175, NULL);
 		NullCheck(L_170);
 		(L_170)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_171, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_176);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:128>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:128>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_177 = V_2;
 		int32_t L_178 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_179 = V_2;
@@ -7200,7 +7200,7 @@ IL_033b:
 		L_183 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_182, NULL);
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_178, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_183);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:130>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:130>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_184 = V_2;
 		int32_t L_185 = V_10;
 		NullCheck(L_184);
@@ -7210,7 +7210,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_189;
 		L_189 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_187, L_188, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_186 = L_189;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:131>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:131>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_190 = V_2;
 		int32_t L_191 = V_10;
 		NullCheck(L_190);
@@ -7220,7 +7220,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_195;
 		L_195 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_193, L_194, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_192 = L_195;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:132>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:132>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_196 = V_2;
 		int32_t L_197 = V_10;
 		NullCheck(L_196);
@@ -7230,7 +7230,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_201;
 		L_201 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_199, L_200, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_198 = L_201;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:133>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:133>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_202 = V_2;
 		int32_t L_203 = V_10;
 		NullCheck(L_202);
@@ -7244,14 +7244,14 @@ IL_033b:
 
 IL_0440:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		int32_t L_208 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_208, 1));
 	}
 
 IL_0446:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		int32_t L_209 = V_9;
 		int32_t L_210 = V_5;
 		if ((((int32_t)L_209) < ((int32_t)L_210)))
@@ -7260,13 +7260,13 @@ IL_0446:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:138>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:138>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_211 = V_1;
 		NullCheck(L_211);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_212 = L_211->___m_TextComponent;
 		NullCheck(L_212);
 		VirtualActionInvoker0::Invoke(109, L_212);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:140>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:140>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_213 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_213, (0.0250000004f), NULL);
 		__this->___U3CU3E2__current = L_213;
@@ -7278,11 +7278,11 @@ IL_0446:
 IL_0473:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:60>
 		goto IL_007d;
 	}
 }
-// Method Definition Index: 66882
+// Method Definition Index: 66885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -7291,7 +7291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Coll
 		return L_0;
 	}
 }
-// Method Definition Index: 66883
+// Method Definition Index: 66886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -7301,7 +7301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_Collections_IE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 66884
+// Method Definition Index: 66887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -7318,7 +7318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66885
+// Method Definition Index: 66888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_add_onScoreChanged_mAC5E16BCC48537B58FE46B419F2B80F6682857E9 (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7362,7 +7362,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66886
+// Method Definition Index: 66889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_remove_onScoreChanged_m2BC645A4128A2243AE3FF1471AF8792874246B4E (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7406,45 +7406,45 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66887
+// Method Definition Index: 66890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:12>
 		int32_t L_0 = __this->___U3CscoreU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 66888
+// Method Definition Index: 66891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_score_mF2C6B98033FDD84FDAD3CDBFC1EA5EBDD7043F9E (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:12>
 		int32_t L_0 = ___0_value;
 		__this->___U3CscoreU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 66889
+// Method Definition Index: 66892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScoreManager_get_bestScore_m0164AA1BB4ACB8997349E770E9354061DFA4E6A3 (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:13>
 		int32_t L_0 = __this->___U3CbestScoreU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 66890
+// Method Definition Index: 66893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_bestScore_m58E27C8E8EEF547C6FD9291473EAECADECA5CC77 (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:13>
 		int32_t L_0 = ___0_value;
 		__this->___U3CbestScoreU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 66891
+// Method Definition Index: 66894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager__ctor_m5CB757674270340946C8C32210AE61502F6EAB4B (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7454,25 +7454,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager__ctor_m5CB757674270340946C8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:15>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:17>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral0B858D1BD15FE48C55FCEDF1814E78383C8F8A7C, 0, NULL);
 		ScoreManager_set_bestScore_m58E27C8E8EEF547C6FD9291473EAECADECA5CC77_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 66892
+// Method Definition Index: 66895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ResetScore_m3BBE72C25383F06FC1E9E8F8F48A5B085BDD408D (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B2_0 = NULL;
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:22>
 		ScoreManager_set_score_mF2C6B98033FDD84FDAD3CDBFC1EA5EBDD7043F9E_inline(__this, 0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:23>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_0 = __this->___onScoreChanged;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = L_0;
 		if (L_1)
@@ -7492,25 +7492,25 @@ IL_0012:
 		L_2 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(__this, NULL);
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mAC3C34BA1905AB5B79E483CD9BB082B7D667F703_inline(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 66893
+// Method Definition Index: 66896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_AddScore_mAE00BBDB2E353F5173E4F39918FE92AA01E87C32 (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int32_t ___0_amount, int32_t ___1_multiplier, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:28>
 		int32_t L_0;
 		L_0 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(__this, NULL);
 		int32_t L_1 = ___0_amount;
 		int32_t L_2 = ___1_multiplier;
 		ScoreManager_SetScore_m17EA0F328B12450826074A18D811ED4E33F69F33(__this, ((int64_t)il2cpp_codegen_add(((int64_t)L_0), ((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)L_2))))), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 66894
+// Method Definition Index: 66897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_SetScore_m17EA0F328B12450826074A18D811ED4E33F69F33 (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int64_t ___0_newScore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7523,7 +7523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_SetScore_m17EA0F328B1245082
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B4_0 = NULL;
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:33>
 		int64_t L_0 = ___0_newScore;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int64_t L_1;
@@ -7531,7 +7531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_SetScore_m17EA0F328B1245082
 		int64_t L_2;
 		L_2 = Math_Max_mD37411571F0547F04F280D5A8D1F044819AFA597(((int64_t)0), L_1, NULL);
 		ScoreManager_set_score_mF2C6B98033FDD84FDAD3CDBFC1EA5EBDD7043F9E_inline(__this, ((int32_t)L_2), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:35>
 		int32_t L_3;
 		L_3 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(__this, NULL);
 		int32_t L_4;
@@ -7542,21 +7542,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_SetScore_m17EA0F328B1245082
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:37>
 		int32_t L_5;
 		L_5 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(__this, NULL);
 		ScoreManager_set_bestScore_m58E27C8E8EEF547C6FD9291473EAECADECA5CC77_inline(__this, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:38>
 		int32_t L_6;
 		L_6 = ScoreManager_get_bestScore_m0164AA1BB4ACB8997349E770E9354061DFA4E6A3_inline(__this, NULL);
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral0B858D1BD15FE48C55FCEDF1814E78383C8F8A7C, L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:39>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:42>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_7 = __this->___onScoreChanged;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_8 = L_7;
 		if (L_8)
@@ -7576,7 +7576,7 @@ IL_0054:
 		L_9 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(__this, NULL);
 		NullCheck(G_B4_0);
 		Action_1_Invoke_mAC3C34BA1905AB5B79E483CD9BB082B7D667F703_inline(G_B4_0, L_9, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:43>
 		return;
 	}
 }
@@ -7588,7 +7588,7 @@ IL_0054:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66895
+// Method Definition Index: 66898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_add_onRestart_m27EC5E0B8EC5352931AD0A2EF18D40A23FADB8A3 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7632,7 +7632,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66896
+// Method Definition Index: 66899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_remove_onRestart_mF301E56E5F11E23341DDC9911952FC12477DDD23 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7676,7 +7676,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66897
+// Method Definition Index: 66900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_add_onMainMenu_mD0FAF11B1AC90D77EB4E130706265F56C80C1F4F (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7720,7 +7720,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66898
+// Method Definition Index: 66901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_remove_onMainMenu_m1991E5EA8A65726848E3D6920ACFEC80478D17AB (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7764,33 +7764,33 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66899
+// Method Definition Index: 66902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Show_mBE1D8D72674F383BE1C79F4C83BECAFE6FA2A068 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 66900
+// Method Definition Index: 66903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Hide_mBC9A3FCC573E05DF781D31C851124F523023DAC2 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 66901
+// Method Definition Index: 66904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_SetScore_m4BB011787B4C19EDF691265C10CEDCDDC57F046C (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, int32_t ___0_score, int32_t ___1_bestScore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7800,23 +7800,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_SetScore_m4BB011787B4C19EDF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:33>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_scoreText;
 		String_t* L_1;
 		L_1 = Int32_ToString_m967AECC237535C552A97A80C7875E31B98496CA9((&___0_score), _stringLiteralD756EFB72D56C9BF3C2CCF63FF70E909A2CB190B, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:34>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___m_bestScoreText;
 		String_t* L_3;
 		L_3 = Int32_ToString_m967AECC237535C552A97A80C7875E31B98496CA9((&___1_bestScore), _stringLiteralD756EFB72D56C9BF3C2CCF63FF70E909A2CB190B, NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 66902
+// Method Definition Index: 66905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Awake_m4DBA5F0CF34050962164B686B981898824AFAC0A (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7828,7 +7828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Awake_m4DBA5F0CF34050962164
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:39>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_restartButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -7837,7 +7837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Awake_m4DBA5F0CF34050962164
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)GameOverView_OnRestartClickHandler_m63E5825C10D6E4211719115E3B7BF6858EB137F9_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:40>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_mainMenuButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -7846,11 +7846,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_Awake_m4DBA5F0CF34050962164
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)GameOverView_OnMainMenuClickHandler_m2D4F999143283404DC4F140DFE717CC92E79B350_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 66903
+// Method Definition Index: 66906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnDestroy_mC40CE6CBC8776836D070DACF445EADA3E789B0D6 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7862,7 +7862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnDestroy_mC40CE6CBC8776836
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:45>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_restartButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -7871,7 +7871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnDestroy_mC40CE6CBC8776836
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)GameOverView_OnRestartClickHandler_m63E5825C10D6E4211719115E3B7BF6858EB137F9_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:46>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_mainMenuButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -7880,17 +7880,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnDestroy_mC40CE6CBC8776836
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)GameOverView_OnMainMenuClickHandler_m2D4F999143283404DC4F140DFE717CC92E79B350_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 66904
+// Method Definition Index: 66907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnRestartClickHandler_m63E5825C10D6E4211719115E3B7BF6858EB137F9 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:51>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onRestart;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -7908,17 +7908,17 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 66905
+// Method Definition Index: 66908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView_OnMainMenuClickHandler_m2D4F999143283404DC4F140DFE717CC92E79B350 (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:56>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onMainMenu;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -7936,11 +7936,11 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/GameOverView.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/GameOverView.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 66906
+// Method Definition Index: 66909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView__ctor_m1E7319125617BB7A844C2B9A38AC8775573C04BA (GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -7957,7 +7957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverView__ctor_m1E7319125617BB7A844C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66907
+// Method Definition Index: 66910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_add_onGameStart_m0E147EC2C26AF52EB3F111E11C58BF7B883F4E74 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8001,7 +8001,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66908
+// Method Definition Index: 66911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_remove_onGameStart_mCD23B09EE53C85225FE65F3450D77519C99E2C0E (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8045,7 +8045,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66909
+// Method Definition Index: 66912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_add_onSettingsOpen_m956B05338BF6E646094B205A3E74A8364FA1E1F8 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8089,7 +8089,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66910
+// Method Definition Index: 66913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_remove_onSettingsOpen_m3B2B275593C896AB6A213FA4566F471972F05B0A (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8133,33 +8133,33 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66911
+// Method Definition Index: 66914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Show_mDBFB18D81871D7FAE51BB149FEDF2097BFF62977 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 66912
+// Method Definition Index: 66915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Hide_mEFF2FF7F4830F35D3CC7D7FD817182FABE0B8F1D (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 66913
+// Method Definition Index: 66916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_SetBestScore_mE73C4D40D1E3D633A779D6431A6A4311392A22D2 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, int32_t ___0_bestScore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8169,17 +8169,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_SetBestScore_mE73C4D40D1E3D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:31>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_bestScoreText;
 		String_t* L_1;
 		L_1 = Int32_ToString_m967AECC237535C552A97A80C7875E31B98496CA9((&___0_bestScore), _stringLiteralD756EFB72D56C9BF3C2CCF63FF70E909A2CB190B, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 66914
+// Method Definition Index: 66917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Awake_m035A6EF48E74497D0C9B211D0BA8170F1F511E02 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8191,7 +8191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Awake_m035A6EF48E74497D0C9B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:36>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_startButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -8200,7 +8200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Awake_m035A6EF48E74497D0C9B
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)MainMenuView_OnStartClickHandler_mDEC22F347C4A3BE42523C06FB3821D1DAECEC732_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:37>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_settingsButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -8209,11 +8209,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_Awake_m035A6EF48E74497D0C9B
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)MainMenuView_OnSettingsClickHandler_m5AF8EA45CA36C993D2A9DF972EF0252E51F133CF_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 66915
+// Method Definition Index: 66918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnDestroy_mDB85A3E0DB47AC8E4BC77EF0703119CA97FCA71C (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8225,7 +8225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnDestroy_mDB85A3E0DB47AC8E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:42>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_startButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -8234,7 +8234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnDestroy_mDB85A3E0DB47AC8E
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)MainMenuView_OnStartClickHandler_mDEC22F347C4A3BE42523C06FB3821D1DAECEC732_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:43>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_settingsButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -8243,17 +8243,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnDestroy_mDB85A3E0DB47AC8E
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)MainMenuView_OnSettingsClickHandler_m5AF8EA45CA36C993D2A9DF972EF0252E51F133CF_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 66916
+// Method Definition Index: 66919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnStartClickHandler_mDEC22F347C4A3BE42523C06FB3821D1DAECEC732 (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:48>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onGameStart;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -8271,17 +8271,17 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 66917
+// Method Definition Index: 66920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView_OnSettingsClickHandler_m5AF8EA45CA36C993D2A9DF972EF0252E51F133CF (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:53>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onSettingsOpen;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -8299,11 +8299,11 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/MainMenuView.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/MainMenuView.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 66918
+// Method Definition Index: 66921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView__ctor_m046DBFC376B1909AA6F559B2486AF5979E404CBF (MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -8320,20 +8320,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuView__ctor_m046DBFC376B1909AA6F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66919
+// Method Definition Index: 66922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_Show_m4D67696DE11940ABB2EEAE4C2E64065B60C29AAE (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 66920
+// Method Definition Index: 66923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_Hide_mB1C8D640471F87EFF391C8964B0858E50DF61C5B (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8343,20 +8343,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_Hide_mB1C8D640471F87EFF391C896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:26>
 		MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01(__this, _stringLiteral8069CABF04312EDC813FBF9D7070730DF13C3C82, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:27>
 		ScoreView_HideHitResult_mE57A2082B0AB1E71C2B7133A8F0ECC723CDF4183(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 66921
+// Method Definition Index: 66924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_SetScore_mA2FF7E082D77220A196C5204FC607879C6ABA1AF (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, int32_t ___0_score, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8366,17 +8366,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_SetScore_mA2FF7E082D77220A196C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:33>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_scoreText;
 		String_t* L_1;
 		L_1 = Int32_ToString_m967AECC237535C552A97A80C7875E31B98496CA9((&___0_score), _stringLiteralD756EFB72D56C9BF3C2CCF63FF70E909A2CB190B, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 66922
+// Method Definition Index: 66925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_ShowHitResult_m53BA02EF2F02EC0765152138EC80AD71CB93CDEE (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, String_t* ___0_result, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8387,7 +8387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_ShowHitResult_m53BA02EF2F02EC0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:38>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_hitResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8398,13 +8398,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_ShowHitResult_m53BA02EF2F02EC0
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:40>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:43>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___m_hitResultText;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___m_scoreText;
 		NullCheck(L_3);
@@ -8412,7 +8412,7 @@ IL_000f:
 		L_4 = TMP_Text_get_font_m1F5E907B9181A54212FBD8123242583C1CA4BE2A_inline(L_3, NULL);
 		NullCheck(L_2);
 		TMP_Text_set_font_mC55E4A8C1C09595031384B35F2C2FB2FC3479E83(L_2, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:44>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___m_hitResultText;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___m_scoreText;
 		NullCheck(L_6);
@@ -8420,7 +8420,7 @@ IL_000f:
 		L_7 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(67, L_6);
 		NullCheck(L_5);
 		VirtualActionInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(68, L_5, L_7);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:45>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___m_hitResultText;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = __this->___m_scoreText;
 		NullCheck(L_9);
@@ -8428,12 +8428,12 @@ IL_000f:
 		L_10 = TMP_Text_get_fontStyle_mC34CC5EBEDD43CE93BA911CCC4D33F9697838586_inline(L_9, NULL);
 		NullCheck(L_8);
 		TMP_Text_set_fontStyle_m61931944B2E922D50087312D80F8685A2F29EBF8(L_8, L_10, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:46>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___m_hitResultText;
 		String_t* L_12 = ___0_result;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_12);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:47>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___m_hitResultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = ___1_color;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
@@ -8442,22 +8442,22 @@ IL_000f:
 		L_16 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_14, L_15, (0.600000024f), NULL);
 		NullCheck(L_13);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_13, L_16);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:48>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_17 = __this->___m_hitResultText;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:49>
 		MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01(__this, _stringLiteral8069CABF04312EDC813FBF9D7070730DF13C3C82, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:50>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral8069CABF04312EDC813FBF9D7070730DF13C3C82, (0.899999976f), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 66923
+// Method Definition Index: 66926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_HideHitResult_mE57A2082B0AB1E71C2B7133A8F0ECC723CDF4183 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8467,7 +8467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_HideHitResult_mE57A2082B0AB1E7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:55>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_hitResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8478,7 +8478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_HideHitResult_mE57A2082B0AB1E7
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:57>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___m_hitResultText;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -8489,33 +8489,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_HideHitResult_mE57A2082B0AB1E7
 
 IL_001f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:59>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 66924
+// Method Definition Index: 66927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_SetBonus_mD39AFB2535B704ECA54FB6F491933A4B01B97975 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, int32_t ___0_multiplier, double ___1_endsAt, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:63>
 		int32_t L_0 = ___0_multiplier;
 		__this->___m_bonusMultiplier = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:64>
 		double L_1 = ___1_endsAt;
 		__this->___m_bonusEndsAt = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:65>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:65>
 		__this->___m_secondsShown = (-1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:66>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:66>
 		ScoreView_UpdateBonusText_m98B84A04C406887D858D7ECDC770186E845B8AC3(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 66925
+// Method Definition Index: 66928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_Update_m1C359B195C36858C7C61CCBE08E214C952D7ADD0 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:71>
 		double L_0 = __this->___m_bonusEndsAt;
 		if ((!(((double)L_0) > ((double)(0.0)))))
 		{
@@ -8523,17 +8523,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_Update_m1C359B195C36858C7C61CC
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:73>
 		ScoreView_UpdateBonusText_m98B84A04C406887D858D7ECDC770186E845B8AC3(__this, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:75>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 66926
+// Method Definition Index: 66929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_UpdateBonusText_m98B84A04C406887D858D7ECDC770186E845B8AC3 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8545,7 +8545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_UpdateBonusText_m98B84A04C4068
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:79>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:79>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_bonusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8556,20 +8556,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_UpdateBonusText_m98B84A04C4068
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:81>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:81>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:84>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:84>
 		double L_2 = __this->___m_bonusEndsAt;
 		double L_3;
 		L_3 = Time_get_timeAsDouble_mCF1AEB0A4C786299443150DBEBDD75F7724D6800(NULL);
 		int32_t L_4;
 		L_4 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)((double)il2cpp_codegen_subtract(L_2, L_3))), NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:85>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:85>
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_5) > ((int32_t)0)))
 		{
@@ -8577,22 +8577,22 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:87>
 		__this->___m_bonusEndsAt = (0.0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:88>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:88>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___m_bonusText;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:89>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:89>
 		return;
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:92>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:92>
 		int32_t L_8 = V_0;
 		int32_t L_9 = __this->___m_secondsShown;
 		if ((((int32_t)L_8) == ((int32_t)L_9)))
@@ -8601,16 +8601,16 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:94>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:94>
 		int32_t L_10 = V_0;
 		__this->___m_secondsShown = L_10;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:95>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:95>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___m_bonusText;
 		int32_t L_12 = __this->___m_bonusMultiplier;
 		int32_t L_13 = V_0;
 		NullCheck(L_11);
 		TMP_Text_SetText_m033947AEEEBDA12707E4B0535B4CCD7EB28B5F31(L_11, _stringLiteral6377C885D25BD4BEAD60534EF8F9AAC20E3338E2, ((float)L_12), ((float)L_13), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:96>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___m_bonusText;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -8621,23 +8621,23 @@ IL_0047:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:98>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 66927
+// Method Definition Index: 66930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView_SetAttempts_m8A0E1FBFA18C029F44721DF222B0210BEE44CDC8 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, int32_t ___0_attempts, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:102>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:102>
 		V_0 = 0;
 		goto IL_0019;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:104>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:104>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = __this->___m_attemptImages;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -8647,14 +8647,14 @@ IL_0004:
 		int32_t L_5 = ___0_attempts;
 		NullCheck(L_3);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_3, (bool)((((int32_t)L_4) < ((int32_t)L_5))? 1 : 0), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:102>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:102>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:102>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:102>
 		int32_t L_7 = V_0;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_8 = __this->___m_attemptImages;
 		NullCheck(L_8);
@@ -8664,11 +8664,11 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/ScoreView.cs:106>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/ScoreView.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 66928
+// Method Definition Index: 66931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView__ctor_m740423A42C74E699F4B3EC4A1C9800AB550FF041 (ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -8685,7 +8685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreView__ctor_m740423A42C74E699F4B3EC4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66929
+// Method Definition Index: 66932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_add_onPresetChanged_m9534E106457FFDAB1CD4C0DEACD3426172FA4A64 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8729,7 +8729,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66930
+// Method Definition Index: 66933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_remove_onPresetChanged_mF12DDA7030F21A7144BDC63D532440728F57E3C6 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8773,7 +8773,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66931
+// Method Definition Index: 66934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_add_onBack_mDC67C4ED3F23AB1388E2A93F2DCF2892E80C50C3 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8817,7 +8817,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66932
+// Method Definition Index: 66935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_remove_onBack_m12BAC7DE2AECFB5C04E41AEDB2C5F15DECEEB1A2 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8861,56 +8861,56 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66933
+// Method Definition Index: 66936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_SetPreset_m925AA5627241EEDCF06096CC7BF3E0A3E1A6DAB4 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:23>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_lowButton;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_0, (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:24>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___m_mediumButton;
 		int32_t L_3 = ___0_index;
 		NullCheck(L_2);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_2, (bool)((((int32_t)((((int32_t)L_3) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:25>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:25>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___m_highButton;
 		int32_t L_5 = ___0_index;
 		NullCheck(L_4);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_4, (bool)((((int32_t)((((int32_t)L_5) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 66934
+// Method Definition Index: 66937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_Show_m1CDDF4440EE0860853BB6CD162AC6929DEA81292 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 66935
+// Method Definition Index: 66938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_Hide_m34DD1448BAB7B573FBB2131AD137CF341BB10CBB (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:35>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 66936
+// Method Definition Index: 66939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_Awake_mF3CF322F8696E450FE14A27879616A5EC46F2AD4 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8927,7 +8927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_Awake_mF3CF322F8696E450FE14
 	TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:40>
 		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_0;
 		L_0 = Component_GetComponentsInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mF952CAD5EC1E7F6AFBA9FBC92C7A88EA2519D3B1(__this, (bool)1, Component_GetComponentsInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mF952CAD5EC1E7F6AFBA9FBC92C7A88EA2519D3B1_RuntimeMethod_var);
 		V_0 = L_0;
@@ -8937,13 +8937,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_Awake_mF3CF322F8696E450FE14
 
 IL_000c:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:40>
 		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:42>
 		NullCheck(L_4);
 		VirtualActionInvoker1< bool >::Invoke(25, L_4, (bool)0);
 		int32_t L_5 = V_1;
@@ -8952,7 +8952,7 @@ IL_000c:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:40>
 		int32_t L_6 = V_1;
 		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_7 = V_0;
 		NullCheck(L_7);
@@ -8962,7 +8962,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:45>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___m_lowButton;
 		NullCheck(L_8);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_9;
@@ -8971,7 +8971,7 @@ IL_0019:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_10, __this, (intptr_t)((void*)SettingsView_OnLowClickHandler_m573004B44DF2832E8B2ADDD0B88A409BD2449045_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_9, L_10, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:46>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___m_mediumButton;
 		NullCheck(L_11);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_12;
@@ -8980,7 +8980,7 @@ IL_0019:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_13, __this, (intptr_t)((void*)SettingsView_OnMediumClickHandler_m8B2E04681FF25EE8A50ECC1F45BC10C5C3BCDFA4_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_12, L_13, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:47>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___m_highButton;
 		NullCheck(L_14);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_15;
@@ -8989,7 +8989,7 @@ IL_0019:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_16, __this, (intptr_t)((void*)SettingsView_OnHighClickHandler_m639E066F7C09BBCC9DE6D2890A63DC6457FDD4EB_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_15, L_16, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:48>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = __this->___m_backButton;
 		NullCheck(L_17);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_18;
@@ -8998,11 +8998,11 @@ IL_0019:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_19, __this, (intptr_t)((void*)SettingsView_OnBackClickHandler_m00CA7CDA29642ABC3A66F7CAA931DD91AB39E08E_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_18, L_19, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 66937
+// Method Definition Index: 66940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB436385F3A08003BAC7029DAC (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9016,7 +9016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:53>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_lowButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -9025,7 +9025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)SettingsView_OnLowClickHandler_m573004B44DF2832E8B2ADDD0B88A409BD2449045_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:54>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_mediumButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -9034,7 +9034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)SettingsView_OnMediumClickHandler_m8B2E04681FF25EE8A50ECC1F45BC10C5C3BCDFA4_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:55>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___m_highButton;
 		NullCheck(L_6);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
@@ -9043,7 +9043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)SettingsView_OnHighClickHandler_m639E066F7C09BBCC9DE6D2890A63DC6457FDD4EB_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_7, L_8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:56>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___m_backButton;
 		NullCheck(L_9);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
@@ -9052,17 +9052,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnDestroy_m105E43AE42F36DBB
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)SettingsView_OnBackClickHandler_m00CA7CDA29642ABC3A66F7CAA931DD91AB39E08E_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_10, L_11, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 66938
+// Method Definition Index: 66941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnLowClickHandler_m573004B44DF2832E8B2ADDD0B88A409BD2449045 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B2_0 = NULL;
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:61>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_0 = __this->___onPresetChanged;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = L_0;
 		if (L_1)
@@ -9080,17 +9080,17 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mAC3C34BA1905AB5B79E483CD9BB082B7D667F703_inline(G_B2_0, 0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 66939
+// Method Definition Index: 66942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnMediumClickHandler_m8B2E04681FF25EE8A50ECC1F45BC10C5C3BCDFA4 (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B2_0 = NULL;
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:66>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:66>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_0 = __this->___onPresetChanged;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = L_0;
 		if (L_1)
@@ -9108,17 +9108,17 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mAC3C34BA1905AB5B79E483CD9BB082B7D667F703_inline(G_B2_0, 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 66940
+// Method Definition Index: 66943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnHighClickHandler_m639E066F7C09BBCC9DE6D2890A63DC6457FDD4EB (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B2_0 = NULL;
 	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:71>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_0 = __this->___onPresetChanged;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = L_0;
 		if (L_1)
@@ -9136,17 +9136,17 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mAC3C34BA1905AB5B79E483CD9BB082B7D667F703_inline(G_B2_0, 2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:72>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 66941
+// Method Definition Index: 66944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView_OnBackClickHandler_m00CA7CDA29642ABC3A66F7CAA931DD91AB39E08E (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:76>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:76>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onBack;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -9164,11 +9164,11 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/View/SettingsView.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/View/SettingsView.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 66942
+// Method Definition Index: 66945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView__ctor_mF9E099967AAC54D684390D49AFBA5DE6A88F5D4A (SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -9185,33 +9185,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsView__ctor_mF9E099967AAC54D68439
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66943
+// Method Definition Index: 66946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState__ctor_mB4627ABF343E4D9EE09232EC714537F2186294BC (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* ___0_stateMachine, GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* ___1_gameOverView, ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* ___2_scoreManager, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:12>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:14>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = ___0_stateMachine;
 		__this->___m_stateMachine = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_stateMachine), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:15>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_1 = ___1_gameOverView;
 		__this->___m_gameOverView = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_gameOverView), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:16>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_2 = ___2_scoreManager;
 		__this->___m_scoreManager = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_scoreManager), (void*)L_2);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 66944
+// Method Definition Index: 66947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Enter_m85557B46AB92BDE7BFFB25B5B19E3D1916DD4665 (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:21>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_0 = __this->___m_gameOverView;
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_1 = __this->___m_scoreManager;
 		NullCheck(L_1);
@@ -9223,15 +9223,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Enter_m85557B46AB92BDE7BFF
 		L_4 = ScoreManager_get_bestScore_m0164AA1BB4ACB8997349E770E9354061DFA4E6A3_inline(L_3, NULL);
 		NullCheck(L_0);
 		GameOverView_SetScore_m4BB011787B4C19EDF691265C10CEDCDDC57F046C(L_0, L_2, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:22>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_5 = __this->___m_gameOverView;
 		NullCheck(L_5);
 		GameOverView_Show_mBE1D8D72674F383BE1C79F4C83BECAFE6FA2A068(L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 66945
+// Method Definition Index: 66948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Exit_m3F583B6BCBE29771A2E86D181EECD863C5A52020 (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9241,7 +9241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Exit_m3F583B6BCBE29771A2E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:27>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_0 = __this->___m_gameOverView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9252,7 +9252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Exit_m3F583B6BCBE29771A2E8
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:29>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_2 = __this->___m_gameOverView;
 		NullCheck(L_2);
 		GameOverView_Hide_mBC9A3FCC573E05DF781D31C851124F523023DAC2(L_2, NULL);
@@ -9260,11 +9260,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Exit_m3F583B6BCBE29771A2E8
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 66946
+// Method Definition Index: 66949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Activate_mA528F06DBE0C99C9D84DF8C9B805D524B1051B09 (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9276,23 +9276,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Activate_mA528F06DBE0C99C9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:35>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_0 = __this->___m_gameOverView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)GameOverState_OnRestartHandler_mFB6587187EE3609515186DA72EEB2C913877F26D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		GameOverView_add_onRestart_m27EC5E0B8EC5352931AD0A2EF18D40A23FADB8A3(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:36>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_2 = __this->___m_gameOverView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)GameOverState_OnMainMenuHandler_m641DEBF2EDCD37315EA8B43901B91444B2915F25_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		GameOverView_add_onMainMenu_mD0FAF11B1AC90D77EB4E130706265F56C80C1F4F(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 66947
+// Method Definition Index: 66950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Deactivate_m8FFF928B49A77847C5634CBECB0430EB0A853144 (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9304,23 +9304,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_Deactivate_m8FFF928B49A778
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:41>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_0 = __this->___m_gameOverView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)GameOverState_OnRestartHandler_mFB6587187EE3609515186DA72EEB2C913877F26D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		GameOverView_remove_onRestart_mF301E56E5F11E23341DDC9911952FC12477DDD23(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:42>
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_2 = __this->___m_gameOverView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)GameOverState_OnMainMenuHandler_m641DEBF2EDCD37315EA8B43901B91444B2915F25_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		GameOverView_remove_onMainMenu_m1991E5EA8A65726848E3D6920ACFEC80478D17AB(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 66948
+// Method Definition Index: 66951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_OnRestartHandler_mFB6587187EE3609515186DA72EEB2C913877F26D (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9330,15 +9330,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_OnRestartHandler_mFB658718
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:47>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		NullCheck(L_0);
 		StateMachine_ChangeState_TisGamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47_mD80B78478758FAE3824A114D8252F753EA6A1963(L_0, StateMachine_ChangeState_TisGamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47_mD80B78478758FAE3824A114D8252F753EA6A1963_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 66949
+// Method Definition Index: 66952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_OnMainMenuHandler_m641DEBF2EDCD37315EA8B43901B91444B2915F25 (GameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9348,11 +9348,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_OnMainMenuHandler_m641DEBF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:52>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		NullCheck(L_0);
 		StateMachine_ChangeState_TisMainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6_mCDA752726E4FC14F8DD53700053C189627BF8646(L_0, StateMachine_ChangeState_TisMainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6_mCDA752726E4FC14F8DD53700053C189627BF8646_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GameOverState.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GameOverState.cs:53>
 		return;
 	}
 }
@@ -9364,53 +9364,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverState_OnMainMenuHandler_m641DEBF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66950
+// Method Definition Index: 66953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState__ctor_mE5687DB080CFF73D1B0C2987DA5FEC8B99F4710C (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* ___0_stateMachine, GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* ___1_gameRound, ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* ___2_scoreView, ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* ___3_scoreManager, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:21>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:22>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:23>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:24>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:25>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:25>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:27>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = ___0_stateMachine;
 		__this->___m_stateMachine = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_stateMachine), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:28>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_1 = ___1_gameRound;
 		__this->___m_gameRound = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_gameRound), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:29>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_2 = ___2_scoreView;
 		__this->___m_scoreView = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_scoreView), (void*)L_2);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:30>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_3 = ___3_scoreManager;
 		__this->___m_scoreManager = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_scoreManager), (void*)L_3);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 66951
+// Method Definition Index: 66954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Enter_mADE0AA07996522301E87904E1B223603559F1BA3 (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:35>
 		__this->___m_attempts = 3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:36>
 		__this->___m_bonusEndsAt = (0.0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:37>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_0 = __this->___m_scoreView;
 		NullCheck(L_0);
 		ScoreView_SetBonus_mD39AFB2535B704ECA54FB6F491933A4B01B97975(L_0, 1, (0.0), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:38>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_1 = __this->___m_scoreManager;
 		NullCheck(L_1);
 		ScoreManager_ResetScore_m3BBE72C25383F06FC1E9E8F8F48A5B085BDD408D(L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:39>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_2 = __this->___m_scoreView;
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_3 = __this->___m_scoreManager;
 		NullCheck(L_3);
@@ -9418,24 +9418,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Enter_mADE0AA07996522301E8
 		L_4 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(L_3, NULL);
 		NullCheck(L_2);
 		ScoreView_SetScore_mA2FF7E082D77220A196C5204FC607879C6ABA1AF(L_2, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:40>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_5 = __this->___m_scoreView;
 		int32_t L_6 = __this->___m_attempts;
 		NullCheck(L_5);
 		ScoreView_SetAttempts_m8A0E1FBFA18C029F44721DF222B0210BEE44CDC8(L_5, L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:41>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_7 = __this->___m_scoreView;
 		NullCheck(L_7);
 		ScoreView_Show_m4D67696DE11940ABB2EEAE4C2E64065B60C29AAE(L_7, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:42>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_8 = __this->___m_gameRound;
 		NullCheck(L_8);
 		GameRound_BeginRound_m1328EB9BBBCB38B4B7D5B9EA5BBF63B0FB606860(L_8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 66952
+// Method Definition Index: 66955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Exit_m396D7BA0BA01B7DBCD162C60884A9372D401F32C (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9445,7 +9445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Exit_m396D7BA0BA01B7DBCD16
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:47>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_0 = __this->___m_gameRound;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9456,7 +9456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Exit_m396D7BA0BA01B7DBCD16
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:49>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_2 = __this->___m_gameRound;
 		NullCheck(L_2);
 		GameRound_EndRound_mE9542FE35BB1D30899370F34D4BE1E832E8C6C81(L_2, NULL);
@@ -9464,7 +9464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Exit_m396D7BA0BA01B7DBCD16
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:52>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_3 = __this->___m_scoreView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -9475,7 +9475,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:54>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_5 = __this->___m_scoreView;
 		NullCheck(L_5);
 		ScoreView_Hide_mB1C8D640471F87EFF391C8964B0858E50DF61C5B(L_5, NULL);
@@ -9483,11 +9483,11 @@ IL_0019:
 
 IL_0032:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 66953
+// Method Definition Index: 66956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Activate_m14E20E6E618A2F0C89CBEDBAFD306FF0CFB7B5D7 (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9502,29 +9502,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Activate_m14E20E6E618A2F0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:60>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_0 = __this->___m_gameRound;
 		Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* L_1 = (Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338*)il2cpp_codegen_object_new(Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338_il2cpp_TypeInfo_var);
 		Action_1__ctor_m5FC72A3C1E21AF084ED02328D2387E420E358100(L_1, __this, (intptr_t)((void*)GamePlayState_OnBallHitHandler_m1F85E25D91F91F77662E1953FC14F8800E6AB439_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		GameRound_add_onBallHit_m28E0B9A393D1F3FE048523C727F5D7E3BAA84934(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:61>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_2 = __this->___m_gameRound;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)GamePlayState_OnMissedHandler_mD71EEC3AE954EF761F222CA2E5F96A0AB6AE75F1_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		GameRound_add_onMissed_m61337FBF153E17047C941D52D921A6C9F641B88B(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:62>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_4 = __this->___m_scoreManager;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_5 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1BA854F3F4319EA4A4294DDFDA21C395B8D0FF87(L_5, __this, (intptr_t)((void*)GamePlayState_OnScoreChangedHandler_mDF3C29D72E0B54570A3A1648218998587930F693_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		ScoreManager_add_onScoreChanged_mAC5E16BCC48537B58FE46B419F2B80F6682857E9(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 66954
+// Method Definition Index: 66957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Deactivate_m242797F551B8D2F9206E2005837020E84874995D (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9539,33 +9539,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_Deactivate_m242797F551B8D2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:67>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_0 = __this->___m_gameRound;
 		Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* L_1 = (Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338*)il2cpp_codegen_object_new(Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338_il2cpp_TypeInfo_var);
 		Action_1__ctor_m5FC72A3C1E21AF084ED02328D2387E420E358100(L_1, __this, (intptr_t)((void*)GamePlayState_OnBallHitHandler_m1F85E25D91F91F77662E1953FC14F8800E6AB439_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		GameRound_remove_onBallHit_mD1F5124D46F0A045938E93552E9106B98714AFCB(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:68>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:68>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_2 = __this->___m_gameRound;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)GamePlayState_OnMissedHandler_mD71EEC3AE954EF761F222CA2E5F96A0AB6AE75F1_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		GameRound_remove_onMissed_m9ED07D45128A2C24CE4B77DC2037DD1AD14DFBB8(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:69>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:69>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_4 = __this->___m_scoreManager;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_5 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1BA854F3F4319EA4A4294DDFDA21C395B8D0FF87(L_5, __this, (intptr_t)((void*)GamePlayState_OnScoreChangedHandler_mDF3C29D72E0B54570A3A1648218998587930F693_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		ScoreManager_remove_onScoreChanged_m2BC645A4128A2243AE3FF1471AF8792874246B4E(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:70>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 66955
+// Method Definition Index: 66958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnScoreChangedHandler_mDF3C29D72E0B54570A3A1648218998587930F693 (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, int32_t ___0_score, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:72>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:72>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_0 = __this->___m_scoreView;
 		int32_t L_1 = ___0_score;
 		NullCheck(L_0);
@@ -9573,7 +9573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnScoreChangedHandler_mDF3
 		return;
 	}
 }
-// Method Definition Index: 66956
+// Method Definition Index: 66959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnBallHitHandler_m1F85E25D91F91F77662E1953FC14F8800E6AB439 (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* ___0_stats, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9591,13 +9591,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnBallHitHandler_m1F85E25D
 	int32_t G_B5_0 = 0;
 	String_t* G_B11_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:76>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:76>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_0 = __this->___m_scoreManager;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:77>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_2 = ___0_stats;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___effect;
@@ -9625,7 +9625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnBallHitHandler_m1F85E25D
 
 IL_0029:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:80>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:80>
 		double L_5;
 		L_5 = Time_get_timeAsDouble_mCF1AEB0A4C786299443150DBEBDD75F7724D6800(NULL);
 		double L_6 = __this->___m_bonusEndsAt;
@@ -9648,7 +9648,7 @@ IL_0039:
 IL_003f:
 	{
 		V_3 = G_B5_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:81>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:81>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_8 = __this->___m_scoreManager;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_9 = ___0_stats;
 		NullCheck(L_9);
@@ -9656,34 +9656,34 @@ IL_003f:
 		int32_t L_11 = V_3;
 		NullCheck(L_8);
 		ScoreManager_AddScore_mAE00BBDB2E353F5173E4F39918FE92AA01E87C32(L_8, L_10, L_11, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:82>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:82>
 		goto IL_00a1;
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:84>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:84>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_12 = ___0_stats;
 		NullCheck(L_12);
 		int32_t L_13 = L_12->___value;
 		__this->___m_bonusMultiplier = L_13;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:85>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:85>
 		double L_14;
 		L_14 = Time_get_timeAsDouble_mCF1AEB0A4C786299443150DBEBDD75F7724D6800(NULL);
 		__this->___m_bonusEndsAt = ((double)il2cpp_codegen_add(L_14, (30.0)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:86>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:86>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_15 = __this->___m_scoreView;
 		int32_t L_16 = __this->___m_bonusMultiplier;
 		double L_17 = __this->___m_bonusEndsAt;
 		NullCheck(L_15);
 		ScoreView_SetBonus_mD39AFB2535B704ECA54FB6F491933A4B01B97975(L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:87>
 		goto IL_00a1;
 	}
 
 IL_008e:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:89>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:89>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_18 = __this->___m_scoreManager;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_19 = ___0_stats;
 		NullCheck(L_19);
@@ -9694,16 +9694,16 @@ IL_008e:
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:93>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:93>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_21 = __this->___m_scoreManager;
 		NullCheck(L_21);
 		int32_t L_22;
 		L_22 = ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline(L_21, NULL);
 		int32_t L_23 = V_0;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_22, L_23));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:94>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:95>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:94>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:95>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:96>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_24 = ___0_stats;
 		NullCheck(L_24);
 		int32_t L_25 = L_24->___effect;
@@ -9734,7 +9734,7 @@ IL_00c6:
 IL_00db:
 	{
 		V_2 = G_B11_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:97>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:97>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_32 = __this->___m_scoreView;
 		String_t* L_33 = V_2;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_34 = ___0_stats;
@@ -9742,7 +9742,7 @@ IL_00db:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_35 = L_34->___color;
 		NullCheck(L_32);
 		ScoreView_ShowHitResult_m53BA02EF2F02EC0765152138EC80AD71CB93CDEE(L_32, L_33, L_35, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:99>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:99>
 		int32_t L_36 = V_1;
 		if ((((int32_t)L_36) <= ((int32_t)0)))
 		{
@@ -9750,7 +9750,7 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:101>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:101>
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_37 = __this->___m_gameRound;
 		NullCheck(L_37);
 		GameRound_RecordScoredHit_m1D6D30D5F2913BDB1BDC12F31814C23712E0508C(L_37, NULL);
@@ -9758,11 +9758,11 @@ IL_00db:
 
 IL_00fd:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:103>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 66957
+// Method Definition Index: 66960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnMissedHandler_mD71EEC3AE954EF761F222CA2E5F96A0AB6AE75F1 (GamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9772,15 +9772,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnMissedHandler_mD71EEC3AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:107>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:107>
 		int32_t L_0 = __this->___m_attempts;
 		__this->___m_attempts = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:108>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:108>
 		ScoreView_t646B2D0A96FEEEA718B7C78FF5098FBA4291DD41* L_1 = __this->___m_scoreView;
 		int32_t L_2 = __this->___m_attempts;
 		NullCheck(L_1);
 		ScoreView_SetAttempts_m8A0E1FBFA18C029F44721DF222B0210BEE44CDC8(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:110>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:110>
 		int32_t L_3 = __this->___m_attempts;
 		if (L_3)
 		{
@@ -9788,7 +9788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnMissedHandler_mD71EEC3AE
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:112>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:112>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_4 = __this->___m_stateMachine;
 		NullCheck(L_4);
 		StateMachine_ChangeState_TisGameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87_mBFA3772CCB1E34FDB4455BBF989D4D43DCB44076(L_4, StateMachine_ChangeState_TisGameOverState_tDB8A07AB7B564403F50F793531771A400BE4EE87_mBFA3772CCB1E34FDB4455BBF989D4D43DCB44076_RuntimeMethod_var);
@@ -9796,7 +9796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GamePlayState_OnMissedHandler_mD71EEC3AE
 
 IL_0032:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/GamePlayState.cs:114>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/GamePlayState.cs:114>
 		return;
 	}
 }
@@ -9808,33 +9808,33 @@ IL_0032:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66958
+// Method Definition Index: 66961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState__ctor_mCF2F17FA786D1B2A8E693AC0D522827C9246723F (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* ___0_stateMachine, MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* ___1_mainMenuView, ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* ___2_scoreManager, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:12>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:14>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = ___0_stateMachine;
 		__this->___m_stateMachine = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_stateMachine), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:15>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_1 = ___1_mainMenuView;
 		__this->___m_mainMenuView = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_mainMenuView), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:16>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_2 = ___2_scoreManager;
 		__this->___m_scoreManager = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_scoreManager), (void*)L_2);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 66959
+// Method Definition Index: 66962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Enter_m07A581E746FF0938C5460DE1D6EE257A566051D3 (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:21>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_0 = __this->___m_mainMenuView;
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_1 = __this->___m_scoreManager;
 		NullCheck(L_1);
@@ -9842,19 +9842,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Enter_m07A581E746FF0938C54
 		L_2 = ScoreManager_get_bestScore_m0164AA1BB4ACB8997349E770E9354061DFA4E6A3_inline(L_1, NULL);
 		NullCheck(L_0);
 		MainMenuView_SetBestScore_mE73C4D40D1E3D633A779D6431A6A4311392A22D2(L_0, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 66960
+// Method Definition Index: 66963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Exit_m3B6AE8FEBF494424B1DF11C965A4DEDC0DB811BA (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 66961
+// Method Definition Index: 66964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Activate_mA13400C2DD06381FFED2C76A1D7EEC5C2111CFB3 (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9866,27 +9866,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Activate_mA13400C2DD06381F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:28>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_0 = __this->___m_mainMenuView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)MainMenuState_OnGameStartHandler_m01AEF46A79CEED39A0BE16B48CE254296F72B61D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		MainMenuView_add_onGameStart_m0E147EC2C26AF52EB3F111E11C58BF7B883F4E74(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:29>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:29>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_2 = __this->___m_mainMenuView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)MainMenuState_OnSettingsOpenHandler_mBD0B8F1CE4685ECFCCEAF578A3DD092006611E47_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		MainMenuView_add_onSettingsOpen_m956B05338BF6E646094B205A3E74A8364FA1E1F8(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:30>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_4 = __this->___m_mainMenuView;
 		NullCheck(L_4);
 		MainMenuView_Show_mDBFB18D81871D7FAE51BB149FEDF2097BFF62977(L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 66962
+// Method Definition Index: 66965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Deactivate_m0A9D5F0235D933BB6383A0870894723EAF6DFCE2 (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9899,19 +9899,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Deactivate_m0A9D5F0235D933
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:35>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_0 = __this->___m_mainMenuView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)MainMenuState_OnGameStartHandler_m01AEF46A79CEED39A0BE16B48CE254296F72B61D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		MainMenuView_remove_onGameStart_mCD23B09EE53C85225FE65F3450D77519C99E2C0E(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:36>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_2 = __this->___m_mainMenuView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)MainMenuState_OnSettingsOpenHandler_mBD0B8F1CE4685ECFCCEAF578A3DD092006611E47_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		MainMenuView_remove_onSettingsOpen_m3B2B275593C896AB6A213FA4566F471972F05B0A(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:38>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_4 = __this->___m_mainMenuView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -9922,7 +9922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Deactivate_m0A9D5F0235D933
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:40>
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_6 = __this->___m_mainMenuView;
 		NullCheck(L_6);
 		MainMenuView_Hide_mEFF2FF7F4830F35D3CC7D7FD817182FABE0B8F1D(L_6, NULL);
@@ -9930,11 +9930,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_Deactivate_m0A9D5F0235D933
 
 IL_0047:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 66963
+// Method Definition Index: 66966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_OnGameStartHandler_m01AEF46A79CEED39A0BE16B48CE254296F72B61D (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9944,15 +9944,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_OnGameStartHandler_m01AEF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:46>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		NullCheck(L_0);
 		StateMachine_ChangeState_TisGamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47_mD80B78478758FAE3824A114D8252F753EA6A1963(L_0, StateMachine_ChangeState_TisGamePlayState_t182179AAA179AA791A618D2FD7F875272BB3AD47_mD80B78478758FAE3824A114D8252F753EA6A1963_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 66964
+// Method Definition Index: 66967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_OnSettingsOpenHandler_mBD0B8F1CE4685ECFCCEAF578A3DD092006611E47 (MainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9962,11 +9962,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_OnSettingsOpenHandler_mBD0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:51>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		NullCheck(L_0);
 		StateMachine_PushState_TisSettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_m91D7A620BB7A34E96CC476C7CBBA093BFC32E324(L_0, StateMachine_PushState_TisSettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_m91D7A620BB7A34E96CC476C7CBBA093BFC32E324_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/MainMenuState.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/MainMenuState.cs:52>
 		return;
 	}
 }
@@ -9978,25 +9978,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuState_OnSettingsOpenHandler_mBD0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66965
+// Method Definition Index: 66968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState__ctor_m25E81350FA0A18DB5620D543EEA2D6BC4D7B3C5F (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* ___0_stateMachine, SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* ___1_settingsView, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:15>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:17>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = ___0_stateMachine;
 		__this->___m_stateMachine = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_stateMachine), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:18>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_1 = ___1_settingsView;
 		__this->___m_settingsView = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_settingsView), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:19>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 66966
+// Method Definition Index: 66969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Enter_m69153D203A5CD126FE917D09DEE37AE51534375C (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10008,7 +10008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Enter_m69153D203A5CD126FE9
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:23>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = QualitySettings_get_names_m61A6181CC5752EE5405DB3A22F676C9F6861B02D(NULL);
 		int32_t L_1;
@@ -10017,7 +10017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Enter_m69153D203A5CD126FE9
 		int32_t L_2 = L_1;
 		String_t* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		V_0 = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:24>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_4 = __this->___m_settingsView;
 		il2cpp_codegen_runtime_class_init_inline(SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_il2cpp_TypeInfo_var);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = ((SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_StaticFields*)il2cpp_codegen_static_fields_for(SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_il2cpp_TypeInfo_var))->___s_presets;
@@ -10026,15 +10026,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Enter_m69153D203A5CD126FE9
 		L_7 = Array_IndexOf_TisString_t_mC740B072B4FB746CC445F9FD113E6DD0796062FA(L_5, L_6, Array_IndexOf_TisString_t_mC740B072B4FB746CC445F9FD113E6DD0796062FA_RuntimeMethod_var);
 		NullCheck(L_4);
 		SettingsView_SetPreset_m925AA5627241EEDCF06096CC7BF3E0A3E1A6DAB4(L_4, L_7, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:25>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:25>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_8 = __this->___m_settingsView;
 		NullCheck(L_8);
 		SettingsView_Show_m1CDDF4440EE0860853BB6CD162AC6929DEA81292(L_8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 66967
+// Method Definition Index: 66970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Exit_mC99D975067B3070B13B009CCC83478ED1CF67435 (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10044,7 +10044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Exit_mC99D975067B3070B13B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:30>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_0 = __this->___m_settingsView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10055,7 +10055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Exit_mC99D975067B3070B13B0
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:32>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_2 = __this->___m_settingsView;
 		NullCheck(L_2);
 		SettingsView_Hide_m34DD1448BAB7B573FBB2131AD137CF341BB10CBB(L_2, NULL);
@@ -10063,11 +10063,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Exit_mC99D975067B3070B13B0
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 66968
+// Method Definition Index: 66971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Activate_m61CF67D2A05F1721F9A08DDF205A4E18AABD19A7 (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10080,23 +10080,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Activate_m61CF67D2A05F1721
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:38>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_0 = __this->___m_settingsView;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1BA854F3F4319EA4A4294DDFDA21C395B8D0FF87(L_1, __this, (intptr_t)((void*)SettingsState_OnPresetChangedHandler_mE284A094BC0FAC46D55DF38F3D0D1B22947B11FC_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		SettingsView_add_onPresetChanged_m9534E106457FFDAB1CD4C0DEACD3426172FA4A64(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:39>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_2 = __this->___m_settingsView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)SettingsState_OnBackHandler_mA22DC8B52D94B634027FEA814B6DB9FA3AD28829_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		SettingsView_add_onBack_mDC67C4ED3F23AB1388E2A93F2DCF2892E80C50C3(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 66969
+// Method Definition Index: 66972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Deactivate_m39A68159D65F9F7A64D145326B7957AE1661F488 (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10109,23 +10109,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_Deactivate_m39A68159D65F9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:44>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_0 = __this->___m_settingsView;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_1 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1BA854F3F4319EA4A4294DDFDA21C395B8D0FF87(L_1, __this, (intptr_t)((void*)SettingsState_OnPresetChangedHandler_mE284A094BC0FAC46D55DF38F3D0D1B22947B11FC_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		SettingsView_remove_onPresetChanged_mF12DDA7030F21A7144BDC63D532440728F57E3C6(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:45>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_2 = __this->___m_settingsView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)SettingsState_OnBackHandler_mA22DC8B52D94B634027FEA814B6DB9FA3AD28829_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		SettingsView_remove_onBack_m12BAC7DE2AECFB5C04E41AEDB2C5F15DECEEB1A2(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 66970
+// Method Definition Index: 66973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnPresetChangedHandler_mE284A094BC0FAC46D55DF38F3D0D1B22947B11FC (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10137,7 +10137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnPresetChangedHandler_mE2
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:50>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = QualitySettings_get_names_m61A6181CC5752EE5405DB3A22F676C9F6861B02D(NULL);
 		il2cpp_codegen_runtime_class_init_inline(SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3_il2cpp_TypeInfo_var);
@@ -10149,7 +10149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnPresetChangedHandler_mE2
 		int32_t L_5;
 		L_5 = Array_IndexOf_TisString_t_mC740B072B4FB746CC445F9FD113E6DD0796062FA(L_0, L_4, Array_IndexOf_TisString_t_mC740B072B4FB746CC445F9FD113E6DD0796062FA_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:51>
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_6) < ((int32_t)0)))
 		{
@@ -10157,10 +10157,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnPresetChangedHandler_mE2
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:53>
 		int32_t L_7 = V_0;
 		QualitySettings_SetQualityLevel_m25814AF16EC4361FC6644237601C81F6FDA559FC(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:54>
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_8 = __this->___m_settingsView;
 		int32_t L_9 = ___0_index;
 		NullCheck(L_8);
@@ -10169,23 +10169,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnPresetChangedHandler_mE2
 
 IL_0029:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 66971
+// Method Definition Index: 66974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState_OnBackHandler_mA22DC8B52D94B634027FEA814B6DB9FA3AD28829 (SettingsState_t1C0FDDA940537BC14A061404A07B2C88A18E0DF3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:60>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		NullCheck(L_0);
 		StateMachine_PopState_mC5729F0A8758F4A604DC7240AF483E767513E704(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 66972
+// Method Definition Index: 66975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState__cctor_mB0C1B6A7D796451A98FC90C043D3256E5396A1B0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10199,7 +10199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState__cctor_mB0C1B6A7D796451A98
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/SettingsState.cs:10>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/SettingsState.cs:10>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -10223,7 +10223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsState__cctor_mB0C1B6A7D796451A98
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66973
+// Method Definition Index: 66976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StateMachine_get_currentState_m3670A7EE7ACC4D15D973EED96BC073038B0A35C8 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10234,7 +10234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StateMachine_get_currentState_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:13>
 		Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685* L_0 = __this->___m_stateStack;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -10257,7 +10257,7 @@ IL_0010:
 		return L_3;
 	}
 }
-// Method Definition Index: 66974
+// Method Definition Index: 66977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Register_mB50E14FA78BB1E7C3CA4066EF2D489A1E67A9795 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, RuntimeObject* ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10267,7 +10267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Register_mB50E14FA78BB1E7C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:17>
 		Dictionary_2_tD264F0AAB778812F63F4C587B8EA342C89CD27C9* L_0 = __this->___m_states;
 		RuntimeObject* L_1 = ___0_state;
 		NullCheck(L_1);
@@ -10276,11 +10276,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Register_mB50E14FA78BB1E7C3
 		RuntimeObject* L_3 = ___0_state;
 		NullCheck(L_0);
 		Dictionary_2_Add_m4C4EEE96D9CC1256CEE7F1C45B6485ED83BA1440(L_0, L_2, L_3, Dictionary_2_Add_m4C4EEE96D9CC1256CEE7F1C45B6485ED83BA1440_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 66977
+// Method Definition Index: 66980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_PopState_mC5729F0A8758F4A604DC7240AF483E767513E704 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10292,28 +10292,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_PopState_mC5729F0A8758F4A60
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:38>
 		Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685* L_0 = __this->___m_stateStack;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = Stack_1_Pop_m7C6728BA7A88CDA71423A6369394F39DF3443178(L_0, Stack_1_Pop_m7C6728BA7A88CDA71423A6369394F39DF3443178_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:39>
 		RuntimeObject* L_2 = V_0;
 		StateMachine_Deactivate_mAEED16C28B9A1550D173CF063D73A1B0A756F711(__this, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:40>
 		RuntimeObject* L_3 = V_0;
 		NullCheck(L_3);
 		InterfaceActionInvoker0::Invoke(1, IGameState_tB1D4655B3713CF64596EA2CEE77553E826DD2446_il2cpp_TypeInfo_var, L_3);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:41>
 		RuntimeObject* L_4;
 		L_4 = StateMachine_get_currentState_m3670A7EE7ACC4D15D973EED96BC073038B0A35C8(__this, NULL);
 		StateMachine_Activate_mDB3F9E5C75D50AB4AABC1495FDDACFCBCC163085(__this, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 66978
+// Method Definition Index: 66981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Stop_mEACB73D75A7261EED9003BDF6A89D82AC16F776E (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10325,7 +10325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Stop_mEACB73D75A7261EED9003
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:46>
 		RuntimeObject* L_0;
 		L_0 = StateMachine_get_currentState_m3670A7EE7ACC4D15D973EED96BC073038B0A35C8(__this, NULL);
 		StateMachine_Deactivate_mAEED16C28B9A1550D173CF063D73A1B0A756F711(__this, L_0, NULL);
@@ -10334,7 +10334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Stop_mEACB73D75A7261EED9003
 
 IL_000e:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:50>
 		Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685* L_1 = __this->___m_stateStack;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -10345,7 +10345,7 @@ IL_000e:
 
 IL_001e:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:48>
 		Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685* L_3 = __this->___m_stateStack;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -10356,11 +10356,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 66979
+// Method Definition Index: 66982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Activate_mDB3F9E5C75D50AB4AABC1495FDDACFCBCC163085 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, RuntimeObject* ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10371,7 +10371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Activate_mDB3F9E5C75D50AB4A
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:56>
 		RuntimeObject* L_0 = ___0_state;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IActivate_t55C279D5BEE495511FF24AFF679FE941010744A7_il2cpp_TypeInfo_var));
 		RuntimeObject* L_1 = V_0;
@@ -10381,7 +10381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Activate_mDB3F9E5C75D50AB4A
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:58>
 		RuntimeObject* L_2 = V_0;
 		NullCheck(L_2);
 		InterfaceActionInvoker0::Invoke(0, IActivate_t55C279D5BEE495511FF24AFF679FE941010744A7_il2cpp_TypeInfo_var, L_2);
@@ -10389,11 +10389,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Activate_mDB3F9E5C75D50AB4A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 66980
+// Method Definition Index: 66983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Deactivate_mAEED16C28B9A1550D173CF063D73A1B0A756F711 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, RuntimeObject* ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10404,7 +10404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Deactivate_mAEED16C28B9A155
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:64>
 		RuntimeObject* L_0 = ___0_state;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IActivate_t55C279D5BEE495511FF24AFF679FE941010744A7_il2cpp_TypeInfo_var));
 		RuntimeObject* L_1 = V_0;
@@ -10414,7 +10414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Deactivate_mAEED16C28B9A155
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:66>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:66>
 		RuntimeObject* L_2 = V_0;
 		NullCheck(L_2);
 		InterfaceActionInvoker0::Invoke(1, IActivate_t55C279D5BEE495511FF24AFF679FE941010744A7_il2cpp_TypeInfo_var, L_2);
@@ -10422,11 +10422,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine_Deactivate_mAEED16C28B9A155
 
 IL_0010:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:68>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 66981
+// Method Definition Index: 66984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine__ctor_m589F89E0EDA584401FD2136B5CBD4896500E8821 (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10439,12 +10439,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine__ctor_m589F89E0EDA584401FD2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:9>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:9>
 		Dictionary_2_tD264F0AAB778812F63F4C587B8EA342C89CD27C9* L_0 = (Dictionary_2_tD264F0AAB778812F63F4C587B8EA342C89CD27C9*)il2cpp_codegen_object_new(Dictionary_2_tD264F0AAB778812F63F4C587B8EA342C89CD27C9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m3C48FFFE3A8AC0747A93142865AC48FA618F80EC(L_0, Dictionary_2__ctor_m3C48FFFE3A8AC0747A93142865AC48FA618F80EC_RuntimeMethod_var);
 		__this->___m_states = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_states), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/States/StateMachine.cs:10>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/States/StateMachine.cs:10>
 		Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685* L_1 = (Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685*)il2cpp_codegen_object_new(Stack_1_tA1B028136BCB74DB6B2AA5380C3253F0F99A9685_il2cpp_TypeInfo_var);
 		Stack_1__ctor_m13ED66098D47AC2C9D08CE31DF7D710CE6FDD840(L_1, Stack_1__ctor_m13ED66098D47AC2C9D08CE31DF7D710CE6FDD840_RuntimeMethod_var);
 		__this->___m_stateStack = L_1;
@@ -10461,7 +10461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateMachine__ctor_m589F89E0EDA584401FD2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66986
+// Method Definition Index: 66989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60BC652B32DD64BFE31 (Bootstrap_tA0A6938B531B7E4E69EB71AB37C9E946CEFE2518* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10479,19 +10479,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60
 	}
 	ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F(((int32_t)120), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:30>
 		ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* L_0 = (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C*)il2cpp_codegen_object_new(ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C_il2cpp_TypeInfo_var);
 		ScoreManager__ctor_m5CB757674270340946C8C32210AE61502F6EAB4B(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:31>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_1 = (StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD*)il2cpp_codegen_object_new(StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD_il2cpp_TypeInfo_var);
 		StateMachine__ctor_m589F89E0EDA584401FD2136B5CBD4896500E8821(L_1, NULL);
 		__this->___m_stateMachine = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_stateMachine), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:32>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_2 = __this->___m_stateMachine;
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_3 = __this->___m_stateMachine;
 		MainMenuView_t9A7D058C77C9939CD5B0E940C10591741E1E00A3* L_4 = __this->___m_mainMenuView;
@@ -10500,7 +10500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60
 		MainMenuState__ctor_mCF2F17FA786D1B2A8E693AC0D522827C9246723F(L_6, L_3, L_4, L_5, NULL);
 		NullCheck(L_2);
 		StateMachine_Register_mB50E14FA78BB1E7C3CA4066EF2D489A1E67A9795(L_2, L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:33>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_7 = __this->___m_stateMachine;
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_8 = __this->___m_stateMachine;
 		SettingsView_t8C1399514AF9712147C187EC894E080EF0D704B9* L_9 = __this->___m_settingsView;
@@ -10508,7 +10508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60
 		SettingsState__ctor_m25E81350FA0A18DB5620D543EEA2D6BC4D7B3C5F(L_10, L_8, L_9, NULL);
 		NullCheck(L_7);
 		StateMachine_Register_mB50E14FA78BB1E7C3CA4066EF2D489A1E67A9795(L_7, L_10, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:34>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_11 = __this->___m_stateMachine;
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_12 = __this->___m_stateMachine;
 		GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* L_13 = __this->___m_gameRound;
@@ -10518,7 +10518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60
 		GamePlayState__ctor_mE5687DB080CFF73D1B0C2987DA5FEC8B99F4710C(L_16, L_12, L_13, L_14, L_15, NULL);
 		NullCheck(L_11);
 		StateMachine_Register_mB50E14FA78BB1E7C3CA4066EF2D489A1E67A9795(L_11, L_16, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:35>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_17 = __this->___m_stateMachine;
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_18 = __this->___m_stateMachine;
 		GameOverView_t8E8A8D3749170BF6B917FCC65D0051B00057CE7D* L_19 = __this->___m_gameOverView;
@@ -10527,21 +10527,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_Awake_mD03A05585B8BCB707C30B60
 		GameOverState__ctor_mB4627ABF343E4D9EE09232EC714537F2186294BC(L_21, L_18, L_19, L_20, NULL);
 		NullCheck(L_17);
 		StateMachine_Register_mB50E14FA78BB1E7C3CA4066EF2D489A1E67A9795(L_17, L_21, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:36>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_22 = __this->___m_stateMachine;
 		NullCheck(L_22);
 		StateMachine_ChangeState_TisMainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6_mCDA752726E4FC14F8DD53700053C189627BF8646(L_22, StateMachine_ChangeState_TisMainMenuState_t641B9ACA674FEE7318B839F51E87CA8766ADB9F6_mCDA752726E4FC14F8DD53700053C189627BF8646_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 66987
+// Method Definition Index: 66990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap_OnDestroy_m0FEF70526B4DAAB5D6816A016154EC3886AECA5F (Bootstrap_tA0A6938B531B7E4E69EB71AB37C9E946CEFE2518* __this, const RuntimeMethod* method) 
 {
 	StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* G_B2_0 = NULL;
 	StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:41>
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_0 = __this->___m_stateMachine;
 		StateMachine_tD9522BDFA4AE991E8D4A19982C92E6618A97BFCD* L_1 = L_0;
 		if (L_1)
@@ -10559,11 +10559,11 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		StateMachine_Stop_mEACB73D75A7261EED9003BDF6A89D82AC16F776E(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/Source/Bootstrap.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/Source/Bootstrap.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 66988
+// Method Definition Index: 66991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap__ctor_mF5A13315DC4EA2D2383B8BEB688E6CEF9DC9D1F6 (Bootstrap_tA0A6938B531B7E4E69EB71AB37C9E946CEFE2518* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -10580,7 +10580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bootstrap__ctor_mF5A13315DC4EA2D2383B8BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 66989
+// Method Definition Index: 66992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_add_onCollision_m8E3913C83FBFB2BBCA4A8501299AD415E2767D37 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10624,7 +10624,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66990
+// Method Definition Index: 66993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_remove_onCollision_mA8B0A35424570E09B471BD3008481B44FE623082 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10668,7 +10668,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66991
+// Method Definition Index: 66994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_add_onTrigger_mC6B8585EF555F9597A6072901CE6EE1F40D6E2D7 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10712,7 +10712,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66992
+// Method Definition Index: 66995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_remove_onTrigger_m68CB79CB505A2F3B5909E5B7C21F171668EB5158 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10756,31 +10756,31 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 66993
+// Method Definition Index: 66996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* Ball_get_stats_m5580546FCDC0DC7F826B7386AA92BA984B7A22FF (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0 = __this->___U3CstatsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 66994
+// Method Definition Index: 66997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_set_stats_mF418A38175DBC5A6CCBEBF4969C510F8AB9DD3B4 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0 = ___0_value;
 		__this->___U3CstatsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstatsU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 66995
+// Method Definition Index: 66998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ball_get_costsLife_mD8B1E5E965D75F3B6071DF34B0DCF86C6CE35420 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:15>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0;
 		L_0 = Ball_get_stats_m5580546FCDC0DC7F826B7386AA92BA984B7A22FF_inline(__this, NULL);
 		NullCheck(L_0);
@@ -10788,7 +10788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ball_get_costsLife_mD8B1E5E965D75F3B6071
 		return (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 66996
+// Method Definition Index: 66999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Configure_m5B97EDADF0121AE6C773F36145F56CDBDBC9FADA (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* ___0_stats, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10810,10 +10810,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Configure_m5B97EDADF0121AE6C773F361
 	String_t* V_2 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* V_3 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:30>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0 = ___0_stats;
 		Ball_set_stats_mF418A38175DBC5A6CCBEBF4969C510F8AB9DD3B4_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:31>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_1 = ___0_stats;
 		NullCheck(L_1);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = L_1->___mesh;
@@ -10834,7 +10834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Configure_m5B97EDADF0121AE6C773F361
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:33>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_5 = V_0;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_6 = ___0_stats;
 		NullCheck(L_6);
@@ -10845,7 +10845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Configure_m5B97EDADF0121AE6C773F361
 
 IL_002b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:36>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_8 = ___0_stats;
 		NullCheck(L_8);
 		bool L_9 = L_8->___useOpaqueTint;
@@ -10863,22 +10863,22 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:38>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_11 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_11, NULL);
 		V_3 = L_11;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:39>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_12 = V_3;
 		NullCheck(L_12);
 		MaterialPropertyBlock_SetFloat_m49458EDC57C2B431D765FE7414F18918AD619888(L_12, _stringLiteral326129114EB43E5A03AD980A3709D55FE7934916, (0.0f), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:40>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_13 = V_3;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_14 = ___0_stats;
 		NullCheck(L_14);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = L_14->___color;
 		NullCheck(L_13);
 		MaterialPropertyBlock_SetColor_m5B4E910B5E42518BBD0088055EB68E4A3A609DDE(L_13, _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379, L_15, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:41>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_16 = V_1;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_17 = V_3;
 		NullCheck(L_16);
@@ -10887,9 +10887,9 @@ IL_002b:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:44>
 		V_2 = _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:45>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_18 = ___0_stats;
 		NullCheck(L_18);
 		int32_t L_19 = L_18->___effect;
@@ -10899,14 +10899,14 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:47>
 		V_2 = _stringLiteralC25DC2BBE6E22A0C98CD0D5F261B6BB23386D8D7;
 		goto IL_0091;
 	}
 
 IL_0082:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:49>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_20 = ___0_stats;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___effect;
@@ -10916,13 +10916,13 @@ IL_0082:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:51>
 		V_2 = _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 	}
 
 IL_0091:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:54>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = __this->___m_label;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
@@ -10933,7 +10933,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:56>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24 = __this->___m_label;
 		String_t* L_25 = V_2;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_26 = ___0_stats;
@@ -10945,7 +10945,7 @@ IL_0091:
 		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_25, L_28, NULL);
 		NullCheck(L_24);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, L_29);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:57>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_30 = __this->___m_label;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_31 = ___0_stats;
 		NullCheck(L_31);
@@ -10960,7 +10960,7 @@ IL_0091:
 
 IL_00db:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:60>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_35 = ___0_stats;
 		NullCheck(L_35);
 		int32_t L_36 = L_35->___effect;
@@ -10970,7 +10970,7 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:62>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_37 = ___0_stats;
 		NullCheck(L_37);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38 = L_37->___color;
@@ -10979,11 +10979,11 @@ IL_00db:
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 66997
+// Method Definition Index: 67000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_ApplyTrailColor_mB4F9020826BE5030C40C419684E2F23B00AAAE92 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10998,11 +10998,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_ApplyTrailColor_mB4F9020826BE5030C4
 	GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:68>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:68>
 		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_0;
 		L_0 = Component_GetComponentInChildren_TisTrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39_m2AB04BA59959CA952504A2089DC7E006ED382954(__this, Component_GetComponentInChildren_TisTrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39_m2AB04BA59959CA952504A2089DC7E006ED382954_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:69>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:69>
 		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -11013,39 +11013,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_ApplyTrailColor_mB4F9020826BE5030C4
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:71>
 		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_3 = V_0;
 		NullCheck(L_3);
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_4;
 		L_4 = TrailRenderer_get_colorGradient_m4384F6E232DC2DFF8EE721A6F7619C53026A64B4(L_3, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:72>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:72>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_5 = V_1;
 		NullCheck(L_5);
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_6;
 		L_6 = Gradient_get_colorKeys_mA4B24805A35BC4FBF04F182FCDA6E9D0CBB52F0A(L_5, NULL);
 		V_2 = L_6;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
 		V_3 = 0;
 		goto IL_0033;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:75>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:75>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_7 = V_2;
 		int32_t L_8 = V_3;
 		NullCheck(L_7);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_color;
 		((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_8)))->___color = L_9;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
 		int32_t L_10 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:73>
 		int32_t L_11 = V_3;
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_12 = V_2;
 		NullCheck(L_12);
@@ -11055,12 +11055,12 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:77>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_13 = V_1;
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_14 = V_2;
 		NullCheck(L_13);
 		Gradient_set_colorKeys_m5336A05DEF9B078212F6BB77DD33A6F1D34392DA(L_13, L_14, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:78>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:78>
 		TrailRenderer_tF7E185EF383CF4300DFC3E1DE59FA6100B93CA39* L_15 = V_0;
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_16 = V_1;
 		NullCheck(L_15);
@@ -11069,11 +11069,11 @@ IL_0033:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:80>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 66998
+// Method Definition Index: 67001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Launch_mB807D376184906BF4014A4ABC20CDE2F65889915 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_target, float ___1_ringHeight, float ___2_timeToRing, float ___3_flightTime, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -11081,13 +11081,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Launch_mB807D376184906BF4014A4ABC20
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:84>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:84>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_body;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Rigidbody_get_position_m4ECB79BDBBF8FD1EA572EDB792D3330DDED24691(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:85>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:85>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
 		float L_3 = L_2.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_target;
@@ -11097,26 +11097,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Launch_mB807D376184906BF4014A4ABC20
 		float L_8;
 		L_8 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_3, L_5, ((float)(L_6/L_7)), NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:86>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:86>
 		float L_9 = ___1_ringHeight;
 		float L_10 = V_1;
 		float L_11 = ___2_timeToRing;
 		float L_12 = ___3_flightTime;
 		float L_13 = ___2_timeToRing;
 		V_2 = ((float)(((float)il2cpp_codegen_multiply((-2.0f), ((float)il2cpp_codegen_subtract(L_9, L_10))))/((float)il2cpp_codegen_multiply(L_11, ((float)il2cpp_codegen_subtract(L_12, L_13))))));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:87>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		float L_15 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
 		__this->___m_acceleration = L_16;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:88>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:88>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_17 = __this->___m_body;
 		NullCheck(L_17);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_17, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:89>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:90>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:89>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:90>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_18 = __this->___m_body;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___0_target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
@@ -11137,13 +11137,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Launch_mB807D376184906BF4014A4ABC20
 		L_29 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_23, L_28, NULL);
 		NullCheck(L_18);
 		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_18, L_29, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:91>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:91>
 		__this->___m_isFlying = (bool)1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:92>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 66999
+// Method Definition Index: 67002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_SetCarCollision_m54660E6A2479578D4EF1C80887885A6587319F73 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* ___0_car, bool ___1_enabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11157,7 +11157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_SetCarCollision_m54660E6A2479578D4E
 	int32_t V_1 = 0;
 	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* V_2 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_0 = ___0_car;
 		NullCheck(L_0);
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_1;
@@ -11169,14 +11169,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_SetCarCollision_m54660E6A2479578D4E
 
 IL_000b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:98>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:98>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_6 = __this->___m_collider;
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7 = V_2;
 		bool L_8 = ___1_enabled;
@@ -11188,7 +11188,7 @@ IL_000b:
 
 IL_0023:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:96>
 		int32_t L_10 = V_1;
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_11 = V_0;
 		NullCheck(L_11);
@@ -11198,15 +11198,15 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:100>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 67000
+// Method Definition Index: 67003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_PrepareDeflection_m3959E8418C8D69262954315C6C34FB976A849752 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_normal, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:104>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:104>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___m_incomingVelocity;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -11214,59 +11214,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_PrepareDeflection_m3959E8418C8D6926
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, (1.25f), NULL);
 		__this->___m_reboundVelocity = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:105>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:105>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_reboundVelocity);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_reboundVelocity);
 		float L_6 = L_5->___y;
 		float L_7;
 		L_7 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((18.0f), L_6, NULL);
 		L_4->___y = L_7;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:106>
-		return;
-	}
-}
-// Method Definition Index: 67001
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Deflect_mA73F782CC5640C8535A0954327B4632565249A9E (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:110>
-		Ball_StopArc_m6CD9AF080B092B6A8B5CF3CEE75A6B817D70FF59(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:111>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_body;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___m_reboundVelocity;
-		NullCheck(L_0);
-		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:112>
-		return;
-	}
-}
-// Method Definition Index: 67002
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_DisableCollisions_m92615CB92165F66DB75429690B580420FC8F798D (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:116>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___m_collider;
-		NullCheck(L_0);
-		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:117>
-		return;
-	}
-}
-// Method Definition Index: 67003
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_StopArc_m6CD9AF080B092B6A8B5CF3CEE75A6B817D70FF59 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:121>
-		__this->___m_isFlying = (bool)0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:122>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_body;
-		NullCheck(L_0);
-		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:123>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:106>
 		return;
 	}
 }
 // Method Definition Index: 67004
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Deflect_mA73F782CC5640C8535A0954327B4632565249A9E (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:110>
+		Ball_StopArc_m6CD9AF080B092B6A8B5CF3CEE75A6B817D70FF59(__this, NULL);
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:111>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_body;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___m_reboundVelocity;
+		NullCheck(L_0);
+		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_0, L_1, NULL);
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:112>
+		return;
+	}
+}
+// Method Definition Index: 67005
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_DisableCollisions_m92615CB92165F66DB75429690B580420FC8F798D (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:116>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___m_collider;
+		NullCheck(L_0);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:117>
+		return;
+	}
+}
+// Method Definition Index: 67006
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_StopArc_m6CD9AF080B092B6A8B5CF3CEE75A6B817D70FF59 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:121>
+		__this->___m_isFlying = (bool)0;
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:122>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_body;
+		NullCheck(L_0);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:123>
+		return;
+	}
+}
+// Method Definition Index: 67007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Awake_mFB1E41C19A11FF9BD692D59DCBDBF561BA15472F (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11277,34 +11277,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_Awake_mFB1E41C19A11FF9BD692D59DCBDB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:127>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:127>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->___m_body = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_body), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:128>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:128>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1;
 		L_1 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
 		__this->___m_collider = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_collider), (void*)L_1);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:129>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:129>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___m_camera = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_camera), (void*)L_2);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:130>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:130>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___m_body;
 		NullCheck(L_3);
 		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:131>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 67005
+// Method Definition Index: 67008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_FixedUpdate_m4963BC1B4DA3835619F131AC02845F72A61DE771 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:135>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:135>
 		bool L_0 = __this->___m_isFlying;
 		if (!L_0)
 		{
@@ -11312,13 +11312,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_FixedUpdate_m4963BC1B4DA3835619F131
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:137>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:137>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->___m_body;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_1, NULL);
 		__this->___m_incomingVelocity = L_2;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:138>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:138>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___m_body;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___m_acceleration;
 		NullCheck(L_3);
@@ -11327,11 +11327,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_FixedUpdate_m4963BC1B4DA3835619F131
 
 IL_002b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:140>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 67006
+// Method Definition Index: 67009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_LateUpdate_m6639C9BD0574E500EDD709896C2E762A5DDECC46 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11341,7 +11341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_LateUpdate_m6639C9BD0574E500EDD7098
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:144>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:144>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_label;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11372,8 +11372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_LateUpdate_m6639C9BD0574E500EDD7098
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:146>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:147>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:146>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:147>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___m_label;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -11403,17 +11403,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_LateUpdate_m6639C9BD0574E500EDD7098
 
 IL_0069:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:149>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:149>
 		return;
 	}
 }
-// Method Definition Index: 67007
+// Method Definition Index: 67010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_OnCollisionEnter_m121DDA8251FF9908BABFDE89DF7DBA8DA95E4ACC (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_collision, const RuntimeMethod* method) 
 {
 	Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* G_B2_0 = NULL;
 	Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:153>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:153>
 		Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* L_0 = __this->___onCollision;
 		Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* L_1 = L_0;
 		if (L_1)
@@ -11432,17 +11432,17 @@ IL_000b:
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_2 = ___0_collision;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m8BE888962814019C7D77B23ECB16D927ECA818EB_inline(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:154>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:154>
 		return;
 	}
 }
-// Method Definition Index: 67008
+// Method Definition Index: 67011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball_OnTriggerEnter_mAFE834D2D0042027AE6F735B73408F6B80F80CCF (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* G_B2_0 = NULL;
 	Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:158>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:158>
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_0 = __this->___onTrigger;
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_1 = L_0;
 		if (L_1)
@@ -11461,15 +11461,15 @@ IL_000b:
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m710A549DAF0CC1F321493ADE40308952B1C9A45F_inline(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:159>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 67009
+// Method Definition Index: 67012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball__ctor_m3369DE29265672A34E71C8AF3225733209C05F49 (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:18>
 		__this->___m_labelHeight = (2.1500001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -11491,17 +11491,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ball__ctor_m3369DE29265672A34E71C8AF3225
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67010
+// Method Definition Index: 67013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallStats__ctor_m3753E9F20F15BC91714C5AFF8239A32B93106C16 (BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/BallStats.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/BallStats.cs:16>
 		__this->___value = 1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/BallStats.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/BallStats.cs:17>
 		__this->___spawnWeight = 1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/BallStats.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/BallStats.cs:18>
 		__this->___speedMultiplier = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/BallStats.cs:19>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/BallStats.cs:19>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		__this->___color = L_0;
@@ -11517,13 +11517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallStats__ctor_m3753E9F20F15BC91714C5AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67011
+// Method Definition Index: 67014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_get_isReady_mEC6B83840024FCE7C8DBC50FD15928163FC7527A (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:12>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:13>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:14>
 		bool L_0;
 		L_0 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(__this, NULL);
 		if (!L_0)
@@ -11575,30 +11575,30 @@ IL_0047:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 67012
+// Method Definition Index: 67015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_get_isLaunched_m9487235F5226722F3FC1CF2C6BBDB546C116478A (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:16>
 		bool L_0 = __this->___U3CisLaunchedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67013
+// Method Definition Index: 67016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_set_isLaunched_m35899FDFBF0024E9CD9E06B689749A28BBEC1B7D (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:16>
 		bool L_0 = ___0_value;
 		__this->___U3CisLaunchedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 67014
+// Method Definition Index: 67017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_get_isLaunchFinished_m45FD26679B5FD44A832E982F6CFA16FC1BA936E2 (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:18>
 		bool L_0;
 		L_0 = Car_get_isLaunched_m9487235F5226722F3FC1CF2C6BBDB546C116478A_inline(__this, NULL);
 		if (!L_0)
@@ -11623,7 +11623,7 @@ IL_0024:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 67015
+// Method Definition Index: 67018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_TryLaunch_m008C4030A09F4431C09351AFFB046BD0E4FCFF50 (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11633,7 +11633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_TryLaunch_m008C4030A09F4431C09351AFF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:34>
 		bool L_0;
 		L_0 = Car_get_isReady_mEC6B83840024FCE7C8DBC50FD15928163FC7527A(__this, NULL);
 		if (!L_0)
@@ -11654,23 +11654,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Car_TryLaunch_m008C4030A09F4431C09351AFF
 
 IL_001a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:36>
 		return (bool)0;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:39>
 		Car_set_isLaunched_m35899FDFBF0024E9CD9E06B689749A28BBEC1B7D_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:40>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_3 = __this->___m_animation;
 		NullCheck(L_3);
 		Animation_Sample_m651BFFA298E1B72385B0DF85240AFFB8B7778E9C(L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:41>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 67016
+// Method Definition Index: 67019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_DisableCollisions_m4E814832058655D7145EEC46C0616735184F600B (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11682,7 +11682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_DisableCollisions_m4E814832058655D71
 	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:46>
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_0;
 		L_0 = Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m6FCDC69D916F8EB31E6219C8FB86B8BD98D146B3(__this, (bool)1, Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m6FCDC69D916F8EB31E6219C8FB86B8BD98D146B3_RuntimeMethod_var);
 		V_0 = L_0;
@@ -11692,13 +11692,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_DisableCollisions_m4E814832058655D71
 
 IL_000c:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:46>
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:48>
 		NullCheck(L_4);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_4, (bool)0, NULL);
 		int32_t L_5 = V_1;
@@ -11707,7 +11707,7 @@ IL_000c:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:46>
 		int32_t L_6 = V_1;
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_7 = V_0;
 		NullCheck(L_7);
@@ -11717,11 +11717,11 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 67017
+// Method Definition Index: 67020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_Awake_mF10DAFEAC089527C7ADD6CF9BE896653B11A3D89 (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11732,51 +11732,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_Awake_mF10DAFEAC089527C7ADD6CF9BE896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:54>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_0 = __this->___m_animation;
 		NullCheck(L_0);
 		Animation_set_playAutomatically_mF293663249E24B5D595F669515551F06309C96D0(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:55>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_1 = __this->___m_animation;
 		NullCheck(L_1);
 		Animation_set_cullingType_m908E15BF5DDBE9AB2A078ED1AC22268EA978022E(L_1, 0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:56>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_2 = __this->___m_animation;
 		NullCheck(L_2);
 		Animation_set_updateMode_m9B1C0EA47D3147E8F2A6F34A2DB92F31D67FC08F(L_2, 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:57>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_3 = __this->___m_animation;
 		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_4 = __this->___m_approachClip;
 		NullCheck(L_3);
 		Animation_AddClip_m10EDEAA1060E0356379BFE9AB24F97C9EBBED1A3(L_3, L_4, _stringLiteralBCC8B59A8157A131A4B261F4AD7121FE0E33B02D, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:58>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_5 = __this->___m_animation;
 		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_6 = __this->___m_launchClip;
 		NullCheck(L_5);
 		Animation_AddClip_m10EDEAA1060E0356379BFE9AB24F97C9EBBED1A3(L_5, L_6, _stringLiteral6153375A0C1DF3C7DBDDB5BE8366D975704A44E1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:60>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_7 = __this->___m_animation;
 		NullCheck(L_7);
 		AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE* L_8;
 		L_8 = Animation_get_Item_m60997A8CDE7F415FC55FBB0D6D3F28339C4B32E8(L_7, _stringLiteralBCC8B59A8157A131A4B261F4AD7121FE0E33B02D, NULL);
 		__this->___m_approachState = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_approachState), (void*)L_8);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:61>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_9 = __this->___m_animation;
 		NullCheck(L_9);
 		AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE* L_10;
 		L_10 = Animation_get_Item_m60997A8CDE7F415FC55FBB0D6D3F28339C4B32E8(L_9, _stringLiteral6153375A0C1DF3C7DBDDB5BE8366D975704A44E1, NULL);
 		__this->___m_launchState = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_launchState), (void*)L_10);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:62>
 		AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE* L_11 = __this->___m_approachState;
 		NullCheck(L_11);
 		AnimationState_set_wrapMode_mBA7403836E770538E76C12676E18AC80D707F452(L_11, 8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:63>
 		AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE* L_12 = __this->___m_launchState;
 		NullCheck(L_12);
 		AnimationState_set_wrapMode_mBA7403836E770538E76C12676E18AC80D707F452(L_12, 8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:65>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:65>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_13 = __this->___m_animation;
 		NullCheck(L_13);
 		bool L_14;
@@ -11787,7 +11787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_Awake_mF10DAFEAC089527C7ADD6CF9BE896
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:67>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_15 = __this->___m_animation;
 		NullCheck(L_15);
 		Animation_Sample_m651BFFA298E1B72385B0DF85240AFFB8B7778E9C(L_15, NULL);
@@ -11795,11 +11795,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car_Awake_mF10DAFEAC089527C7ADD6CF9BE896
 
 IL_00b1:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:69>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 67018
+// Method Definition Index: 67021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car__ctor_m91179FEE166FF8A336EC9FA0DCAE56D262AB9EB3 (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11816,57 +11816,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Car__ctor_m91179FEE166FF8A336EC9FA0DCAE5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67019
+// Method Definition Index: 67022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayCarApproach_m85E78D7AA7802EF14EF8486D8C07BFA3A7CEEA95 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:22>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_carApproach;
 		GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 67020
+// Method Definition Index: 67023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlaySignal_m3A56A9CA0E485AADCF75AC3DD1B2F011A888E6CB (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:23>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_signal;
 		GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 67021
+// Method Definition Index: 67024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayButtonPress_m076A4032FF7570FD82F93215E37F62FC35050D82 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:24>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_buttonPress;
 		GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 67022
+// Method Definition Index: 67025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayWrongButtonPress_mF9CB9F913991131DA7C735EF165B744C07274924 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:25>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:25>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_wrongButtonPress;
 		GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 67023
+// Method Definition Index: 67026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayBallHit_m80BCF46C7691F88F14A97FA9A0848E338D949A6D (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:26>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_ballHit;
 		GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 67024
+// Method Definition Index: 67027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_Start_mE1189F01F801162C6EF78D517790A1802BE04599 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11877,7 +11877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_Start_mE1189F01F801162C6EF78D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:30>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:30>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___m_ambient;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11888,44 +11888,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_Start_mE1189F01F801162C6EF78D5
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:32>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:35>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_2, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:36>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = L_3;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = __this->___m_ambient;
 		NullCheck(L_4);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_4, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:37>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6 = L_4;
 		NullCheck(L_6);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:38>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = L_6;
 		float L_8 = __this->___m_ambientVolume;
 		NullCheck(L_7);
 		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_7, L_8, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:39>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = L_7;
 		NullCheck(L_9);
 		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_9, (1.0f), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:40>
 		NullCheck(L_9);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_9, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 67025
+// Method Definition Index: 67028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayEffect_m13C5031B156CAFC39F9F351353868CFF370F3744 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11948,7 +11948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayEffect_m13C5031B156CAFC39F
 	Predicate_1_tC996B23FA1541A49E50BC47010AB40E23A621271* G_B3_0 = NULL;
 	List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:45>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11959,13 +11959,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio_PlayEffect_m13C5031B156CAFC39F
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:47>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:50>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_2 = __this->___m_effectSources;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t9AAC2EC07BA6665A317DEE60D09C8D79C6E227EB_il2cpp_TypeInfo_var);
 		Predicate_1_tC996B23FA1541A49E50BC47010AB40E23A621271* L_3 = ((U3CU3Ec_t9AAC2EC07BA6665A317DEE60D09C8D79C6E227EB_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9AAC2EC07BA6665A317DEE60D09C8D79C6E227EB_il2cpp_TypeInfo_var))->___U3CU3E9__17_0;
@@ -11997,7 +11997,7 @@ IL_002f:
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8;
 		L_8 = List_1_Find_mA80AC0100B17370A375982A29BD4077607ECFEE1(G_B4_1, G_B4_0, List_1_Find_mA80AC0100B17370A375982A29BD4077607ECFEE1_RuntimeMethod_var);
 		V_0 = L_8;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:51>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -12008,14 +12008,14 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12;
 		L_12 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_11, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
 		V_0 = L_12;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:54>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_13 = __this->___m_effectSources;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = V_0;
 		NullCheck(L_13);
@@ -12024,29 +12024,29 @@ IL_002f:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:57>
 		float L_15 = __this->___m_minPitch;
 		float L_16 = __this->___m_maxPitch;
 		float L_17;
 		L_17 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_15, L_16, NULL);
 		V_1 = L_17;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:58>
 		float L_18 = __this->___m_minPitch;
 		float L_19 = __this->___m_maxPitch;
 		float L_20;
 		L_20 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_18, L_19, NULL);
 		V_2 = L_20;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:59>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:59>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_21 = V_0;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_22 = ___0_clip;
 		NullCheck(L_21);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_21, L_22, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:60>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23 = V_0;
 		float L_24 = __this->___m_effectVolume;
 		NullCheck(L_23);
 		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_23, L_24, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:61>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_25 = V_0;
 		float L_26 = V_1;
 		float L_27 = V_2;
@@ -12054,15 +12054,15 @@ IL_0056:
 		L_28 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_26, L_27, NULL);
 		NullCheck(L_25);
 		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_25, L_28, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:62>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_29 = V_0;
 		NullCheck(L_29);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_29, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 67026
+// Method Definition Index: 67029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio__ctor_mC59DF8BAF69AD9A60EB50E28E958CEAAE1C561B3 (GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12073,15 +12073,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio__ctor_mC59DF8BAF69AD9A60EB50E2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:15>
 		__this->___m_ambientVolume = (0.349999994f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:16>
 		__this->___m_effectVolume = (0.850000024f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:17>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:17>
 		__this->___m_minPitch = (0.899999976f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:18>
 		__this->___m_maxPitch = (1.10000002f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:20>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:20>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_0 = (List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235*)il2cpp_codegen_object_new(List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235_il2cpp_TypeInfo_var);
 		List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7(L_0, List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7_RuntimeMethod_var);
 		__this->___m_effectSources = L_0;
@@ -12098,7 +12098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameAudio__ctor_mC59DF8BAF69AD9A60EB50E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67027
+// Method Definition Index: 67030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m71F79C056AD3C6569BE8987DDCF874C9E4B572B7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12116,7 +12116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m71F79C056AD3C6569BE8987D
 		return;
 	}
 }
-// Method Definition Index: 67028
+// Method Definition Index: 67031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mD153435CEE9F5F20EE29B6A5EEF693D51A2C4FC9 (U3CU3Ec_t9AAC2EC07BA6665A317DEE60D09C8D79C6E227EB* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12125,11 +12125,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mD153435CEE9F5F20EE29B6A5E
 		return;
 	}
 }
-// Method Definition Index: 67029
+// Method Definition Index: 67032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPlayEffectU3Eb__17_0_mDBBD07E12E827275F7F3AF1C26AB500F0A29513C (U3CU3Ec_t9AAC2EC07BA6665A317DEE60D09C8D79C6E227EB* __this, AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___0_effect, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameAudio.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameAudio.cs:50>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = ___0_effect;
 		NullCheck(L_0);
 		bool L_1;
@@ -12145,7 +12145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPlayEffectU3Eb__17_0_mDBBD07E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67030
+// Method Definition Index: 67033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_add_onBallHit_m28E0B9A393D1F3FE048523C727F5D7E3BAA84934 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12189,7 +12189,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67031
+// Method Definition Index: 67034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_remove_onBallHit_mD1F5124D46F0A045938E93552E9106B98714AFCB (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12233,7 +12233,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67032
+// Method Definition Index: 67035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_add_onMissed_m61337FBF153E17047C941D52D921A6C9F641B88B (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12277,7 +12277,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67033
+// Method Definition Index: 67036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_remove_onMissed_m9ED07D45128A2C24CE4B77DC2037DD1AD14DFBB8 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12321,7 +12321,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67034
+// Method Definition Index: 67037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_BeginRound_m1328EB9BBBCB38B4B7D5B9EA5BBF63B0FB606860 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12334,7 +12334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_BeginRound_m1328EB9BBBCB38B4B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:65>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:65>
 		int32_t L_0 = __this->___m_phase;
 		if (!L_0)
 		{
@@ -12342,52 +12342,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_BeginRound_m1328EB9BBBCB38B4B7
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:67>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:67>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:70>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:70>
 		__this->___m_scoredHitCount = 0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:71>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_1 = __this->___m_trafficLight;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)GameRound_OnSignalShownHandler_m552628A9F6DDBBF6A931E8665EBF5CF3314B7545_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		TrafficLight_add_onSignalShown_m82672C5EB6F53858628AEAFDC09BD8E4A34EE905(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:72>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:72>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_3 = __this->___m_firstButton;
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_4 = (Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808*)il2cpp_codegen_object_new(Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808_il2cpp_TypeInfo_var);
 		Action_1__ctor_m888738147595B63ABF894964A4B6C28F60659329(L_4, __this, (intptr_t)((void*)GameRound_OnPressedHandler_m510E4301820B017CAFE4932257AD2E1BA571D88C_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		LaunchButton_add_onPressed_mC3AADD9B4066D16B2B26ADD39AE308D145265D6E(L_3, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:73>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:73>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_5 = __this->___m_secondButton;
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_6 = (Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808*)il2cpp_codegen_object_new(Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808_il2cpp_TypeInfo_var);
 		Action_1__ctor_m888738147595B63ABF894964A4B6C28F60659329(L_6, __this, (intptr_t)((void*)GameRound_OnPressedHandler_m510E4301820B017CAFE4932257AD2E1BA571D88C_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		LaunchButton_add_onPressed_mC3AADD9B4066D16B2B26ADD39AE308D145265D6E(L_5, L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:74>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:74>
 		GameRound_SpawnNextCar_m740264858B6A7A3EBB066ABA998E878037A270FE(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:75>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:75>
 		__this->___m_phase = 1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:76>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 67035
+// Method Definition Index: 67038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_RecordScoredHit_m1D6D30D5F2913BDB1BDC12F31814C23712E0508C (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:80>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:80>
 		int32_t L_0 = __this->___m_scoredHitCount;
 		__this->___m_scoredHitCount = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:81>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 67036
+// Method Definition Index: 67039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_EndRound_mE9542FE35BB1D30899370F34D4BE1E832E8C6C81 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12408,7 +12408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_EndRound_mE9542FE35BB1D3089937
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:85>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:85>
 		int32_t L_0 = __this->___m_phase;
 		if (L_0)
 		{
@@ -12416,41 +12416,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_EndRound_mE9542FE35BB1D3089937
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:87>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:87>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:90>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:90>
 		__this->___m_phase = 0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:91>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:91>
 		__this->___m_ballLanded = (bool)0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:92>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:92>
 		__this->___m_tableBounceEndsAt = (0.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:93>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:93>
 		__this->___m_ballHitCar = (bool)0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:94>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:94>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_1 = __this->___m_trafficLight;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)GameRound_OnSignalShownHandler_m552628A9F6DDBBF6A931E8665EBF5CF3314B7545_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		TrafficLight_remove_onSignalShown_m3C31BDF24C56824F585AF11DEAE266AEBF7D53C2(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:95>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:95>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_3 = __this->___m_firstButton;
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_4 = (Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808*)il2cpp_codegen_object_new(Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808_il2cpp_TypeInfo_var);
 		Action_1__ctor_m888738147595B63ABF894964A4B6C28F60659329(L_4, __this, (intptr_t)((void*)GameRound_OnPressedHandler_m510E4301820B017CAFE4932257AD2E1BA571D88C_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		LaunchButton_remove_onPressed_m9D8D928369EF785D1B340FF06C26D034580E1722(L_3, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:96>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_5 = __this->___m_secondButton;
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_6 = (Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808*)il2cpp_codegen_object_new(Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808_il2cpp_TypeInfo_var);
 		Action_1__ctor_m888738147595B63ABF894964A4B6C28F60659329(L_6, __this, (intptr_t)((void*)GameRound_OnPressedHandler_m510E4301820B017CAFE4932257AD2E1BA571D88C_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		LaunchButton_remove_onPressed_m9D8D928369EF785D1B340FF06C26D034580E1722(L_5, L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:97>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:97>
 		GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:99>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:99>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_7 = __this->___m_ball;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -12461,13 +12461,13 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:101>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:101>
 		GameRound_StopWatchingBall_m830E8CF172DCE4D43F7E2A6C7BDED00F04582716(__this, NULL);
 	}
 
 IL_0088:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = __this->___m_spawnedObjects;
 		NullCheck(L_9);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_10;
@@ -12492,17 +12492,17 @@ FINALLY_00ad:
 
 IL_0096_1:
 			{
-				//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
+				//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 				L_11 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:106>
+				//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:106>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_11, NULL);
 			}
 
 IL_00a2_1:
 			{
-				//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
+				//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:104>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_12)
@@ -12522,26 +12522,26 @@ IL_00a2_1:
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:109>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:109>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_13 = __this->___m_spawnedObjects;
 		NullCheck(L_13);
 		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_13, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:110>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:110>
 		__this->___m_currentCar = (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_currentCar), (void*)(Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:111>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:111>
 		__this->___m_launchedCar = (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_launchedCar), (void*)(Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:112>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 67037
+// Method Definition Index: 67040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_Update_m63F118E6626A2CE5B13BCCE9702B26649F83C191 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:116>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:116>
 		int32_t L_0 = __this->___m_phase;
 		if ((!(((uint32_t)L_0) == ((uint32_t)6))))
 		{
@@ -12549,7 +12549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_Update_m63F118E6626A2CE5B13BCC
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:118>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:118>
 		float L_1;
 		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_2 = __this->___m_showColorsAt;
@@ -12573,7 +12573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_Update_m63F118E6626A2CE5B13BCC
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:120>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:120>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_5 = __this->___m_trafficLight;
 		NullCheck(L_5);
 		TrafficLight_RerollSignal_mF7CA7C1836073BAEAEA48481800A0A2B7C97FD25(L_5, NULL);
@@ -12581,13 +12581,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_Update_m63F118E6626A2CE5B13BCC
 
 IL_0036:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:122>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:122>
 		return;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:125>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:125>
 		int32_t L_6 = __this->___m_phase;
 		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
@@ -12616,32 +12616,32 @@ IL_0037:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:127>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:127>
 		return;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:130>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:130>
 		__this->___m_phase = 2;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:131>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:131>
 		int32_t L_11 = __this->___m_scoredHitCount;
 		int32_t L_12 = __this->___m_hitsForInstantSignal;
 		float L_13;
 		L_13 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)il2cpp_codegen_subtract((1.0f), ((float)(((float)L_11)/((float)L_12))))), NULL);
 		V_0 = L_13;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:132>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:132>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_14 = __this->___m_trafficLight;
 		float L_15 = __this->___m_minSignalDelay;
 		float L_16 = __this->___m_maxSignalDelay;
 		float L_17 = V_0;
 		NullCheck(L_14);
 		TrafficLight_ScheduleSignal_mFC8E11C28ED3DC81007E87FF63C6517A8D14CA2A(L_14, L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:133>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:133>
 		return;
 	}
 }
-// Method Definition Index: 67038
+// Method Definition Index: 67041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FixedUpdate_mA597657E6316EE3B27E5AE5FF5C1C7E5B7C5BF58 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12655,7 +12655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FixedUpdate_mA597657E6316EE3B2
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t G_B15_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:137>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:137>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_0 = __this->___m_ball;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12666,7 +12666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FixedUpdate_mA597657E6316EE3B2
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:139>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:139>
 		float L_2 = __this->___m_tableBounceEndsAt;
 		if ((!(((float)L_2) > ((float)(0.0f)))))
 		{
@@ -12674,7 +12674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FixedUpdate_mA597657E6316EE3B2
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:141>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:141>
 		float L_3;
 		L_3 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
 		float L_4 = __this->___m_tableBounceEndsAt;
@@ -12684,19 +12684,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FixedUpdate_mA597657E6316EE3B2
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:143>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:143>
 		GameRound_FinishShot_mA4BC9B8B16647D7AA8541E6D604B4D3377A5D920(__this, (bool)0, NULL);
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:145>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:145>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:148>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:148>
 		bool L_5 = __this->___m_ballLanded;
 		if (L_5)
 		{
@@ -12728,15 +12728,15 @@ IL_0033:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:150>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:150>
 		GameRound_FinishShot_mA4BC9B8B16647D7AA8541E6D604B4D3377A5D920(__this, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:151>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:151>
 		return;
 	}
 
 IL_0072:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:154>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:154>
 		bool L_14 = __this->___m_ballHitCar;
 		if (!L_14)
 		{
@@ -12744,16 +12744,16 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:156>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:156>
 		GameRound_FinishShot_mA4BC9B8B16647D7AA8541E6D604B4D3377A5D920(__this, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:157>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:157>
 		return;
 	}
 
 IL_0082:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:160>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:161>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:160>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:161>
 		int32_t L_15 = __this->___m_phase;
 		if ((!(((uint32_t)L_15) == ((uint32_t)5))))
 		{
@@ -12793,8 +12793,8 @@ IL_00a9:
 IL_00aa:
 	{
 		V_0 = (bool)G_B15_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:162>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:163>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:162>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:163>
 		float L_20;
 		L_20 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
 		float L_21 = __this->___m_ballExpiresAt;
@@ -12822,39 +12822,39 @@ IL_00aa:
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:165>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:165>
 		GameRound_FinishShot_mA4BC9B8B16647D7AA8541E6D604B4D3377A5D920(__this, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:166>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:166>
 		return;
 	}
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:170>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:170>
 		GameRound_TryLaunchCar_m466396192D5EBB6F5066D2F8B641252EAB24A76C(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:171>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:171>
 		return;
 	}
 }
-// Method Definition Index: 67039
+// Method Definition Index: 67042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnDestroy_mEDFC2C13F7BC955F6D6D8300D6C6CBE541709619 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:175>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:175>
 		GameRound_EndRound_mE9542FE35BB1D30899370F34D4BE1E832E8C6C81(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:176>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 67040
+// Method Definition Index: 67043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnSignalShownHandler_m552628A9F6DDBBF6A931E8665EBF5CF3314B7545 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B2_0 = NULL;
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:180>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:180>
 		GameRound_ShuffleButtonColors_m45B58630E8673515B114D9C2866B5DBD26D3E4A8(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:181>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:181>
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_0 = __this->___m_audio;
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_1 = L_0;
 		if (L_1)
@@ -12876,7 +12876,7 @@ IL_0012:
 
 IL_0017:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:182>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:182>
 		int32_t L_2 = __this->___m_phase;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
@@ -12884,19 +12884,19 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:184>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:184>
 		GameRound_SpawnBall_m392941DB89DD03684E67F09BA550296CD61C51DC(__this, NULL);
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:186>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:186>
 		__this->___m_phase = 3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:187>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 67041
+// Method Definition Index: 67044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnPressedHandler_m510E4301820B017CAFE4932257AD2E1BA571D88C (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* ___0_button, const RuntimeMethod* method) 
 {
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B6_0 = NULL;
@@ -12904,7 +12904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnPressedHandler_m510E4301820B
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B16_0 = NULL;
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:191>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:191>
 		float L_0 = __this->___m_tableBounceEndsAt;
 		if ((!(((float)L_0) > ((float)(0.0f)))))
 		{
@@ -12912,13 +12912,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnPressedHandler_m510E4301820B
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:193>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:193>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:196>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:196>
 		int32_t L_1 = __this->___m_phase;
 		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
 		{
@@ -12940,11 +12940,11 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:198>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:198>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_6 = ___0_button;
 		NullCheck(L_6);
 		LaunchButton_PlayPressAnimation_mBEFC5730CDEE7A7F034C3D722239278346C82770(L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:199>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:199>
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_7 = __this->___m_audio;
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_8 = L_7;
 		if (L_8)
@@ -12966,23 +12966,23 @@ IL_003c:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:200>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:200>
 		GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:201>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:201>
 		float L_9;
 		L_9 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___m_showColorsAt = ((float)il2cpp_codegen_add(L_9, (0.150000006f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:202>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:202>
 		__this->___m_phase = 6;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:203>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:203>
 		return;
 	}
 
 IL_0060:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:206>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:207>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:208>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:206>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:207>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:208>
 		int32_t L_10 = __this->___m_phase;
 		if ((((int32_t)L_10) == ((int32_t)1)))
 		{
@@ -13004,13 +13004,13 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:210>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:210>
 		return;
 	}
 
 IL_007c:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:213>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:213>
 		int32_t L_13 = __this->___m_phase;
 		if ((((int32_t)L_13) == ((int32_t)3)))
 		{
@@ -13018,19 +13018,19 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:215>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:215>
 		GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C(__this, NULL);
 	}
 
 IL_008b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:218>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:218>
 		__this->___m_phase = 4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:219>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:219>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_14 = ___0_button;
 		NullCheck(L_14);
 		LaunchButton_PlayPressAnimation_mBEFC5730CDEE7A7F034C3D722239278346C82770(L_14, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:220>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:220>
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_15 = __this->___m_audio;
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_16 = L_15;
 		if (L_16)
@@ -13052,13 +13052,13 @@ IL_00a4:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:221>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:221>
 		GameRound_TryLaunchCar_m466396192D5EBB6F5066D2F8B641252EAB24A76C(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:222>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:222>
 		return;
 	}
 }
-// Method Definition Index: 67042
+// Method Definition Index: 67045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_TryLaunchCar_m466396192D5EBB6F5066D2F8B641252EAB24A76C (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13068,9 +13068,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_TryLaunchCar_m466396192D5EBB6F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:226>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:227>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:228>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:226>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:227>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:228>
 		int32_t L_0 = __this->___m_phase;
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
 		{
@@ -13111,13 +13111,13 @@ IL_0024:
 
 IL_0031:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:230>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:230>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:233>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:233>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_7 = __this->___m_ball;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -13128,42 +13128,42 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:235>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:235>
 		GameRound_SpawnBall_m392941DB89DD03684E67F09BA550296CD61C51DC(__this, NULL);
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:238>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:238>
 		__this->___m_phase = 5;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:239>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:239>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_9 = __this->___m_currentCar;
 		__this->___m_launchedCar = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_launchedCar), (void*)L_9);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:240>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:240>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_10 = __this->___m_ball;
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_11 = __this->___m_launchedCar;
 		NullCheck(L_10);
 		Ball_SetCarCollision_m54660E6A2479578D4EF1C80887885A6587319F73(L_10, L_11, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:241>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:241>
 		GameRound_SpawnNextCar_m740264858B6A7A3EBB066ABA998E878037A270FE(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:242>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:242>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_12 = __this->___m_ball;
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_13 = __this->___m_currentCar;
 		NullCheck(L_12);
 		Ball_SetCarCollision_m54660E6A2479578D4EF1C80887885A6587319F73(L_12, L_13, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:243>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:243>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_14 = __this->___m_launchedCar;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_15, (5.0f), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:244>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:244>
 		return;
 	}
 }
-// Method Definition Index: 67043
+// Method Definition Index: 67046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnCollisionHandler_mFDE90A81CF134645CEDA84E1B50787D86DE78A32 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_collision, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13178,7 +13178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnCollisionHandler_mFDE90A81CF
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B2_0 = NULL;
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:248>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:248>
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_0 = __this->___m_audio;
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_1 = L_0;
 		if (L_1)
@@ -13200,7 +13200,7 @@ IL_000c:
 
 IL_0011:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:249>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:249>
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_2 = ___0_collision;
 		NullCheck(L_2);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3;
@@ -13215,7 +13215,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:251>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:251>
 		float L_6 = __this->___m_tableBounceEndsAt;
 		if ((!(((float)L_6) <= ((float)(0.0f)))))
 		{
@@ -13223,28 +13223,28 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:253>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:253>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_7 = __this->___m_ball;
 		NullCheck(L_7);
 		Ball_StopArc_m6CD9AF080B092B6A8B5CF3CEE75A6B817D70FF59(L_7, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:254>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:254>
 		float L_8;
 		L_8 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
 		__this->___m_tableBounceEndsAt = ((float)il2cpp_codegen_add(L_8, (0.400000006f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:255>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:255>
 		GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C(__this, NULL);
 	}
 
 IL_0053:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:257>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:257>
 		return;
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:260>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:261>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:260>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:261>
 		bool L_9 = __this->___m_ballHitCar;
 		if (L_9)
 		{
@@ -13293,7 +13293,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:263>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:263>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_19 = __this->___m_ball;
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_20 = ___0_collision;
 		NullCheck(L_20);
@@ -13304,17 +13304,17 @@ IL_0054:
 		L_22 = ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6((&V_0), NULL);
 		NullCheck(L_19);
 		Ball_PrepareDeflection_m3959E8418C8D69262954315C6C34FB976A849752(L_19, L_22, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:264>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:264>
 		__this->___m_ballHitCar = (bool)1;
 	}
 
 IL_00b8:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:266>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:266>
 		return;
 	}
 }
-// Method Definition Index: 67044
+// Method Definition Index: 67047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnTriggerHandler_mDBDE2BBA6ACADDD24B73AE7A5C76A659BC2A85D3 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13324,7 +13324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnTriggerHandler_mDBDE2BBA6ACA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:270>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:270>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = __this->___m_groundZone;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -13336,17 +13336,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_OnTriggerHandler_mDBDE2BBA6ACA
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:272>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:272>
 		__this->___m_ballLanded = (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:274>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:274>
 		return;
 	}
 }
-// Method Definition Index: 67045
+// Method Definition Index: 67048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnNextCar_m740264858B6A7A3EBB066ABA998E878037A270FE (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13368,7 +13368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnNextCar_m740264858B6A7A3E
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B4_0 = NULL;
 	GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:278>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:278>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___m_spawnedObjects;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tDE68C2D204FC3EF5C5E180C0059CD690067CFAC8_il2cpp_TypeInfo_var);
 		Predicate_1_t0729156EF7F8B2C367BA6C92C091D97CDEC0B53F* L_1 = ((U3CU3Ec_tDE68C2D204FC3EF5C5E180C0059CD690067CFAC8_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tDE68C2D204FC3EF5C5E180C0059CD690067CFAC8_il2cpp_TypeInfo_var))->___U3CU3E9__52_0;
@@ -13399,7 +13399,7 @@ IL_0025:
 		NullCheck(G_B2_1);
 		int32_t L_6;
 		L_6 = List_1_RemoveAll_m1D3CBAACE91557F72BF74D9572E9E7A435E5F338(G_B2_1, G_B2_0, List_1_RemoveAll_m1D3CBAACE91557F72BF74D9572E9E7A435E5F338_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:279>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:279>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_7 = __this->___m_carPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -13410,7 +13410,7 @@ IL_0025:
 		L_10 = Object_Instantiate_TisCar_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA_mD80CE3B63D48D451797AE5196E1C2E8BBADD777D(L_7, L_8, L_9, Object_Instantiate_TisCar_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA_mD80CE3B63D48D451797AE5196E1C2E8BBADD777D_RuntimeMethod_var);
 		__this->___m_currentCar = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_currentCar), (void*)L_10);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:280>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:280>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_11 = __this->___m_spawnedObjects;
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_12 = __this->___m_currentCar;
 		NullCheck(L_12);
@@ -13418,7 +13418,7 @@ IL_0025:
 		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_12, NULL);
 		NullCheck(L_11);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_11, L_13, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:281>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:281>
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_14 = __this->___m_audio;
 		GameAudio_t89A55C37B999F2304C55CFC9E3ED3F711F504634* L_15 = L_14;
 		if (L_15)
@@ -13436,11 +13436,11 @@ IL_0067:
 	{
 		NullCheck(G_B4_0);
 		GameAudio_PlayCarApproach_m85E78D7AA7802EF14EF8486D8C07BFA3A7CEEA95(G_B4_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:282>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:282>
 		return;
 	}
 }
-// Method Definition Index: 67046
+// Method Definition Index: 67049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E67F09BA550296CD61C51DC (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13471,17 +13471,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 	float V_9 = 0.0f;
 	float V_10 = 0.0f;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:286>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:286>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0;
 		L_0 = GameRound_PickBallStats_mCFA767D12A9CFE4446D0916545439D7A2AEAE828(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:287>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:287>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_flightRingCenter;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:288>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:288>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___m_ballTarget;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
@@ -13491,11 +13491,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_ProjectOnPlane_m68FB895F6E9FCC45676BB8B95857D091C0D78794_inline(L_5, L_6, NULL);
 		V_2 = L_7;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:289>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:289>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_2), NULL);
 		V_3 = L_8;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:290>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:290>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___m_spawnPoint;
 		NullCheck(L_10);
@@ -13509,7 +13509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		float L_15;
 		L_15 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((1.0f), L_14, NULL);
 		V_4 = L_15;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:291>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:291>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_3;
 		float L_18 = V_4;
@@ -13518,28 +13518,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_16, L_19, NULL);
 		V_5 = L_20;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:292>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:292>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___m_spawnPoint;
 		NullCheck(L_21);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
 		float L_23 = L_22.___y;
 		(&V_5)->___y = L_23;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:294>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:294>
 		float L_24 = V_4;
 		float L_25 = __this->___m_initialTimeToRing;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:295>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:295>
 		float L_26 = V_4;
 		float L_27 = __this->___m_minTimeToRing;
 		float L_28 = __this->___m_initialTimeToRing;
 		float L_29;
 		L_29 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_27, L_28, NULL);
 		V_6 = ((float)(L_26/L_29));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:296>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:296>
 		int32_t L_30 = __this->___m_scoredHitCount;
 		float L_31 = __this->___m_ballSpeedProgression;
 		V_7 = ((float)il2cpp_codegen_subtract((1.0f), ((float)((1.0f)/((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(((float)L_30), L_31))))))));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:297>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:297>
 		float L_32 = V_6;
 		float L_33 = V_7;
 		float L_34;
@@ -13548,21 +13548,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		NullCheck(L_35);
 		float L_36 = L_35->___speedMultiplier;
 		V_8 = ((float)il2cpp_codegen_multiply(L_34, L_36));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:299>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:299>
 		float L_37 = V_4;
 		float L_38 = V_8;
 		V_9 = ((float)(L_37/L_38));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:300>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:300>
 		float L_39 = V_4;
 		float L_40;
 		L_40 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_2), NULL);
 		float L_41 = V_8;
 		V_10 = ((float)(((float)il2cpp_codegen_add(L_39, L_40))/L_41));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:302>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:302>
 		double L_42;
 		L_42 = Time_get_timeAsDouble_mCF1AEB0A4C786299443150DBEBDD75F7724D6800(NULL);
 		__this->___m_nextBallSpawnTime = ((double)il2cpp_codegen_add(L_42, (0.5)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:303>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:303>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_43 = __this->___m_ballPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_5;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_45;
@@ -13572,17 +13572,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		L_46 = Object_Instantiate_TisBall_t7305A4017CA6E6F31DD245157ED543CA7761A98A_m87DAF61782F830B409638E97698BD2FCA5EB2801(L_43, L_44, L_45, Object_Instantiate_TisBall_t7305A4017CA6E6F31DD245157ED543CA7761A98A_m87DAF61782F830B409638E97698BD2FCA5EB2801_RuntimeMethod_var);
 		__this->___m_ball = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ball), (void*)L_46);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:304>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:304>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_47 = __this->___m_ball;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_48 = V_0;
 		NullCheck(L_47);
 		Ball_Configure_m5B97EDADF0121AE6C773F36145F56CDBDBC9FADA(L_47, L_48, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:305>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:305>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_49 = __this->___m_ball;
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_50 = __this->___m_currentCar;
 		NullCheck(L_49);
 		Ball_SetCarCollision_m54660E6A2479578D4EF1C80887885A6587319F73(L_49, L_50, (bool)0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:307>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:307>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_51 = __this->___m_spawnedObjects;
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_52 = __this->___m_ball;
 		NullCheck(L_52);
@@ -13590,19 +13590,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		L_53 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_52, NULL);
 		NullCheck(L_51);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_51, L_53, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:308>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:308>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_54 = __this->___m_ball;
 		Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* L_55 = (Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2*)il2cpp_codegen_object_new(Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7A62C2251042042F7CBABE072CD3CC4E129ACE19(L_55, __this, (intptr_t)((void*)GameRound_OnCollisionHandler_mFDE90A81CF134645CEDA84E1B50787D86DE78A32_RuntimeMethod_var), NULL);
 		NullCheck(L_54);
 		Ball_add_onCollision_m8E3913C83FBFB2BBCA4A8501299AD415E2767D37(L_54, L_55, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:309>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:309>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_56 = __this->___m_ball;
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_57 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_57, __this, (intptr_t)((void*)GameRound_OnTriggerHandler_mDBDE2BBA6ACADDD24B73AE7A5C76A659BC2A85D3_RuntimeMethod_var), NULL);
 		NullCheck(L_56);
 		Ball_add_onTrigger_mC6B8585EF555F9597A6072901CE6EE1F40D6E2D7(L_56, L_57, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:310>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:310>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_58 = __this->___m_ball;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59 = __this->___m_ballTarget;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_1;
@@ -13611,19 +13611,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_SpawnBall_m392941DB89DD03684E6
 		float L_63 = V_10;
 		NullCheck(L_58);
 		Ball_Launch_mB807D376184906BF4014A4ABC20CDE2F65889915(L_58, L_59, L_61, L_62, L_63, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:311>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:311>
 		float L_64;
 		L_64 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_65 = V_10;
 		__this->___m_ballArrivalTime = ((float)il2cpp_codegen_add(L_64, L_65));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:312>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:312>
 		float L_66 = __this->___m_ballArrivalTime;
 		__this->___m_ballExpiresAt = ((float)il2cpp_codegen_add(L_66, (4.0f)));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:313>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:313>
 		return;
 	}
 }
-// Method Definition Index: 67047
+// Method Definition Index: 67050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* GameRound_PickBallStats_mCFA767D12A9CFE4446D0916545439D7A2AEAE828 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -13633,9 +13633,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BallStats_tAACCD21C30C5612708B57F54C1063549B1
 	BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* V_4 = NULL;
 	BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* V_5 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:317>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:317>
 		V_0 = 0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_0 = __this->___m_ballTypes;
 		V_2 = L_0;
 		V_3 = 0;
@@ -13644,14 +13644,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BallStats_tAACCD21C30C5612708B57F54C1063549B1
 
 IL_000d:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_1 = V_2;
 		int32_t L_2 = V_3;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_4 = L_4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:320>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:320>
 		int32_t L_5 = V_0;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_6 = V_4;
 		NullCheck(L_6);
@@ -13665,7 +13665,7 @@ IL_000d:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:318>
 		int32_t L_10 = V_3;
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_11 = V_2;
 		NullCheck(L_11);
@@ -13675,12 +13675,12 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:323>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:323>
 		int32_t L_12 = V_0;
 		int32_t L_13;
 		L_13 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_14 = __this->___m_ballTypes;
 		V_2 = L_14;
 		V_3 = 0;
@@ -13689,14 +13689,14 @@ IL_0026:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_15 = V_2;
 		int32_t L_16 = V_3;
 		NullCheck(L_15);
 		int32_t L_17 = L_16;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		V_5 = L_18;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:326>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:326>
 		int32_t L_19 = V_1;
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_20 = V_5;
 		NullCheck(L_20);
@@ -13704,7 +13704,7 @@ IL_003f:
 		int32_t L_22;
 		L_22 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_21, NULL);
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_19, L_22));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:327>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:327>
 		int32_t L_23 = V_1;
 		if ((((int32_t)L_23) >= ((int32_t)0)))
 		{
@@ -13712,7 +13712,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:329>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:329>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_24 = V_5;
 		return L_24;
 	}
@@ -13725,7 +13725,7 @@ IL_005b:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:324>
 		int32_t L_26 = V_3;
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_27 = V_2;
 		NullCheck(L_27);
@@ -13735,7 +13735,7 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:333>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:333>
 		BallStatsU5BU5D_tAE4AF6E5B417C4C9275875A1567A67BA369AC2A5* L_28 = __this->___m_ballTypes;
 		NullCheck(L_28);
 		int32_t L_29 = 0;
@@ -13743,7 +13743,7 @@ IL_005f:
 		return L_30;
 	}
 }
-// Method Definition Index: 67048
+// Method Definition Index: 67051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FinishShot_mA4BC9B8B16647D7AA8541E6D604B4D3377A5D920 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, bool ___0_hit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13761,19 +13761,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FinishShot_mA4BC9B8B16647D7AA8
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B16_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:338>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:338>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_0 = __this->___m_ball;
 		NullCheck(L_0);
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_1;
 		L_1 = Ball_get_stats_m5580546FCDC0DC7F826B7386AA92BA984B7A22FF_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:339>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:339>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_2 = __this->___m_ball;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = Ball_get_costsLife_mD8B1E5E965D75F3B6071DF34B0DCF86C6CE35420(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:340>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:340>
 		bool L_4 = ___0_hit;
 		if (!L_4)
 		{
@@ -13781,7 +13781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FinishShot_mA4BC9B8B16647D7AA8
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:342>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:342>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_5 = __this->___m_ball;
 		NullCheck(L_5);
 		Ball_Deflect_mA73F782CC5640C8535A0954327B4632565249A9E(L_5, NULL);
@@ -13789,11 +13789,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_FinishShot_mA4BC9B8B16647D7AA8
 
 IL_0026:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:345>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:345>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_6 = __this->___m_ball;
 		NullCheck(L_6);
 		Ball_DisableCollisions_m92615CB92165F66DB75429690B580420FC8F798D(L_6, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:346>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:346>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_7 = __this->___m_launchedCar;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -13804,7 +13804,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:348>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:348>
 		Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* L_9 = __this->___m_launchedCar;
 		NullCheck(L_9);
 		Car_DisableCollisions_m4E814832058655D7145EEC46C0616735184F600B(L_9, NULL);
@@ -13812,7 +13812,7 @@ IL_0026:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:351>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:351>
 		bool L_10 = ___0_hit;
 		if (L_10)
 		{
@@ -13845,7 +13845,7 @@ IL_0068:
 IL_006d:
 	{
 		V_2 = G_B9_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:352>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:352>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_12 = __this->___m_ball;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -13853,22 +13853,22 @@ IL_006d:
 		float L_14 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_13, L_14, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:353>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:353>
 		GameRound_StopWatchingBall_m830E8CF172DCE4D43F7E2A6C7BDED00F04582716(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:354>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:354>
 		__this->___m_launchedCar = (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_launchedCar), (void*)(Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:355>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:355>
 		__this->___m_ballLanded = (bool)0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:356>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:356>
 		__this->___m_tableBounceEndsAt = (0.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:357>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:357>
 		__this->___m_ballHitCar = (bool)0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:358>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:358>
 		__this->___m_phase = 1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:359>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:359>
 		GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:361>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:361>
 		bool L_15 = ___0_hit;
 		if (!L_15)
 		{
@@ -13876,7 +13876,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:363>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:363>
 		Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* L_16 = __this->___onBallHit;
 		Action_1_t7F7426AEE6C3AC2DBBC6CE1ECF924A5BB3862338* L_17 = L_16;
 		if (L_17)
@@ -13900,7 +13900,7 @@ IL_00c0:
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:365>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:365>
 		bool L_19 = V_1;
 		if (!L_19)
 		{
@@ -13908,7 +13908,7 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:367>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:367>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_20 = __this->___onMissed;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_21 = L_20;
 		if (L_21)
@@ -13930,11 +13930,11 @@ IL_00d5:
 
 IL_00da:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:369>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:369>
 		return;
 	}
 }
-// Method Definition Index: 67049
+// Method Definition Index: 67052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_StopWatchingBall_m830E8CF172DCE4D43F7E2A6C7BDED00F04582716 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13947,26 +13947,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_StopWatchingBall_m830E8CF172DC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:373>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:373>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_0 = __this->___m_ball;
 		Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* L_1 = (Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2*)il2cpp_codegen_object_new(Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7A62C2251042042F7CBABE072CD3CC4E129ACE19(L_1, __this, (intptr_t)((void*)GameRound_OnCollisionHandler_mFDE90A81CF134645CEDA84E1B50787D86DE78A32_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		Ball_remove_onCollision_mA8B0A35424570E09B471BD3008481B44FE623082(L_0, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:374>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:374>
 		Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* L_2 = __this->___m_ball;
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_3 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_3, __this, (intptr_t)((void*)GameRound_OnTriggerHandler_mDBDE2BBA6ACADDD24B73AE7A5C76A659BC2A85D3_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		Ball_remove_onTrigger_m68CB79CB505A2F3B5909E5B7C21F171668EB5158(L_2, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:375>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:375>
 		__this->___m_ball = (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ball), (void*)(Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:376>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:376>
 		return;
 	}
 }
-// Method Definition Index: 67050
+// Method Definition Index: 67053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_HideLights_mB302631B8634F8F5AD6927D932E877FAAB49E19C (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13976,7 +13976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_HideLights_mB302631B8634F8F5AD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:380>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:380>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_0 = __this->___m_trafficLight;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13987,7 +13987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_HideLights_mB302631B8634F8F5AD
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:382>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:382>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_2 = __this->___m_trafficLight;
 		NullCheck(L_2);
 		TrafficLight_Hide_mFFCB9DC116B5D0A0511C9CA1DCCF6F3130FEABB6(L_2, NULL);
@@ -13995,7 +13995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_HideLights_mB302631B8634F8F5AD
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:385>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:385>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_3 = __this->___m_firstButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14006,7 +14006,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:387>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:387>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_5 = __this->___m_firstButton;
 		NullCheck(L_5);
 		LaunchButton_HideLight_m1BA942E7723ACE6A92A3DBA039C111A4EDF68243(L_5, NULL);
@@ -14014,7 +14014,7 @@ IL_0019:
 
 IL_0032:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:390>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:390>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_6 = __this->___m_secondButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14025,7 +14025,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:392>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:392>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_8 = __this->___m_secondButton;
 		NullCheck(L_8);
 		LaunchButton_HideLight_m1BA942E7723ACE6A92A3DBA039C111A4EDF68243(L_8, NULL);
@@ -14033,11 +14033,11 @@ IL_0032:
 
 IL_004b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:394>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:394>
 		return;
 	}
 }
-// Method Definition Index: 67051
+// Method Definition Index: 67054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_ShuffleButtonColors_m45B58630E8673515B114D9C2866B5DBD26D3E4A8 (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14056,7 +14056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_ShuffleButtonColors_m45B58630E
 	int32_t G_B6_1 = 0;
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:398>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:398>
 		TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* L_0 = __this->___m_trafficLight;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -14066,14 +14066,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound_ShuffleButtonColors_m45B58630E
 
 IL_000c:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:404>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:404>
 		il2cpp_codegen_runtime_class_init_inline(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = TrafficLight_get_colorCount_mC2FC6E53EFDAAEE30DFA31DCB24C742663624A3F(NULL);
 		int32_t L_3;
 		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)il2cpp_codegen_subtract(L_2, 1)), NULL);
 		V_3 = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:405>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:405>
 		int32_t L_4 = V_3;
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_4) < ((int32_t)L_5)))
@@ -14082,17 +14082,17 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:407>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:407>
 		int32_t L_6 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:410>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:410>
 		int32_t L_7;
 		L_7 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:411>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:411>
 		int32_t L_8 = ((!(((uint32_t)L_7) <= ((uint32_t)0)))? 1 : 0);
 		if (L_8)
 		{
@@ -14118,7 +14118,7 @@ IL_0032:
 IL_0033:
 	{
 		V_1 = G_B6_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:412>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:412>
 		if (G_B6_1)
 		{
 			goto IL_0039;
@@ -14139,7 +14139,7 @@ IL_0039:
 IL_003a:
 	{
 		V_2 = G_B9_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:414>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:414>
 		int32_t L_13 = V_1;
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_14 = __this->___m_firstButton;
 		NullCheck(L_14);
@@ -14164,7 +14164,7 @@ IL_003a:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:416>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:416>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_19 = __this->___m_firstButton;
 		int32_t L_20 = V_1;
 		int32_t L_21 = V_1;
@@ -14173,7 +14173,7 @@ IL_0057:
 		L_22 = TrafficLight_GetColor_m3413F15879DCFD9C7BA2712E868A2D5BBE239AF6(L_21, NULL);
 		NullCheck(L_19);
 		LaunchButton_SetColor_m93CEC1B5AA796E0C40B22EB7BED1F139E813913E(L_19, L_20, L_22, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:417>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:417>
 		LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* L_23 = __this->___m_secondButton;
 		int32_t L_24 = V_2;
 		int32_t L_25 = V_2;
@@ -14181,11 +14181,11 @@ IL_0057:
 		L_26 = TrafficLight_GetColor_m3413F15879DCFD9C7BA2712E868A2D5BBE239AF6(L_25, NULL);
 		NullCheck(L_23);
 		LaunchButton_SetColor_m93CEC1B5AA796E0C40B22EB7BED1F139E813913E(L_23, L_24, L_26, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:418>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:418>
 		return;
 	}
 }
-// Method Definition Index: 67052
+// Method Definition Index: 67055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound__ctor_mA633CE4B5B0FAF22B6C08F40E7A3EEB9926101CD (GameRound_t771AAC105E70B193557301615168FEDBC8830AB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14196,19 +14196,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound__ctor_mA633CE4B5B0FAF22B6C08F4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:35>
 		__this->___m_minSignalDelay = (0.75f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:38>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:38>
 		__this->___m_maxSignalDelay = (2.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:40>
 		__this->___m_hitsForInstantSignal = ((int32_t)10);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:41>
 		__this->___m_initialTimeToRing = (1.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:42>
 		__this->___m_minTimeToRing = (0.800000012f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:44>
 		__this->___m_ballSpeedProgression = (0.150000006f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:49>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:49>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___m_spawnedObjects = L_0;
@@ -14225,7 +14225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameRound__ctor_mA633CE4B5B0FAF22B6C08F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67053
+// Method Definition Index: 67056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7634FCE7E5055E8E227A2F629C5B23E65E0C3611 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14243,7 +14243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7634FCE7E5055E8E227A2F62
 		return;
 	}
 }
-// Method Definition Index: 67054
+// Method Definition Index: 67057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCD94BADCEE43D087988A910EB88CF7C1CD2900A0 (U3CU3Ec_tDE68C2D204FC3EF5C5E180C0059CD690067CFAC8* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14252,7 +14252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCD94BADCEE43D087988A910EB
 		return;
 	}
 }
-// Method Definition Index: 67055
+// Method Definition Index: 67058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSpawnNextCarU3Eb__52_0_mE1903BFBB1BFCFDDC9F60FF0809637A34B96F2C5 (U3CU3Ec_tDE68C2D204FC3EF5C5E180C0059CD690067CFAC8* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14262,7 +14262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSpawnNextCarU3Eb__52_0_mE1903
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/GameRound.cs:278>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/GameRound.cs:278>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_item;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14278,7 +14278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSpawnNextCarU3Eb__52_0_mE1903
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67056
+// Method Definition Index: 67059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_add_onPressed_mC3AADD9B4066D16B2B26ADD39AE308D145265D6E (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14322,7 +14322,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67057
+// Method Definition Index: 67060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_remove_onPressed_m9D8D928369EF785D1B340FF06C26D034580E1722 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14366,60 +14366,60 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67058
+// Method Definition Index: 67061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LaunchButton_get_colorIndex_mB7EDBB932902476ECFCB780689A4118240270A34 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
 		int32_t L_0 = __this->___U3CcolorIndexU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67059
+// Method Definition Index: 67062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_set_colorIndex_mB71D3C50E62E629C25737978DE114935B4218279 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcolorIndexU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 67060
+// Method Definition Index: 67063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_SetColor_m93CEC1B5AA796E0C40B22EB7BED1F139E813913E (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, int32_t ___0_colorIndex, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:21>
 		int32_t L_0 = ___0_colorIndex;
 		LaunchButton_set_colorIndex_mB71D3C50E62E629C25737978DE114935B4218279_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:22>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_1 = __this->___m_light;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___1_color;
 		NullCheck(L_1);
 		LightColor_Show_m22C5A2B33A306BB47D928CC513B3A01631885338(L_1, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:23>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 67061
+// Method Definition Index: 67064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_HideLight_m1BA942E7723ACE6A92A3DBA039C111A4EDF68243 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:27>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:27>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		NullCheck(L_0);
 		LightColor_Hide_m2B7A3F3D05BE09F75E87D621DAF8C17DE18DF7B9(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 67062
+// Method Definition Index: 67065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_Press_mD0CDF0F617169B493C48851E291DCBBB1995C5AC (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* G_B2_0 = NULL;
 	Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:32>
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_0 = __this->___onPressed;
 		Action_1_tEE11BEB282A48B606F826A8E011C47EB2C4A7808* L_1 = L_0;
 		if (L_1)
@@ -14437,11 +14437,11 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mF024D49D37FE05CEBD6049D388D51CA2D0F6FAC6_inline(G_B2_0, __this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 67063
+// Method Definition Index: 67066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_PlayPressAnimation_mBEFC5730CDEE7A7F034C3D722239278346C82770 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14451,7 +14451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_PlayPressAnimation_mBEFC573
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:37>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:37>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_0 = __this->___m_pressAnimation;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14462,11 +14462,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_PlayPressAnimation_mBEFC573
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:39>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_2 = __this->___m_pressAnimation;
 		NullCheck(L_2);
 		Animation_Stop_mE11F232FCFA0219EADD8080D7AD7CC626A536756(L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:40>
 		Animation_t6593B06C39E3B139808B19F2C719C860F3F61040* L_3 = __this->___m_pressAnimation;
 		NullCheck(L_3);
 		bool L_4;
@@ -14475,11 +14475,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_PlayPressAnimation_mBEFC573
 
 IL_0025:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:42>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 67064
+// Method Definition Index: 67067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_OnEnable_mD67DBE7B1C8CEA44180B6D322E7E06400678D169 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14490,7 +14490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_OnEnable_mD67DBE7B1C8CEA441
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:46>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		if (L_0)
 		{
@@ -14498,7 +14498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_OnEnable_mD67DBE7B1C8CEA441
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:48>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:48>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1;
 		L_1 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(__this, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_2 = (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B*)il2cpp_codegen_object_new(LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B_il2cpp_TypeInfo_var);
@@ -14509,27 +14509,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_OnEnable_mD67DBE7B1C8CEA441
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 67065
+// Method Definition Index: 67068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton_Update_mF3B9B82FC4AFFF39EF843E330E74E654D56E05B9 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:54>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		NullCheck(L_0);
 		LightColor_Update_m025ECD4CD6F2C38C21B3CE1D8ED899B65E0D6D22(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 67066
+// Method Definition Index: 67069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton__ctor_m231F0F8471EB91B0D718B58169C84B921C735D08 (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
 		__this->___U3CcolorIndexU3Ek__BackingField = (-1);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14543,7 +14543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchButton__ctor_m231F0F8471EB91B0D718
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67067
+// Method Definition Index: 67070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor__ctor_mEFDA5272FEDDE7735C0C35670C2C081F20F5E464 (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_renderer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14553,36 +14553,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor__ctor_mEFDA5272FEDDE7735C0C35
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:11>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:11>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_0 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_0, NULL);
 		__this->___m_properties = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_properties), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:15>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:15>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		__this->___m_target = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:16>
 		__this->___m_elapsed = (0.150000006f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:18>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:20>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:20>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = ___0_renderer;
 		__this->___m_renderer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_renderer), (void*)L_2);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:21>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		LightColor_Apply_m119642F0A6404B733FCC226286494133D48867FE(__this, L_3, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:22>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 67068
+// Method Definition Index: 67071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Show_m22C5A2B33A306BB47D928CC513B3A01631885338 (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:26>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_color;
 		bool L_2;
@@ -14593,33 +14593,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Show_m22C5A2B33A306BB47D928CC
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:28>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:31>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		__this->___m_start = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:32>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_color;
 		__this->___m_target = L_4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:33>
 		__this->___m_elapsed = (0.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:34>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:34>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___m_start;
 		LightColor_Apply_m119642F0A6404B733FCC226286494133D48867FE(__this, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 67069
+// Method Definition Index: 67072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Hide_m2B7A3F3D05BE09F75E87D621DAF8C17DE18DF7B9 (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:39>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
@@ -14631,30 +14631,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Hide_m2B7A3F3D05BE09F75E87D62
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:41>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:41>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:44>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___m_current;
 		__this->___m_start = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:45>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		L_4 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		__this->___m_target = L_4;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:46>
 		__this->___m_elapsed = (0.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 67070
+// Method Definition Index: 67073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Update_m025ECD4CD6F2C38C21B3CE1D8ED899B65E0D6D22 (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:51>
 		float L_0 = __this->___m_elapsed;
 		if ((!(((float)L_0) < ((float)(0.150000006f)))))
 		{
@@ -14662,12 +14662,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Update_m025ECD4CD6F2C38C21B3C
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:53>
 		float L_1 = __this->___m_elapsed;
 		float L_2;
 		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___m_elapsed = ((float)il2cpp_codegen_add(L_1, L_2));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:54>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:54>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___m_start;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___m_target;
 		float L_5 = __this->___m_elapsed;
@@ -14678,11 +14678,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Update_m025ECD4CD6F2C38C21B3C
 
 IL_0042:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 67071
+// Method Definition Index: 67074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Apply_m119642F0A6404B733FCC226286494133D48867FE (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14693,25 +14693,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Apply_m119642F0A6404B733FCC22
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:60>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:60>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_color;
 		__this->___m_current = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:61>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:61>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = __this->___m_properties;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_color;
 		NullCheck(L_1);
 		MaterialPropertyBlock_SetColor_m5B4E910B5E42518BBD0088055EB68E4A3A609DDE(L_1, _stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:62>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_3 = __this->___m_properties;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_color;
 		NullCheck(L_3);
 		MaterialPropertyBlock_SetColor_m5B4E910B5E42518BBD0088055EB68E4A3A609DDE(L_3, _stringLiteralB92EF51E45166C91E2762DB6C9F27C8BD6EBE466, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:63>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_5 = __this->___m_renderer;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_6 = __this->___m_properties;
 		NullCheck(L_5);
 		Renderer_SetPropertyBlock_mCE0B215ACED38420979148A6B00496F07345162B(L_5, L_6, 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LightColor.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LightColor.cs:64>
 		return;
 	}
 }
@@ -14731,7 +14731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightColor_Apply_m119642F0A6404B733FCC22
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67072
+// Method Definition Index: 67075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrafficLight_get_colorCount_mC2FC6E53EFDAAEE30DFA31DCB24C742663624A3F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14741,14 +14741,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrafficLight_get_colorCount_mC2FC6E53
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:12>
 		il2cpp_codegen_runtime_class_init_inline(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_0 = ((TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_StaticFields*)il2cpp_codegen_static_fields_for(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var))->___s_colors;
 		NullCheck(L_0);
 		return ((int32_t)(((RuntimeArray*)L_0)->max_length));
 	}
 }
-// Method Definition Index: 67073
+// Method Definition Index: 67076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_add_onSignalShown_m82672C5EB6F53858628AEAFDC09BD8E4A34EE905 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14792,7 +14792,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67074
+// Method Definition Index: 67077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_remove_onSignalShown_m3C31BDF24C56824F585AF11DEAE266AEBF7D53C2 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14836,26 +14836,26 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 67075
+// Method Definition Index: 67078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrafficLight_get_colorIndex_m94E138173A36153DEA8BC41CEEFF75A8B28E0E91 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
 		int32_t L_0 = __this->___U3CcolorIndexU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67076
+// Method Definition Index: 67079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_set_colorIndex_mE8F818FF444A2E5DFCC96B3662A197C3E7E65B2C (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcolorIndexU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 67077
+// Method Definition Index: 67080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F TrafficLight_GetColor_m3413F15879DCFD9C7BA2712E868A2D5BBE239AF6 (int32_t ___0_colorIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14865,7 +14865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:26>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:26>
 		il2cpp_codegen_runtime_class_init_inline(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_0 = ((TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_StaticFields*)il2cpp_codegen_static_fields_for(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var))->___s_colors;
 		int32_t L_1 = ___0_colorIndex;
@@ -14875,7 +14875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_3;
 	}
 }
-// Method Definition Index: 67078
+// Method Definition Index: 67081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ScheduleSignal_mFC8E11C28ED3DC81007E87FF63C6517A8D14CA2A (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, float ___0_minDelay, float ___1_maxDelay, float ___2_delayScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14887,21 +14887,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ScheduleSignal_mFC8E11C28ED
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:31>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = TrafficLight_get_colorCount_mC2FC6E53EFDAAEE30DFA31DCB24C742663624A3F(NULL);
 		int32_t L_1;
 		L_1 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_0, NULL);
 		TrafficLight_set_colorIndex_mE8F818FF444A2E5DFCC96B3662A197C3E7E65B2C_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:32>
 		float L_2 = ___0_minDelay;
 		float L_3 = ___1_maxDelay;
 		float L_4;
 		L_4 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_2, L_3, NULL);
 		float L_5 = ___2_delayScale;
 		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_4, (1.0f))), L_5));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:33>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:33>
 		float L_6 = V_0;
 		if ((!(((float)L_6) <= ((float)(0.0f)))))
 		{
@@ -14909,22 +14909,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ScheduleSignal_mFC8E11C28ED
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:35>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:35>
 		TrafficLight_ShowSignal_mC04FBAC466ED9F4A3F200967435DC7470ED864CA(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:36>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:39>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:39>
 		float L_7 = V_0;
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral4AD576C7FD87149575CFBC6732EC848E013E9482, L_7, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:40>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 67079
+// Method Definition Index: 67082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_RerollSignal_mF7CA7C1836073BAEAEA48481800A0A2B7C97FD25 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14935,14 +14935,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_RerollSignal_mF7CA7C1836073
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = TrafficLight_get_colorCount_mC2FC6E53EFDAAEE30DFA31DCB24C742663624A3F(NULL);
 		int32_t L_1;
 		L_1 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)il2cpp_codegen_subtract(L_0, 1)), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:45>
 		int32_t L_2 = V_0;
 		int32_t L_3;
 		L_3 = TrafficLight_get_colorIndex_m94E138173A36153DEA8BC41CEEFF75A8B28E0E91_inline(__this, NULL);
@@ -14952,23 +14952,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_RerollSignal_mF7CA7C1836073
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:47>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:47>
 		int32_t L_4 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:50>
 		int32_t L_5 = V_0;
 		TrafficLight_set_colorIndex_mE8F818FF444A2E5DFCC96B3662A197C3E7E65B2C_inline(__this, L_5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:51>
 		TrafficLight_ShowSignal_mC04FBAC466ED9F4A3F200967435DC7470ED864CA(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 67080
+// Method Definition Index: 67083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_Hide_mFFCB9DC116B5D0A0511C9CA1DCCF6F3130FEABB6 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14978,17 +14978,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_Hide_mFFCB9DC116B5D0A0511C9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:56>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:56>
 		MonoBehaviour_CancelInvoke_m268FFD58AFF64C07FD4C9B9B8B85F58BD86F3A01(__this, _stringLiteral4AD576C7FD87149575CFBC6732EC848E013E9482, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:57>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:57>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		NullCheck(L_0);
 		LightColor_Hide_m2B7A3F3D05BE09F75E87D621DAF8C17DE18DF7B9(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 67081
+// Method Definition Index: 67084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_OnEnable_m2C817F1E5EACDC8E7538FD003A2F028ECF52C0D0 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14999,7 +14999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_OnEnable_m2C817F1E5EACDC8E7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:62>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:62>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		if (L_0)
 		{
@@ -15007,7 +15007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_OnEnable_m2C817F1E5EACDC8E7
 		}
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:64>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1;
 		L_1 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(__this, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_2 = (LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B*)il2cpp_codegen_object_new(LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B_il2cpp_TypeInfo_var);
@@ -15018,23 +15018,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_OnEnable_m2C817F1E5EACDC8E7
 
 IL_0019:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:66>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 67082
+// Method Definition Index: 67085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_Update_m09595F0C0E4C995766252EC199BB360959FB8B95 (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:70>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:70>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		NullCheck(L_0);
 		LightColor_Update_m025ECD4CD6F2C38C21B3CE1D8ED899B65E0D6D22(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:71>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 67083
+// Method Definition Index: 67086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ShowSignal_mC04FBAC466ED9F4A3F200967435DC7470ED864CA (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15046,7 +15046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ShowSignal_mC04FBAC466ED9F4
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:75>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:75>
 		LightColor_tDCAFFA1193AB2BBA96E1A35E2D20A06CC818654B* L_0 = __this->___m_light;
 		int32_t L_1;
 		L_1 = TrafficLight_get_colorIndex_m94E138173A36153DEA8BC41CEEFF75A8B28E0E91_inline(__this, NULL);
@@ -15055,7 +15055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight_ShowSignal_mC04FBAC466ED9F4
 		L_2 = TrafficLight_GetColor_m3413F15879DCFD9C7BA2712E868A2D5BBE239AF6(L_1, NULL);
 		NullCheck(L_0);
 		LightColor_Show_m22C5A2B33A306BB47D928CC513B3A01631885338(L_0, L_2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:76>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:76>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = __this->___onSignalShown;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
 		if (L_4)
@@ -15073,11 +15073,11 @@ IL_0021:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 67084
+// Method Definition Index: 67087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight__ctor_m4A51F880D42A06BF87FFE777D20A3EBA2949DD1C (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15086,7 +15086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight__ctor_m4A51F880D42A06BF87FF
 		return;
 	}
 }
-// Method Definition Index: 67085
+// Method Definition Index: 67088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight__cctor_m768EDF86A0C298CCA41A789FDA10ED98FB731370 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15097,10 +15097,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight__cctor_m768EDF86A0C298CCA41
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:18>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:19>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:20>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:21>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:18>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:19>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:20>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:21>
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_0 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)4);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_1 = L_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
@@ -15135,7 +15135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrafficLight__cctor_m768EDF86A0C298CCA41
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67086
+// Method Definition Index: 67089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_Create_mE755DAD3A5912C1D990AF2CE76F144CF7173DD39 (MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15155,11 +15155,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_Create_mE755DAD3A5912C1
 	ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* G_B6_0 = NULL;
 	MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:43>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:43>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_material;
 		il2cpp_codegen_runtime_class_init_inline(CoreUtils_tEE57AB2B0DAE9561F4954B08800A8F957850B038_il2cpp_TypeInfo_var);
 		CoreUtils_Destroy_mD2FDD299C528530E4CC5F99EFBAF90ABC7B02C69(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:44>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:44>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___m_shader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15192,7 +15192,7 @@ IL_0028:
 		NullCheck(G_B3_1);
 		G_B3_1->___m_material = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___m_material), (void*)G_B3_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:45>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:45>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_material;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -15223,11 +15223,11 @@ IL_0045:
 		NullCheck(G_B6_1);
 		G_B6_1->___m_pass = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->___m_pass), (void*)G_B6_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:46>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 67087
+// Method Definition Index: 67090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_AddRenderPasses_m03FE2D29FA4327D466A2F98784BBB5292B392727 (MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* __this, ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* ___0_renderer, RenderingData_tAAA01190551D6D5954314E3E1E85B58DD45EED71* ___1_renderingData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15240,16 +15240,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_AddRenderPasses_m03FE2D
 	}
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:50>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:50>
 		RenderingData_tAAA01190551D6D5954314E3E1E85B58DD45EED71* L_0 = ___1_renderingData;
 		CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E* L_1 = (CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E*)(&L_0->___cameraData);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184** L_2;
 		L_2 = CameraData_get_camera_mA3084B19BBF03DF4E59402E021A74016AC808B01(L_1, NULL);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = *((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184**)L_2);
 		V_0 = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:51>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:52>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:53>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:51>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:52>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:53>
 		ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* L_4 = __this->___m_pass;
 		if (!L_4)
 		{
@@ -15330,22 +15330,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_AddRenderPasses_m03FE2D
 
 IL_006d:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:55>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:55>
 		return;
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:58>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:58>
 		ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* L_21 = ___0_renderer;
 		ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* L_22 = __this->___m_pass;
 		NullCheck(L_21);
 		ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F(L_21, L_22, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:59>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 67088
+// Method Definition Index: 67091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_Dispose_mCDC7B2BCEE72F65259046852060460E49918EF6A (MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15355,21 +15355,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature_Dispose_mCDC7B2BCEE72F6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:63>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:63>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_material;
 		il2cpp_codegen_runtime_class_init_inline(CoreUtils_tEE57AB2B0DAE9561F4954B08800A8F957850B038_il2cpp_TypeInfo_var);
 		CoreUtils_Destroy_mD2FDD299C528530E4CC5F99EFBAF90ABC7B02C69(L_0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:64>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:64>
 		__this->___m_material = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_material), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:65>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:65>
 		__this->___m_pass = (ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_pass), (void*)(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8*)NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:66>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 67089
+// Method Definition Index: 67092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature__ctor_m0A3A9FC3656087DD10899F6409C3E6B84B3B10F1 (MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15379,20 +15379,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature__ctor_m0A3A9FC3656087DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:14>
 		il2cpp_codegen_runtime_class_init_inline(RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1_il2cpp_TypeInfo_var);
 		RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1 L_0;
 		L_0 = RenderingLayerMask_op_Implicit_m38EAE38A00D82EDD2CD8CACB022F2B7E5FC5069B(2, NULL);
 		__this->___m_surfaces = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:20>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:20>
 		__this->___m_downsample = 8;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:24>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:24>
 		__this->___m_steps = ((int32_t)12);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:28>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:28>
 		__this->___m_maxDistance = (22.0f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:32>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:32>
 		__this->___m_thickness = (0.400000006f);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:36>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:36>
 		__this->___m_intensity = (0.649999976f);
 		ScriptableRendererFeature__ctor_mA05EC9569A5DCF48CDD98E1FC5838857E2C4C001(__this, NULL);
 		return;
@@ -15406,7 +15406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileSsrFeature__ctor_m0A3A9FC3656087DD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67090
+// Method Definition Index: 67093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass__ctor_mE1976C2A9C4AAE2D330C6BE348AE385C9AADBE4A (ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* __this, MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* ___0_feature, const RuntimeMethod* method) 
 {
 	ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* G_B2_0 = NULL;
@@ -15414,19 +15414,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass__ctor_mE1976C2A9C4AAE2D33
 	int32_t G_B3_0 = 0;
 	ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:91>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:91>
 		ScriptableRenderPass__ctor_mE49D4FF8E68A854367A4081E664B8DBA74E6B752(__this, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:93>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:93>
 		MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* L_0 = ___0_feature;
 		__this->___m_feature = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_feature), (void*)L_0);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:94>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:94>
 		ScriptableRenderPass_set_renderPassEvent_m63FA581FFDE1C69C2E1358BD0B8DB30275334960_inline(__this, ((int32_t)450), NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:95>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:95>
 		ScriptableRenderPass_set_requiresIntermediateTexture_m148E04B5EED5457E979C6EFAA710E683A56FDF8E_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:96>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:96>
 		ScriptableRenderPass_ConfigureInput_m15D8C10FC37E33CD358F2E9665ECF5515CB9C687_inline(__this, 5, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:97>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:97>
 		bool L_1;
 		L_1 = SystemInfo_IsFormatSupported_mD3D93E82BD677BDF6194258C4F221DBDB257F680(((int32_t)48), ((int32_t)19), NULL);
 		if (L_1)
@@ -15452,11 +15452,11 @@ IL_0037:
 	{
 		NullCheck(G_B3_1);
 		G_B3_1->___m_format = G_B3_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:98>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 67091
+// Method Definition Index: 67094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_RecordRenderGraph_m89C3ED1F64C8030B19BC2C37D603EF6149AD526B (ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* __this, RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* ___0_graph, ContextContainer_t384E08F63FABEFF6A7F1A753F5EF02699DAD414C* ___1_frameData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15502,14 +15502,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_RecordRenderGraph_m89C3ED
 	RuntimeObject* V_11 = NULL;
 	RuntimeObject* V_12 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:102>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:102>
 		ContextContainer_t384E08F63FABEFF6A7F1A753F5EF02699DAD414C* L_0 = ___1_frameData;
 		NullCheck(L_0);
 		UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_1;
 		L_1 = ContextContainer_Get_TisUniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626_m1CAD9250ED48A65B3DE774336F9221928EB054B4_inline(L_0, ContextContainer_Get_TisUniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626_m1CAD9250ED48A65B3DE774336F9221928EB054B4_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:103>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:104>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:103>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:104>
 		UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_2 = V_0;
 		NullCheck(L_2);
 		bool L_3;
@@ -15564,32 +15564,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_RecordRenderGraph_m89C3ED
 
 IL_0042:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:106>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:106>
 		return;
 	}
 
 IL_0043:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:109>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:109>
 		ContextContainer_t384E08F63FABEFF6A7F1A753F5EF02699DAD414C* L_13 = ___1_frameData;
 		NullCheck(L_13);
 		UniversalCameraData_t7904AE9D68B973761A72DFAA7CA3DE915696E1C7* L_14;
 		L_14 = ContextContainer_Get_TisUniversalCameraData_t7904AE9D68B973761A72DFAA7CA3DE915696E1C7_mE62F7903614384541B770CC0B9A99BD2E608A0F8_inline(L_13, ContextContainer_Get_TisUniversalCameraData_t7904AE9D68B973761A72DFAA7CA3DE915696E1C7_mE62F7903614384541B770CC0B9A99BD2E608A0F8_RuntimeMethod_var);
 		V_1 = L_14;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:110>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:110>
 		ContextContainer_t384E08F63FABEFF6A7F1A753F5EF02699DAD414C* L_15 = ___1_frameData;
 		NullCheck(L_15);
 		UniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6* L_16;
 		L_16 = ContextContainer_Get_TisUniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6_m71849CEFB9C023EDE026A0F38CE6044274505C06_inline(L_15, ContextContainer_Get_TisUniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6_m71849CEFB9C023EDE026A0F38CE6044274505C06_RuntimeMethod_var);
 		V_2 = L_16;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:111>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:111>
 		ContextContainer_t384E08F63FABEFF6A7F1A753F5EF02699DAD414C* L_17 = ___1_frameData;
 		NullCheck(L_17);
 		UniversalLightData_tCFFFAB4033CD97BE9F339F0C90BB7F98C06FFBA2* L_18;
 		L_18 = ContextContainer_Get_TisUniversalLightData_tCFFFAB4033CD97BE9F339F0C90BB7F98C06FFBA2_m7D529C251F384985900DEA334BC399BAD36BFC8F_inline(L_17, ContextContainer_Get_TisUniversalLightData_tCFFFAB4033CD97BE9F339F0C90BB7F98C06FFBA2_m7D529C251F384985900DEA334BC399BAD36BFC8F_RuntimeMethod_var);
 		V_3 = L_18;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:112>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:113>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:112>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var);
 		List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF* L_19 = ((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_shaderTags;
 		UniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6* L_20 = V_2;
@@ -15599,13 +15599,13 @@ IL_0043:
 		DrawingSettings_t3B64EB029DB6F94A1F2A9B2D19D2969AE361BB49 L_23;
 		L_23 = RenderingUtils_CreateDrawingSettings_m3DB61D695B8C38BC10DF00E538DCB622F04189A0(L_19, L_20, L_21, L_22, ((int32_t)59), NULL);
 		V_4 = L_23;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:114>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:114>
 		MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* L_24 = __this->___m_feature;
 		NullCheck(L_24);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = L_24->___m_material;
 		il2cpp_codegen_runtime_class_init_inline(DrawingSettings_t3B64EB029DB6F94A1F2A9B2D19D2969AE361BB49_il2cpp_TypeInfo_var);
 		DrawingSettings_set_overrideMaterial_m6A1D1A128D31B5DAA3EEDFF0D6F07EF67D2B276F((&V_4), L_25, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:115>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:115>
 		il2cpp_codegen_runtime_class_init_inline(RenderQueueRange_t7518252AA6426B1EA45D3D9B394F304EEF784D71_il2cpp_TypeInfo_var);
 		RenderQueueRange_t7518252AA6426B1EA45D3D9B394F304EEF784D71 L_26;
 		L_26 = RenderQueueRange_get_opaque_m197DF3E6CC12F21B15F3F603EFD640806FCB65D9(NULL);
@@ -15619,40 +15619,40 @@ IL_0043:
 		uint32_t L_30;
 		L_30 = RenderingLayerMask_get_value_mD6D3D9BEB81EAA7FCC15E7473D0BC5B5BC63CA1D_inline(L_29, NULL);
 		FilteringSettings__ctor_m2A2242373FC7D053CFBBC6814D02AAC73C7B3AE7((&V_5), L_27, (-1), L_30, 0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:117>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:117>
 		UniversalCameraData_t7904AE9D68B973761A72DFAA7CA3DE915696E1C7* L_31 = V_1;
 		NullCheck(L_31);
 		RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 L_32 = L_31->___cameraTargetDescriptor;
 		TextureDesc_t396D28DED9DDC89189E68F41C3D169B249BEE673 L_33;
 		L_33 = ReflectionPass_CreateReflectionDescriptor_m07A5254B6452FBA265AAF9E0AED0CAA63A6CE904(__this, L_32, NULL);
 		V_6 = L_33;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:118>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:118>
 		TextureDesc_t396D28DED9DDC89189E68F41C3D169B249BEE673 L_34 = V_6;
 		int32_t L_35 = L_34.___width;
 		TextureDesc_t396D28DED9DDC89189E68F41C3D169B249BEE673 L_36 = V_6;
 		int32_t L_37 = L_36.___height;
 		ReflectionPass_SetShaderParameters_mEA2946A8B4291AF5DCD3747EE9B80CD5BFE8821B(__this, L_35, L_37, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:119>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:119>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_38 = ___0_graph;
 		NullCheck(L_38);
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_39;
 		L_39 = RenderGraph_CreateTexture_mE0A9984084C7DE997FF0898ED678AA2E80812BCF(L_38, (&V_6), NULL);
 		V_7 = L_39;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:120>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:120>
 		(&V_6)->___name = _stringLiteral4AB96415BB1D8F8D2E7391FD63677C7EA7F78802;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___name), (void*)_stringLiteral4AB96415BB1D8F8D2E7391FD63677C7EA7F78802);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:121>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:121>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_40 = ___0_graph;
 		NullCheck(L_40);
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_41;
 		L_41 = RenderGraph_CreateTexture_mE0A9984084C7DE997FF0898ED678AA2E80812BCF(L_40, (&V_6), NULL);
 		V_8 = L_41;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:123>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:123>
 		DrawingSettings_set_overrideMaterialPassIndex_mED93BC41A0496812035C23337949A05C0A4C48ED((&V_4), 0, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:124>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:125>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:126>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:127>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:124>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:125>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:126>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:127>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_42 = ___0_graph;
 		UniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6* L_43 = V_2;
 		NullCheck(L_43);
@@ -15693,7 +15693,7 @@ IL_014e:
 		});
 		try
 		{
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:129>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:129>
 			RuntimeObject* L_51 = V_10;
 			UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_52 = V_0;
 			NullCheck(L_52);
@@ -15702,7 +15702,7 @@ IL_014e:
 			V_9 = L_53;
 			NullCheck(L_51);
 			InterfaceActionInvoker2< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*, int32_t >::Invoke(0, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_51, (&V_9), 1);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:130>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:130>
 			RuntimeObject* L_54 = V_10;
 			UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_55 = V_0;
 			NullCheck(L_55);
@@ -15711,18 +15711,18 @@ IL_014e:
 			V_9 = L_56;
 			NullCheck(L_54);
 			InterfaceActionInvoker2< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*, int32_t >::Invoke(0, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_54, (&V_9), 1);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:131>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:131>
 			RuntimeObject* L_57 = V_10;
 			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_58 = V_7;
 			NullCheck(L_57);
 			InterfaceActionInvoker3< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388, int32_t, int32_t >::Invoke(0, IRenderAttachmentRenderGraphBuilder_tA98DFE27A0742D0C5FF054F2785672CB2BB09F73_il2cpp_TypeInfo_var, L_57, L_58, 0, 2);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:132>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:132>
 			RuntimeObject* L_59 = V_10;
 			il2cpp_codegen_runtime_class_init_inline(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var);
 			int32_t L_60 = ((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_traceId;
 			NullCheck(L_59);
 			InterfaceActionInvoker2< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*, int32_t >::Invoke(3, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_59, (&V_7), L_60);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:133>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:133>
 			goto IL_014f;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -15733,13 +15733,13 @@ IL_014e:
 
 IL_014f:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:135>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(DrawingSettings_t3B64EB029DB6F94A1F2A9B2D19D2969AE361BB49_il2cpp_TypeInfo_var);
 		DrawingSettings_set_overrideMaterialPassIndex_mED93BC41A0496812035C23337949A05C0A4C48ED((&V_4), 1, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:136>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:137>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:138>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:139>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:136>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:137>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:138>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:139>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_61 = ___0_graph;
 		UniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6* L_62 = V_2;
 		NullCheck(L_62);
@@ -15781,23 +15781,23 @@ IL_01a6:
 		});
 		try
 		{
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:141>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:141>
 			RuntimeObject* L_70 = V_11;
 			il2cpp_codegen_runtime_class_init_inline(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var);
 			int32_t L_71 = ((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_traceId;
 			NullCheck(L_70);
 			InterfaceActionInvoker2< int32_t, int32_t >::Invoke(1, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_70, L_71, 1);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:142>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:142>
 			RuntimeObject* L_72 = V_11;
 			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_73 = V_8;
 			NullCheck(L_72);
 			InterfaceActionInvoker3< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388, int32_t, int32_t >::Invoke(0, IRenderAttachmentRenderGraphBuilder_tA98DFE27A0742D0C5FF054F2785672CB2BB09F73_il2cpp_TypeInfo_var, L_72, L_73, 0, 2);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:143>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:143>
 			RuntimeObject* L_74 = V_11;
 			int32_t L_75 = ((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_reflectionId;
 			NullCheck(L_74);
 			InterfaceActionInvoker2< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*, int32_t >::Invoke(3, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_74, (&V_8), L_75);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:144>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:144>
 			goto IL_01a7;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -15808,13 +15808,13 @@ IL_01a6:
 
 IL_01a7:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:146>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(DrawingSettings_t3B64EB029DB6F94A1F2A9B2D19D2969AE361BB49_il2cpp_TypeInfo_var);
 		DrawingSettings_set_overrideMaterialPassIndex_mED93BC41A0496812035C23337949A05C0A4C48ED((&V_4), 2, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:147>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:148>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:149>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:150>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:147>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:148>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:149>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:150>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_76 = ___0_graph;
 		UniversalRenderingData_t045D13A1E051DF623B170223B7CBF1161DDA94E6* L_77 = V_2;
 		NullCheck(L_77);
@@ -15856,13 +15856,13 @@ IL_0202:
 		});
 		try
 		{
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:152>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:152>
 			RuntimeObject* L_85 = V_12;
 			il2cpp_codegen_runtime_class_init_inline(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var);
 			int32_t L_86 = ((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_reflectionId;
 			NullCheck(L_85);
 			InterfaceActionInvoker2< int32_t, int32_t >::Invoke(1, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_85, L_86, 1);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:153>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:153>
 			RuntimeObject* L_87 = V_12;
 			UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_88 = V_0;
 			NullCheck(L_88);
@@ -15870,7 +15870,7 @@ IL_0202:
 			L_89 = UniversalResourceData_get_activeColorTexture_m1B7A0CE5B0282F05AEAE46AC7B45478199DF9188(L_88, NULL);
 			NullCheck(L_87);
 			InterfaceActionInvoker3< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388, int32_t, int32_t >::Invoke(0, IRenderAttachmentRenderGraphBuilder_tA98DFE27A0742D0C5FF054F2785672CB2BB09F73_il2cpp_TypeInfo_var, L_87, L_89, 0, 2);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:154>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:154>
 			RuntimeObject* L_90 = V_12;
 			UniversalResourceData_t1F1DE4101BE122578EAA5E4750D00ACAF1042626* L_91 = V_0;
 			NullCheck(L_91);
@@ -15878,7 +15878,7 @@ IL_0202:
 			L_92 = UniversalResourceData_get_activeDepthTexture_mCE3930EAEF20F80A0EA1F4CE423E6E406E25F296(L_91, NULL);
 			NullCheck(L_90);
 			InterfaceActionInvoker2< TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388, int32_t >::Invoke(2, IRenderAttachmentRenderGraphBuilder_tA98DFE27A0742D0C5FF054F2785672CB2BB09F73_il2cpp_TypeInfo_var, L_90, L_92, 1);
-			//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:155>
+			//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:155>
 			goto IL_0203;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -15889,11 +15889,11 @@ IL_0202:
 
 IL_0203:
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:156>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 67092
+// Method Definition Index: 67095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureDesc_t396D28DED9DDC89189E68F41C3D169B249BEE673 ReflectionPass_CreateReflectionDescriptor_m07A5254B6452FBA265AAF9E0AED0CAA63A6CE904 (ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* __this, RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 ___0_cameraTarget, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15906,24 +15906,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureDesc_t396D28DED9DDC89189E68F41C3D169B2
 	TextureDesc_t396D28DED9DDC89189E68F41C3D169B249BEE673 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:160>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:160>
 		MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* L_0 = __this->___m_feature;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___m_downsample;
 		int32_t L_2;
 		L_2 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:161>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:162>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:163>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:164>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:165>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:166>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:167>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:168>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:169>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:170>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:171>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:161>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:162>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:163>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:164>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:165>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:166>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:167>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:168>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:169>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:170>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:171>
 		int32_t L_3;
 		L_3 = RenderTextureDescriptor_get_width_mB159E4EB08B23B19CCCFADB465864361FB840BFF_inline((&___0_cameraTarget), NULL);
 		int32_t L_4 = V_0;
@@ -15949,7 +15949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureDesc_t396D28DED9DDC89189E68F41C3D169B2
 		return L_11;
 	}
 }
-// Method Definition Index: 67093
+// Method Definition Index: 67096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_SetShaderParameters_mEA2946A8B4291AF5DCD3747EE9B80CD5BFE8821B (ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8* __this, int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15959,11 +15959,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_SetShaderParameters_mEA29
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:176>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:177>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:178>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:179>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:180>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:176>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:177>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:178>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:179>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:180>
 		MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* L_0 = __this->___m_feature;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = L_0->___m_material;
@@ -15986,7 +15986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_SetShaderParameters_mEA29
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_11), L_4, L_6, L_8, ((float)L_10), NULL);
 		NullCheck(L_1);
 		Material_SetVector_m44CD02D4555E2AF391C30700F0AEC36BA04CFEA7(L_1, L_2, L_11, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:181>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:181>
 		MobileSsrFeature_tE20084540366B3E4334189C7B042E7E16767DC4E* L_12 = __this->___m_feature;
 		NullCheck(L_12);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = L_12->___m_material;
@@ -15998,11 +15998,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_SetShaderParameters_mEA29
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_17), ((float)((1.20000005f)/((float)L_15))), ((float)((1.20000005f)/((float)L_16))), (0.0f), (0.0f), NULL);
 		NullCheck(L_13);
 		Material_SetVector_m44CD02D4555E2AF391C30700F0AEC36BA04CFEA7(L_13, L_14, L_17, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:182>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:182>
 		return;
 	}
 }
-// Method Definition Index: 67094
+// Method Definition Index: 67097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReflectionPass_AddDrawPass_m4826CB3556CC6E48E3CD74940FC10970B01F032F (String_t* ___0_name, RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* ___1_graph, RendererListParams_t13F72282BCE2DC255747FE7694C6BBC3377944B1 ___2_rendererList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16013,49 +16013,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReflectionPass_AddDrawPass_m48
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRasterRenderGraphBuilder_SetRenderFunc_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_m69184E2E58F59CF153BB4008DCBAE6B42C38BE52_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReflectionPass_DrawRendererList_mBC759285FABFC220887418A63BE77C762BFAC239_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRasterRenderPass_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_mB4BCC55D40213D45B3F1B19B020AFC81978A9BE0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral224D849289BD245EE6BC4A6D74A32BB1E6FE1A6A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral34925566882FF4353F4C702637D0C7B4CECD70FE);
 		s_Il2CppMethodInitialized = true;
 	}
 	RendererListHandle_t2DFC72A560B979AE0BAFBABBD8B9AF5DC1FEFEBA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	PassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074* V_1 = NULL;
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:186>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:186>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = ___1_graph;
 		NullCheck(L_0);
 		RendererListHandle_t2DFC72A560B979AE0BAFBABBD8B9AF5DC1FEFEBA L_1;
 		L_1 = RenderGraph_CreateRendererList_m7A5DCFC7F4A8A38BB0FC4E41BAE77FD5590B4F42(L_0, (&___2_rendererList), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:187>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:187>
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_2 = ___1_graph;
 		String_t* L_3 = ___0_name;
 		NullCheck(L_2);
 		RuntimeObject* L_4;
-		L_4 = RenderGraph_AddRasterRenderPass_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_mB4BCC55D40213D45B3F1B19B020AFC81978A9BE0(L_2, L_3, (&V_1), _stringLiteral224D849289BD245EE6BC4A6D74A32BB1E6FE1A6A, ((int32_t)187), RenderGraph_AddRasterRenderPass_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_mB4BCC55D40213D45B3F1B19B020AFC81978A9BE0_RuntimeMethod_var);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:188>
+		L_4 = RenderGraph_AddRasterRenderPass_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_mB4BCC55D40213D45B3F1B19B020AFC81978A9BE0(L_2, L_3, (&V_1), _stringLiteral34925566882FF4353F4C702637D0C7B4CECD70FE, ((int32_t)187), RenderGraph_AddRasterRenderPass_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_mB4BCC55D40213D45B3F1B19B020AFC81978A9BE0_RuntimeMethod_var);
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:188>
 		PassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074* L_5 = V_1;
 		RendererListHandle_t2DFC72A560B979AE0BAFBABBD8B9AF5DC1FEFEBA L_6 = V_0;
 		NullCheck(L_5);
 		L_5->___rendererList = L_6;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:189>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:189>
 		RuntimeObject* L_7 = L_4;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RendererListHandle_t2DFC72A560B979AE0BAFBABBD8B9AF5DC1FEFEBA* >::Invoke(9, IBaseRenderGraphBuilder_tFFF84F72F862F1BE246A789AB6A59F959B490F3D_il2cpp_TypeInfo_var, L_7, (&V_0));
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:190>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:190>
 		RuntimeObject* L_8 = L_7;
 		BaseRenderFunc_2_t9B2263E3259794964AD71E272108ACFB7B1133B7* L_9 = (BaseRenderFunc_2_t9B2263E3259794964AD71E272108ACFB7B1133B7*)il2cpp_codegen_object_new(BaseRenderFunc_2_t9B2263E3259794964AD71E272108ACFB7B1133B7_il2cpp_TypeInfo_var);
 		BaseRenderFunc_2__ctor_mCB342776D98998CD64D382C4A19EE16F20F0C971(L_9, NULL, (intptr_t)((void*)ReflectionPass_DrawRendererList_mBC759285FABFC220887418A63BE77C762BFAC239_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker1< BaseRenderFunc_2_t9B2263E3259794964AD71E272108ACFB7B1133B7* >::Invoke(IRasterRenderGraphBuilder_SetRenderFunc_TisPassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074_m69184E2E58F59CF153BB4008DCBAE6B42C38BE52_RuntimeMethod_var, L_8, L_9);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:191>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:191>
 		return L_8;
 	}
 }
-// Method Definition Index: 67095
+// Method Definition Index: 67098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_DrawRendererList_mBC759285FABFC220887418A63BE77C762BFAC239 (PassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074* ___0_data, RasterGraphContext_tC4D3E53FF7131476487751ACB0237D56C8327147 ___1_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:196>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:196>
 		RasterGraphContext_tC4D3E53FF7131476487751ACB0237D56C8327147 L_0 = ___1_context;
 		RasterCommandBuffer_t4300C4F080EA3CF43C7ACFDBD4F94EA633FE98E8* L_1 = L_0.___cmd;
 		PassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074* L_2 = ___0_data;
@@ -16065,11 +16065,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass_DrawRendererList_mBC75928
 		L_4 = RendererListHandle_op_Implicit_m23F3E49F9D97B0BABE1044E02A7A70784F05C585(L_3, NULL);
 		NullCheck(L_1);
 		RasterCommandBuffer_DrawRendererList_m6C50C4A5E4CABE3542317969BC91F552B41A427F(L_1, L_4, NULL);
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:197>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:197>
 		return;
 	}
 }
-// Method Definition Index: 67096
+// Method Definition Index: 67099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass__cctor_m0A9696E045B74314C9312F674E0C6F9B2A632D1C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16089,28 +16089,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass__cctor_m0A9696E045B74314C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:77>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:77>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralECA345CD9218952CCFCDA6501F2E6193A4CCE60F, NULL);
 		((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_settingsId = L_0;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:78>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:78>
 		int32_t L_1;
 		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral7A1E266F06244FE6120B9DBF396663E2DE6F8FF6, NULL);
 		((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_blurOffsetId = L_1;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:79>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:79>
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral1B934BD763F1D59F934D725B368937EE51111F78, NULL);
 		((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_traceId = L_2;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:80>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:80>
 		int32_t L_3;
 		L_3 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral401524E79F1FCE814F27BD33971A1E2BC55F9FAF, NULL);
 		((ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_StaticFields*)il2cpp_codegen_static_fields_for(ReflectionPass_t70A1AA9DBA138A1B982A3DAE7885D119764EBAE8_il2cpp_TypeInfo_var))->___s_reflectionId = L_3;
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:81>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:82>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:83>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:84>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:85>
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Rendering/MobileSsrFeature.cs:86>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:81>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:82>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:83>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:84>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:85>
+		//<source_info:C:/Users/student/golf_2/Assets/Rendering/MobileSsrFeature.cs:86>
 		List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF* L_4 = (List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF*)il2cpp_codegen_object_new(List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF_il2cpp_TypeInfo_var);
 		List_1__ctor_m21A3AD10EC2C165E8A6A3A533380D5D8BE162787(L_4, List_1__ctor_m21A3AD10EC2C165E8A6A3A533380D5D8BE162787_RuntimeMethod_var);
 		List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF* L_5 = L_4;
@@ -16144,7 +16144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionPass__cctor_m0A9696E045B74314C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 67097
+// Method Definition Index: 67100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PassData__ctor_mD5603CC1472C7E26533713C7708D766D0D8DC193 (PassData_t7E3886ECAC29FFAFDF298CD2D9AC5E9FC0D30074* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -16599,40 +16599,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_3;
 	}
 }
-// Method Definition Index: 66890
+// Method Definition Index: 66893
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_bestScore_m58E27C8E8EEF547C6FD9291473EAECADECA5CC77_inline (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:13>
 		int32_t L_0 = ___0_value;
 		__this->___U3CbestScoreU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 66888
+// Method Definition Index: 66891
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_score_mF2C6B98033FDD84FDAD3CDBFC1EA5EBDD7043F9E_inline (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:12>
 		int32_t L_0 = ___0_value;
 		__this->___U3CscoreU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 66887
+// Method Definition Index: 66890
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_score_m9DF06572687823B0A02A2FAFDBD90E38802FA33E_inline (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:12>
 		int32_t L_0 = __this->___U3CscoreU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 66889
+// Method Definition Index: 66892
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_bestScore_m0164AA1BB4ACB8997349E770E9354061DFA4E6A3_inline (ScoreManager_t7F5CE6B668A6258998F27ED38DC1FAF95DFF544C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/ScoreManager.cs:13>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/ScoreManager.cs:13>
 		int32_t L_0 = __this->___U3CbestScoreU3Ek__BackingField;
 		return L_0;
 	}
@@ -16768,20 +16768,20 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 66993
+// Method Definition Index: 66996
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* Ball_get_stats_m5580546FCDC0DC7F826B7386AA92BA984B7A22FF_inline (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0 = __this->___U3CstatsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 66994
+// Method Definition Index: 66997
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ball_set_stats_mF418A38175DBC5A6CCBEBF4969C510F8AB9DD3B4_inline (Ball_t7305A4017CA6E6F31DD245157ED543CA7761A98A* __this, BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Ball.cs:14>
 		BallStats_tAACCD21C30C5612708B57F54C1063549B195ECA2* L_0 = ___0_value;
 		__this->___U3CstatsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstatsU3Ek__BackingField), (void*)L_0);
@@ -16912,20 +16912,20 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 67012
+// Method Definition Index: 67015
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Car_get_isLaunched_m9487235F5226722F3FC1CF2C6BBDB546C116478A_inline (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:16>
 		bool L_0 = __this->___U3CisLaunchedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67013
+// Method Definition Index: 67016
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Car_set_isLaunched_m35899FDFBF0024E9CD9E06B689749A28BBEC1B7D_inline (Car_t9F0FE6C1E6364E7EC018D37433D03F7ADCAB75DA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/Car.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/Car.cs:16>
 		bool L_0 = ___0_value;
 		__this->___U3CisLaunchedU3Ek__BackingField = L_0;
 		return;
@@ -17024,20 +17024,20 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 67058
+// Method Definition Index: 67061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LaunchButton_get_colorIndex_mB7EDBB932902476ECFCB780689A4118240270A34_inline (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
 		int32_t L_0 = __this->___U3CcolorIndexU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67075
+// Method Definition Index: 67078
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrafficLight_get_colorIndex_m94E138173A36153DEA8BC41CEEFF75A8B28E0E91_inline (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
 		int32_t L_0 = __this->___U3CcolorIndexU3Ek__BackingField;
 		return L_0;
 	}
@@ -17198,11 +17198,11 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 67059
+// Method Definition Index: 67062
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LaunchButton_set_colorIndex_mB71D3C50E62E629C25737978DE114935B4218279_inline (LaunchButton_tBC5CE88D8B8EACBDA7ABAE3266B3792DD907D0C0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/LaunchButton.cs:12>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcolorIndexU3Ek__BackingField = L_0;
 		return;
@@ -17276,11 +17276,11 @@ IL_0057:
 		return L_25;
 	}
 }
-// Method Definition Index: 67076
+// Method Definition Index: 67079
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrafficLight_set_colorIndex_mE8F818FF444A2E5DFCC96B3662A197C3E7E65B2C_inline (TrafficLight_t5C8073D1172C56CEDD68D3224622179AF7D19452* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/vital/Documents/UnityProjects/Golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
+		//<source_info:C:/Users/student/golf_2/Assets/Scripts/GamePlay/TrafficLight.cs:16>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcolorIndexU3Ek__BackingField = L_0;
 		return;
